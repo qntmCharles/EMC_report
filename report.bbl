@@ -1,0 +1,93 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{ynt/global/}
+    \entry{kresak}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cfe40f00c52974bacd75c41b9e6b7dea}{%
+           family={Kres\'{a}k},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{cfe40f00c52974bacd75c41b9e6b7dea}
+      \strng{fullhash}{cfe40f00c52974bacd75c41b9e6b7dea}
+      \strng{authornamehash}{cfe40f00c52974bacd75c41b9e6b7dea}
+      \strng{authorfullhash}{cfe40f00c52974bacd75c41b9e6b7dea}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Bull. Astron. Inst. Czechoslov.}
+      \field{title}{A Nomogram for Computing the Zenith Hourly Rates of Meteor Showers}
+      \field{volume}{6}
+      \field{year}{1954}
+      \field{pages}{120}
+      \range{pages}{1}
+    \endentry
+    \entry{hr_correction}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2b4251f79c6f9db818fcb4701930d343}{%
+           family={Richardson},
+           familyi={R\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2b4251f79c6f9db818fcb4701930d343}
+      \strng{fullhash}{2b4251f79c6f9db818fcb4701930d343}
+      \strng{authornamehash}{2b4251f79c6f9db818fcb4701930d343}
+      \strng{authorfullhash}{2b4251f79c6f9db818fcb4701930d343}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{WGN, Journal of the International Meteor Organization}
+      \field{number}{6}
+      \field{title}{A Detailed Analysis of the Geometric Shower Radiant Altitude Correction Factor}
+      \field{volume}{27}
+      \field{year}{1999}
+      \field{pages}{308\bibrangedash 317}
+      \range{pages}{10}
+    \endentry
+    \entry{zhr}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+    \endentry
+    \entry{imo_meteor_calendar}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=44f41a9eb069e1d0c32e302bcc8ff0f2}{%
+           family={Organization},
+           familyi={O\bibinitperiod},
+           given={International\bibnamedelima Meteor},
+           giveni={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{44f41a9eb069e1d0c32e302bcc8ff0f2}
+      \strng{fullhash}{44f41a9eb069e1d0c32e302bcc8ff0f2}
+      \strng{authornamehash}{44f41a9eb069e1d0c32e302bcc8ff0f2}
+      \strng{authorfullhash}{44f41a9eb069e1d0c32e302bcc8ff0f2}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Available at \url{www.imo.net/resources/calendar/} (2017/02/15)}
+      \field{title}{IMO Meteor Calendar}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+

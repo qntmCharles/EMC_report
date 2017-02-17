@@ -1,0 +1,99 @@
+\chapter{Zenithal Hourly Rate}
+\section{Overview}
+Zenithal Hourly Rate (ZHR) is a measure of the activity of a meteor shower. The value indicates how many meteors an observer can expect to see, assuming optimal viewing conditions, with the meteor shower's radiant at the observer's zenith (directly overhead). In this chapter I use known formulae, with my own modifications, to calculate an approximation to the ZHR for all observers which have the necessary data available, and compare this to visual results for the same periods. I then use these results to approximate the limiting magnitude and field of view for radio meteor detection.
+\section{Literature Review}
+\subsection{Calculating ZHR}
+A formula already exists for calculating the theoretical ZHR from known data and conditions \cite{zhr}. The formula (\ref{eq:zhr}) depends on four correction factors. 
+\textcolor{red}{A reference is needed for the ZHR formula. I do not have one.}
+\begin{equation}{ZHR} = \frac{\overline{HR} \cdot F \cdot r^{6.5-{m}}}{\sin \left( h \right)}\label{eq:zhr} \end{equation}
+The hourly rate is given by $\overline{HR} = \frac{N}{T_{eff}}$, $N$ is the number of meteors observed, and $T_{eff}$ is the effective observation time of the observer. This corrects the number of meteors detected such that it is an hourly rate. \\
+The correction for the field of view, $F$, is given by $\frac{1}{1-k}$ where k is the percentage of the observer's field of view that is obstructed. \\
+The correction factor for limiting magnitude is given by $r^{6.5-m}$, where $m$ is the limiting magnitude of the observer. This corrects the value such that it is representative of the ZHR when the limiting magnitude is 6.5.  The value of $r$ itself is the population index; a measure of the magnitude distribution of the shower. For each increase by 1 in magnitude (bearing in mind that a greater magnitude is a lower value), the number of meteors you would expect to see increases by $r$.\\
+The final correction factor is for the altitude of the radiant above the horizon, measured as an angle. This is effectively $\frac{\pi}{2}-z$ where z is the zenith distance in radians. The radiant is the observed point of origin for all meteors in the shower. This correction factor is given by $\sin h$ where $h$ is the angle from the horizon to the radiant.\\
+\subsection{Meteor shower information}
+The International Meteor Organisation (IMO) provides a list of ``meteor shower calendars'' \cite{imo_meteor_calendar}. These contain a list of notable meteor showers, with information on these showers including the active range (period in which the shower produces visible meteors), the date of it's maximum, the expected ZHR, radiant co-ordinates (in right ascension and declination), and finally the population index. This calendar will be the source of my data for visual observation data, and will provide the information from which comparisons can be made with the radio observation data.
+\section{Methodology}
+\subsection{Assumptions}
+The following assumptions are made in my calculations.
+\begin{itemize}
+	\item The receiving antenna is active for the entire period where data is available.
+	\item The antenna detects meteors across the entire sky.
+	\item Detected meteors are travelling tangential to Earth's surface.
+	\item The shower meteors are incident uniformly in all directions around the radiant.
+\end{itemize}
+\subsection{Formula modification}
+The formula \cite{zhr} for ZHR has a number of issues that cause inaccurate results. In order to use the formula in my analysis, these errors must be corrected.
+\subsubsection{Inaccuracy of radiant height correction}
+\paragraph{Problems}
+Perhaps the largest error is that of the radiant height correction. The correction assumes a sine function of the angular radiant height, which varies (with $-\pi \leq h \leq \pi$) between -1 (for $h = -\pi$) and 1 (for $h = \pi$). This creates a number of issues: when the radiant approaches the horizon, $h$ approaches 0, as does $\sin h$. This means that the correction (which is $\frac{1}{\sin h}$) approaches $\inf$. This is clearly wrong. When the radiant approaches the horizon, the number of meteors observed doesn't approach 0, and thus the correction should not approach $\inf$. In other words, you do not see infinitely many meteors when the radiant is at the zenith compared to the horizon. Further to this, the use of a sine function simply means that there is \textit{no} way a calculation can be made when the radiant is at the horizon --- this should be possible. The sine function also results in a negative ZHR when the radiant is below the horizon. Clearly, you do not expect to see anti-meteors when the radiant is below the horizon. 
+
+\paragraph{Previous Solution}
+\textcolor{red}{Mention the changes proposed in the bookmarked paper}
+Solutions to the issue with the radiant height correction factor have been studied previously \cite{hr_correction}. In this article, a piecewise function is noted from Kres\'{a}k \cite{kresak} which uses a cosine function of the zenith distance (which equates to a sine function of the radiant altitude) down to 80$^{\circ}$, and then uses another function which extends the domain of the model to ~100$^{\circ}$. The article itself puts forward a complex function which works over a similar domain. This is not a first approximation though, it is an attempt at an accurate function to describe the flux correction factor for a range of radiant altitudes. The article notes that there is a small, yet present, possibility of shower meteors for a radiant below the horizon, and the reason for this dramatically lower expected detection count is that the atmosphere shields the Earth from most of the debris, and only those travelling tangential to the Earth's surface are detected. This may be applicable to visual observation, but radio detection almost relies on meteors travelling tangential to the Earth's surface, so the radiant being below the horizon does not have such a dramatic effect. For this reason, I do not believe this is a useful replacement for the correction factor.
+
+\paragraph{Solution}
+From a basic geometric standpoint, the number of meteors you expect to observe, varying with the radiant height, should depend on the proportion of a hemisphere (with the radiant at the pole) that is visible (figure~\ref{fig:hemisphere}). Of course, this assumes that meteors from the radiant travel uniformly in all directions. A wedge of a sphere has a curved surface area of $2{\alpha}r^2$, where $\alpha$ is the angle at the central axis of the wedge. Thus, the proportion, $p$, of the hemisphere that is visible is $\frac{2{\alpha}r^2}{2{\pi}r^2} = \frac{\alpha}{\pi}$. For an angle $\alpha$ varying between $-\pi$ and $\pi$, the proportion will vary between -1 and 1 (perhaps where the original sine factor came from). When the radiant is at the zenith, you would obviously expect to see the same number as if the radiant was at the zenith, so the correction factor, $c$, is 1. When the radiant is at the horizon, half the hemisphere is visible, so you would expect to see half the number of meteors at the zenith ($c = 2$), and when the radiant is directly below you (at the nadir) then you would expect to see no meteors (from the shower), since none of the hemisphere of the radiant is visible to you. Mapping the proportion linearly from $-1 < p \leq 1$ to $0 < \frac{1}{c} \leq 1$ yields $\frac{1}{c} = \frac{1}{2} + \frac{h}{2\pi}$ for $-\pi < hR \leq \pi$, where $h$ is in radians. This satisfies the \textit{expected} correction factor.
+
+\subsubsection{Population index limitations}
+The population index indicates the magnitude distribution of the meteor shower. For each extra magnitude of visibility, an observer would expect to see $r$ times more meteors. This is true, but only up to a point. Without a limit on how far this model works, the implication is that this power-law distribution carries on forever. Clearly this is not true: if limiting magnitude was (rather absurdly) 40, you wouldn't expect to see 1.1 trillion meteors (if $r=2.0$). Thus the model is not applicable for limiting magnitude, $m > 6.5$, since the model that the magnitude distribution is of the form $N = N_or^m$ is no longer valid. The radio observation of meteors has a larger limiting magnitude than visual observation: meteors down to the size of a grain of sand, and smaller, can be detected. Thus the population index model is not applicable for radio meteor detection, unless the model is refined for larger limiting magnitudes.
+
+\subsubsection{Background detection count}
+In visual observation of meteors, the background level of sporadic meteors is rather low. However, for radio meteor detection, there is a much greater background detection rate and this will impact how accurate the ZHR is. A correction is required to remove the effect of any background detection rates. The calculation of this background rate is a chapter in itself. The difficulty arises in that if the baseline is larger than any detection counts within the active range, the resulting ZHR will be negative, and this is not a valid result. A solution to this is to choose the minimum hourly detection count in the active range of the shower, but this is rather artificial, and often results in a baseline of 1 or 0. Instead, I have decided to calculate the background hourly detection count by taking the mean hourly detection count for the lower quartile of all hours outside the active range of any meteor showers. This will result in some ZHRs being negative, but these results should be minimal and can simply be discarded.
+\subsubsection{Field of view correction}
+I will not include a field of view correction factor, since it is not possible to know exactly the field of view that each antenna has available, since it is not part of any data that an observer can upload to RMOB. This \textit{should} have a reasonably large impact on the results, however the correction factor will be absent for all calculations so the error is the same everywhere (on average). In fact, using the final results may allow the average field of view to be calculated.
+\subsection{Calculating radiant height}
+From the spherical law of cosines, we know that 
+\[ \cos z =  \sin \phi \sin \delta + \cos \phi \cos \delta \cos \left(\theta - \alpha\right)\]
+where $z$ is the zenith distance, $\phi$ is the observer's latitude, $\alpha$ and $\delta$ are the right ascension and declination of the shower radiant, and $\theta$ is the local apparent hour angle (an angular measure of local sidereal time, which effectively measures time against the stars rather than the Earth's rotation). Since $h = \frac{\pi}{2} - z$, $\cos z$ can be replaced with $\sin h$. This relations the radiant altitude to the longitude of the observer and the radiants astronomical co-ordinates.
+\subsection{Calculating hourly rate}
+The hourly rate is given by the observed hourly rate (the data I actually have), minus the baseline hourly rate. This \textit{should} be divided by the effective observation time, but since I am making the assumption that the antenna are receiving across the entire hour, then there is no need for this.
+\subsection{Analysis}
+My analysis of the ZHR will centre around a comparison between the summary statistics for the ZHRs from the hourly counts for the stored observers, and known values for the ZHRs for applicable years. The process of calculating the ZHR follows a simple process of calculating the correction factors, correcting the known hourly rate, and discarding any invalid values (e.g. negatives). 
+This process will be applied to three ranges of dates: the entire active period of the shower (for a given year), two days either side of the peak date, and the peak date. Once this has been calculated for all the available data in the given ranges, the mean and 90th percentile are recorded. These will then be compared to the known values from the IMO meteor shower calendar \cite{imo_meteor_calendar}. I am using the 90th percentile rather than the maximum ZHR since the maximum itself is of little worth to indicate the distribution of ZHRs. A box plot for each year of each shower would yield the most information but would provide far too much data to consider at once, whereas the 90th percentile indicates the maximum clearly without producing the exact same result if, for instance, the maximum ZHR was the same across all three periods under consideration. 
+The final results will then be used to estimate the average field of view across all observers whose data are used, as well as the average limiting magnitude. This is a rough calculation, and is likely to have a large uncertainty, but it gives an estimate towards the true values and is an interesting calculation to make.
+\section{Results}
+The full results are shown in appendix~\ref{app:zhr}. In this section, important results are noted.
+\subsection{Comparison}
+\subsubsection{Geminids}
+In 2005, the ZHR results are not similar to those for expected visual ZHR (120), nor the maximum ZHR (155) for the shower. There is a clear decrease in the mean ZHR for the peak ($30.6 \pm 4.03$) compared to the entire active period ($37.0 \pm 1.87$). 
+In 2006 the values are closer to the expected visual ZHR (120) and the maximum but there is again a decrease between the 90th \%ile on the peak $\pm$ 2 days (121) compared to the peak itself (103), however the means are similar (59.6 $\pm$ 5.10 and 60.9 $\pm$ 7.64 respectively).
+For 2010, the peak has the largest ZHRs (mean 124 $\pm$ 6.53) which is much closer to the expected visual ZHR (120) and maximum (142) than previous years.
+In 2012 the calculated mean ZHR of the peak was much higher than the expected visual ZHR (120). The maxima for all three considered periods are much greater (233, 346 and 355 for entire range, peak $\pm$ 2 days and peak) than the maximum visual ZHR (134). 
+The remaining years (2011, 2013, 2014, \& 2015) all have means for each period lower than expected, but the maxima are all similar to the visual maximum ZHRs (161, 133, 143, 163).
+
+\subsubsection{Leonids}
+In 2005, the maximum visual ZHR (24) is lower than the years following, as are the calculated means for each period and the maxima (mean 31.7 $\pm$ 6.09 and 90th percentile 71.4 for peak). This suggests a good correlation. 
+In 2007 the calculated values are dramatically higher than expected. For example, the mean on the peak is 205 $\pm$ 17.2 with 90th percentile 288 compared to an expected ZHR of 15 and visual maximum of 47. In the previous year, 2006, there is no calculated data, but the expected ZHR (100) is much greater than other years. Despite this large increase, the standard errors also dramatically increase, suggesting a low number of data points available. 
+In the years following 2007, the means for all periods ($\sim$50) are closer to the expected values ($\sim$15--20), but still larger. The 90th percentile of the calculated ZHRs are much higher than the visual maxima, however the correlation between increase and decrease of the expected ZHRs and calculated ZHRs implies that the issue is simply a matter of a correction factor, e.g. field of view or population index (the leonid shower may have a large population index, indicating that with the higher limiting magnitude for radio observation, you detect more meteors).
+
+\subsubsection{Orionids}
+For all years where data is available, the calculated ZHRs are consistently greater than expected. However, in the years 2010 through 2012, there is a higher expected ZHRs and this is reflected in the greater calculated ZHRs and 90th percentiles. Despite this, the 90th percentiles are much higher than expected. In 2016 the calculated ZHR means are closer to the visual maximum ZHR than any other year, but the 90th percentiles are still higher than expected. 
+In 2011, 2012, 2014, 2015, \& 2016, the mean ZHR on the peak date is lower than the mean of the peak $\pm$ 2 days. In 2014 \& 2016 the mean ZHR of the peak data is lower than the mean ZHR of the entire active period.
+
+\subsubsection{Perseids}
+The mean ZHR for all periods other than the peak and peak $\pm$ 2 days in 2012, are lower than the expected ZHR (100, the same for all years). For all years other than 2016, the 90th percentile ZHR for the peak are higher than the maximum ZHR for each year.
+In 2010 and 2012, there is a greater visual maximum ZHR than 2011. In time order, the visual maxima are 142, 58, and 122. This is matched by a decrease in the calculated ZHR, changing from 197 in 2010, to 141, then increasing to 271 in 2011. This change also occurs in the mean ZHRs.
+In 2016, the largest visual maximum is recorded. However, the 90th percentile of the calculated ZHR is the lowest out of all peaks.
+For all years, there is an increase in the peak from the entire active range to the peak $\pm$ 2 days, then to the peak. This is not reflected in the 90th percentile: in 2012, the 90th percentile decreases from 275 for the peak $\pm$ 2 days to 271 on the peak. However, this is a small decrease. Equally in 2014 the 90th percentile does not change between these two periods (remaining at 133).
+
+\subsubsection{Quadrantids}
+
+\subsubsection{$\eta$-aquariids}
+\subsection{Field of view}
+\subsection{Limiting magnitude}
+\section{Discussion}
+\subsection{Peaks}
+\subsubsection{Inaccuracies}
+\subsubsection{Estimating the peak}
+Provided the data was adequate, it may be possible to estimate the true peak of a meteor shower. Analysing the mean, or 90th percentile, of the ZHR for a range of 24 hour periods, and selecting the largest values, should indicate which period contained the peak. This could, of course, then be focused down into 1 hour periods.
+\subsection{Formula improvements}
+\subsubsection{Diurnal shift correction}
+\subsubsection{Baseline correction}
+sine innit
+\subsection{Other inaccuracies}
+\paragraph{Re-entry direction}
+The radio detection of a meteor largely depends on the direction it is travelling. A meteor is best detected when travelling directly across the ``field of view'' of the receiving antenna. It is difficult to take this into account when calculating the ZHR, but the general direction in which meteors are travelling from the radiant will have an effect on this value.
+\paragraph{Observing station vs. transmitting antenna}
+There is often a marked difference between the location of the transmitting antenna and the receiving antenna, where the data is recorded. This results in a potentially large inaccuracy since the radiant altitude and other factors at the receiving station may be very different to the transmitting station. 
+\section{Conclusion}
+THIS IS HARD.

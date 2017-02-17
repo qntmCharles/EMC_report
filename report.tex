@@ -1,0 +1,368 @@
+\documentclass[a4paper,12pt,twocolumn]{report}
+
+\usepackage[
+backend=biber,
+sorting=ynt]{biblatex}
+
+\usepackage{color, url}
+
+\usepackage[toc,page]{appendix}
+
+\addbibresource{bib.bib}
+
+\begin{document}
+	
+\title{Meteors: what the dinosaurs didn't know \\ \large An analysis of radio meteor detection}
+\author{Charles Powell}
+\date{\today}
+\maketitle
+
+
+\section{Abstract}
+\section{Introduction}
+To all but the dinosaurs, meteors are quite cool.
+\textcolor{red}{Broad idea of topic}
+\section{Background}
+Meteoroids are rocky or metallic bodies much smaller than asteroids, which, despite sizes ranging from a grain of sand to centimetres wide, produce streaks of light from the intense heat vaporising the meteoroid itself. At this point, it is a meteor. Meteoroids that survive the plummet to Earth are promoted meteorites. \\
+The intense heat of a meteor ionises the air around it, causing the visible streak. This ionised air is capable of reflecting radio waves, allowing radio detection of meteors. The data that comes from detecting these ionised trails can be considered in various ways; most popularly by simply counting the number of detections an hour, or more visibly by displaying the intensity of the reflection for a range of frequencies across time. This produces a rather beautiful "waterfall" plot, as in figure \ref{fig:waterfall}.
+My analysis focuses on six main areas of radio meteor detection; diurnal shift, zenithal hourly rate, shower detection, temporal \& spatial variation, mass, re-entry height \& line-of-sight velocity, and development of a meteor detection station. 
+
+Important things to explain: meteors, radiant, meteor shower, magnitude, 
+\input{diurnal_shift}
+\input{spacial_variation}
+\input{temporal_variation}
+\input{antenna_variation}
+\input{zhr}
+\input{waterfall}
+
+% Start appendix
+\begin{appendices}
+\chapter{Zenithal hourly rate results}
+\label{app:zhr}
+\begin{table*}
+	\centering
+	\begin{tabular}{|c|c|r@{ \,$\pm$\, }l|c|}
+		\hline 
+		Year & Range & Mean & S.E. & 90th \%ile\\ 
+		\hline 
+		2005 & & 37.0 & 1.87 & 72.9   \\ 
+		\hline 
+		& & 43.5 & 3.92 & 85.3   \\ 
+		\hline 
+		& & 30.6 & 4.03 & 54.4   \\ 
+		\hline 
+		2006 & & 44.9 & 2.29 & 83.4   \\ 
+		\hline 
+		& &	 59.6 & 5.10 & 121   \\ 
+		\hline 
+		& & 60.9 & 7.64 & 103   \\ 
+		\hline 
+		2010 & & 77.2 & 1.40 & 186   \\ 
+		\hline 
+		& & 97.8 & 2.78 & 237   \\ 
+		\hline 
+		& &	124 & 6.53 & 297   \\ 
+		\hline 
+		2011 & & 52.2 & 0.995 & 125   \\ 
+		\hline 
+		& & 75.8 & 2.37 & 176   \\ 
+		\hline 
+		& & 104 & 6.43 & 249   \\ 
+		\hline 
+		2012 & & 105 & 2.30 & 233   \\ 
+		\hline
+		& & 144 & 4.55 & 346   \\ 
+		\hline 
+		& & 153 & 7.18 & 355   \\ 
+		\hline 
+		2013 & & 56.1 & 1.14 & 134   \\ 
+		\hline 
+		& & 78.6 & 2.46 & 204   \\ 
+		\hline 
+		& & 93.2 & 5.39 & 249   \\ 
+		\hline 
+		2014 & & 79.3 & 1.29 & 217   \\ 
+		\hline 
+		& & 92.1 & 2.52 & 244   \\ 
+		\hline 
+		& & 106 & 4.86 & 270   \\ 
+		\hline 
+		2015 & & 56.2 & 1.24 & 132   \\ 
+		\hline 
+		& & 75.5 & 2.10 & 167   \\ 
+		\hline 
+		& & 90.9 & 4.06 & 194   \\ 
+		\hline 
+	\end{tabular} 
+\caption{Geminids}
+\end{table*}
+
+\begin{table*}
+	\centering
+	\begin{tabular}{|c|c|r@{ \,$\pm$\, }l|c|}
+		\hline 
+		Year & Range & Mean & S.E. & 90th \%ile\\ 
+		\hline 
+		2005 & & 34.7 & 2.36 & 79.0   \\ 
+		\hline 
+		& & 36.5 & 3.28 & 79.1   \\ 
+		\hline 
+		& & 31.7 & 6.09 & 71.4   \\ 
+		\hline 
+		2007 & & 178 & 4.86 & 269   \\ 
+		\hline 
+		& &	 194 & 9.25 & 288   \\ 
+		\hline 
+		& & 205 & 17.2 & 288   \\ 
+		\hline 
+		2010 & & 58.5 & 1.24 & 151   \\ 
+		\hline 
+		& &	 57.9 & 2.18 & 152   \\ 
+		\hline 
+		& & 55.2 & 4.02 & 133   \\ 
+		\hline 
+		2011 & & 68.7 & 1.31 & 186   \\ 
+		\hline 
+		& & 69.5 & 3.31 & 185   \\ 
+		\hline 
+		& & 76.9 & 7.94 & 201   \\ 
+		\hline 
+		2012 & & 73.8 & 1.85 & 162   \\ 
+		\hline 
+		& & 67.6 & 3.47 & 152   \\ 
+		\hline 
+		& & 54.8 & 3.72 & 122   \\ 
+		\hline 
+		2013 & & 36.5 & 0.749 & 83.9   \\ 
+		\hline 
+		& & 37.5 & 2.09 & 98.5   \\ 
+		\hline 
+		& & 42.9 & 4.52 & 114   \\ 
+		\hline 
+		2014 & & 53.5 & 0.913 & 150   \\ 
+		\hline 
+		& & 50.5 & 2.32 & 130   \\ 
+		\hline 
+		& & 50.0 & 4.65 & 112  \\ 
+		\hline 
+		2015 & & 32.4 & 0.592 & 68.7   \\ 
+		\hline 
+		& & 30.3 & 1.24 & 62.8   \\ 
+		\hline 
+		& & 30.1 & 2.38 & 55.9   \\ 
+		\hline
+		2016 & & 31.9 & 0.369 & 74.3	\\
+		\hline 
+		& & 32.8 & 0.920 & 72.3   \\ 
+		\hline 
+		& & 34.5 & 2.05 & 82.8   \\ 
+		\hline 
+	\end{tabular}
+\caption{Leonids} 
+\end{table*}
+
+\begin{table*}
+	\centering
+	\begin{tabular}{|c|c|r@{ \,$\pm$\, }l|c|}
+		\hline 
+		Year & Range & Mean & S.E. & 90th \%ile\\ 
+		\hline 
+		2010 & & 63.9 & 0.928 & 162   \\ 
+		\hline 
+		& &	65.7 & 2.82 & 162   \\ 
+		\hline 
+		& & 66.1 & 5.18 & 159   \\ 
+		\hline 
+		2011 & & 78.8 & 0.915 & 205   \\ 
+		\hline 
+		& & 86.4 & 2.87 & 210   \\ 
+		\hline 
+		& & 81.5 & 5.63 & 206   \\ 
+		\hline 
+		2012 & & 48.5 & 0.626 & 120   \\ 
+		\hline 
+		& & 54.4 & 2.13 & 147   \\ 
+		\hline 
+		& & 53.0 & 3.77 & 129   \\ 
+		\hline 
+		2013 & & 33.2 & 0.442 & 77.0   \\ 
+		\hline 
+		& & 36.2 & 1.38 & 87.8   \\ 
+		\hline 
+		& & 37.5 & 2.66 & 85.4   \\ 
+		\hline 
+		2014 & & 44.3 & 0.571 & 109   \\ 
+		\hline 
+		& & 42.8 & 1.45 & 105   \\ 
+		\hline 
+		& & 38.1 & 2.36 & 104  \\ 
+		\hline 
+		2015 & & 48.8 & 0.715 & 140   \\ 
+		\hline 
+		& & 54.5 & 2.37 & 156   \\ 
+		\hline 
+		& & 53.0 & 4.71 & 150   \\ 
+		\hline
+		2016 & & 33.1 & 0.459 & 83.5	\\
+		\hline 
+		& & 34.3 & 1.25 & 84.9   \\ 
+		\hline 
+		& & 32.0 & 2.33 & 79.2   \\ 
+		\hline 
+	\end{tabular}
+	\caption{Orionids} 
+\end{table*}
+
+\begin{table*}
+	\centering
+	\begin{tabular}{|c|c|r@{ \,$\pm$\, }l|c|}
+		\hline 
+		Year & Range & Mean & S.E. & 90th \%ile\\ 
+		\hline 
+		2010 & & 71.7 & 1.30 & 183   \\ 
+		\hline 
+		& &	77.1 & 3.81 & 194   \\ 
+		\hline 
+		& & 78.5 & 7.26 & 197   \\ 
+		\hline 
+		2011 & & 48.7 & 0.810 & 112   \\ 
+		\hline 
+		& & 53.4 & 2.18 & 116   \\ 
+		\hline 
+		& & 68.3 & 4.98 & 141   \\ 
+		\hline 
+		2012 & & 61.8 & 1.35 & 114   \\ 
+		\hline 
+		& & 109 & 5.56 & 275   \\ 
+		\hline 
+		& & 139 & 13.9 & 271   \\ 
+		\hline 
+		2013 & & 48.5 & 0.780 & 131   \\ 
+		\hline 
+		& & 72.6 & 3.20 & 193   \\ 
+		\hline 
+		& & 87.2 & 7.09 & 207   \\ 
+		\hline 
+		2014 & & 43.3 & 0.575 & 102   \\ 
+		\hline 
+		& & 59.6 & 1.84 & 133   \\ 
+		\hline 
+		& & 64.5 & 3.50 & 133  \\ 
+		\hline 
+		2015 & & 70.9 & 1.08 & 187   \\ 
+		\hline 
+		& & 74.1 & 3.30 & 180   \\ 
+		\hline 
+		& & 91.7 & 7.03 & 193   \\ 
+		\hline
+		2016 & & 36.5 & 0.589 & 91.5	\\
+		\hline 
+		& & 40.1 & 1.24 & 92.6   \\ 
+		\hline 
+		& & 59.6 & 3.02 & 121   \\ 
+		\hline 
+	\end{tabular}
+	\caption{Perseids} 
+\end{table*}
+
+\begin{table*}
+	\centering
+	\begin{tabular}{|c|c|r@{ \,$\pm$\, }l|c|}
+		\hline 
+		Year & Range & Mean & S.E. & 90th \%ile\\ 
+		\hline 
+		2011 & & 53.7 & 0.550 & 133   \\ 
+		\hline 
+		& & 69.5 & 2.59 & 173   \\ 
+		\hline 
+		& & 98.2 & 6.64 & 243   \\ 
+		\hline 
+		2012 & & 58.5 & 0.647 & 134   \\ 
+		\hline 
+		& & 58.2 & 2.07 & 136   \\ 
+		\hline 
+		& & 104 & 5.64 & 235   \\ 
+		\hline 
+		2013 & & 49.2 & 0.488 & 120   \\ 
+		\hline 
+		& & 63.2 & 1.373 & 152   \\ 
+		\hline 
+		& & 104 & 4.36 & 229   \\ 
+		\hline 
+		2014 & & 52.5 & 0.511 & 141   \\ 
+		\hline 
+		& & 62.5 & 2.70 & 154   \\ 
+		\hline 
+		& & 109 & 7.70 & 282  \\ 
+		\hline 
+		2015 & & 39.2 & 0.349 & 97.6   \\ 
+		\hline 
+		& & 61.6 & 2.14 & 164   \\ 
+		\hline 
+		& & 70.1 & 4.57 & 181   \\ 
+		\hline
+		2016 & & 26.0 & 0.297 & 62.8	\\
+		\hline 
+		& & 45.6 & 1.31 & 118   \\ 
+		\hline 
+		& & 79.9 & 3.27 & 184   \\ 
+		\hline 
+	\end{tabular}
+	\caption{Quadrantids} 
+\end{table*}
+
+\begin{table*}
+	\centering
+	\begin{tabular}{|c|c|r@{ \,$\pm$\, }l|c|}
+		\hline 
+		Year & Range & Mean & S.E. & 90th \%ile\\ 
+		\hline 
+		2010 & & 140 & 1.91 & 291   \\ 
+		\hline 
+		& &	149 & 6.77 & 267   \\ 
+		\hline 
+		& & 150 & 14.1 & 304   \\ 
+		\hline 
+		2011 & & 112 & 1.62 & 260   \\ 
+		\hline 
+		& & 116 & 5.38 & 266   \\ 
+		\hline 
+		& & 118 & 10.7 & 282   \\ 
+		\hline 
+		2012 & & 67.1 & 0.836 & 173   \\ 
+		\hline 
+		& & 72.3 & 2.65 & 199   \\ 
+		\hline 
+		& & 72.9 & 5.12 & 197   \\ 
+		\hline 
+		2013 & & 56.1 & 0.889 & 142   \\ 
+		\hline 
+		& & 61.4 & 3.01 & 158   \\ 
+		\hline 
+		& & 60.2 & 5.13 & 149   \\ 
+		\hline 
+		2014 & & 52.9 & 1.57 & 104   \\ 
+		\hline 
+		& & 48.5 & 2.87 & 102   \\ 
+		\hline 
+		& & 47.4 & 5.03 & 99  \\ 
+		\hline 
+		2015 & & 50.3 & 0.599 & 114   \\ 
+		\hline 
+		& & 52.5 & 1.64 & 120   \\ 
+		\hline 
+		& & 54.3 & 3.22 & 121   \\ 
+		\hline
+		2016 & & 45.6 & 0.665 & 99.8	\\
+		\hline 
+		& & 43.3 & 1.51 & 90.3   \\ 
+		\hline 
+		& & 46.2 & 3.17 & 95.5   \\ 
+		\hline 
+	\end{tabular}
+	\caption{$\eta$-aquariids} 
+\end{table*}
+\end{appendices}
+\printbibliography
+
+\end{document}
