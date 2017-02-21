@@ -1,4 +1,4 @@
-\documentclass[a4paper,10pt,twocolumn,notitlepage]{report}
+\documentclass[a4paper,10pt,notitlepage, twocolumn]{report}
 
 % Bibliography
 \usepackage[
@@ -6,7 +6,7 @@ backend=biber,
 sorting=ynt]{biblatex}
 \addbibresource{bib.bib}
 
-\usepackage{color, url, indentfirst, graphicx, float, wrapfig, titlesec, subcaption, titling, abstract}
+\usepackage{color, url, indentfirst, graphicx, float, wrapfig, titlesec, subcaption, titling, abstract, multicol, cuted}
 
 \graphicspath{ {images/} }
 
@@ -26,12 +26,13 @@ sorting=ynt]{biblatex}
 \date{\today}
 \maketitle
 
+\vspace{\fill}
 \begin{abstract}
 	Bananas.
 \end{abstract}
 \end{titlingpage}
 
-%\tableofcontents
+\tableofcontents
 %\input{intro}
 %\input{data}
 %\input{diurnal_shift}
@@ -40,11 +41,11 @@ sorting=ynt]{biblatex}
 %\input{antenna_variation}
 \input{zhr}
 %\input{waterfall}
-%\input{conclusion}
-\appendix
-\appendixpage
-\addappheadtotoc
+\onecolumn
+\input{conclusion}
+\begin{appendices}
 \input{appendix}
-%\printbibliography
+\end{appendices}
+\printbibliography
 
 \end{document}

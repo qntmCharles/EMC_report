@@ -1,14 +1,17 @@
 \chapter{Zenithal Hourly Rate Validity for Radio Detection}
 \label{chap:zhr}
-\begin{abstract}
-	I present an improved formula for calculating Zenithal Hourly Rate (ZHR) and an analysis of its validity for radio meteor detection. Beyond this, I assess the implications of the resultant ZHRs for antenna field of view, meteor shower population index and stream density. The formula, with modification is valid, and the results agree well with visual results. There are clear improvements that can be made, though as a first approximation the formula is adequate.
-\end{abstract}
+\begin{strip}
+	\begin{minipage}{\textwidth}
+		\begin{abstract}
+			I present an improved formula for calculating Zenithal Hourly Rate (ZHR) and an analysis of its validity for radio meteor detection. Beyond this, I assess the implications of the resultant ZHRs for antenna field of view, meteor shower population index and stream density. The formula, with modification is valid, and the results agree well with visual results. There are clear improvements that can be made, though as a first approximation the formula is 	adequate.
+		\end{abstract}
+	\end{minipage}
+\end{strip}
 \section{Background}
 Zenithal Hourly Rate (ZHR) is a measure of the activity of a meteor shower. The value indicates how many meteors an observer can expect to see, assuming optimal viewing conditions, with the meteor shower's radiant at the observer's zenith (directly overhead).
 \section{Literature Review}
 \subsection{Calculating ZHR}
-A formula already exists for calculating the theoretical ZHR from known data and conditions \cite{zhr}. The formula (\ref{eq:zhr}) depends on four correction factors. 
-\textcolor{red}{A reference is needed for the ZHR formula. I do not have one.}
+A formula already exists for calculating the theoretical ZHR from known data and conditions \cite{zhr}. The formula (\ref{eq:zhr}) depends on four correction factors.
 \begin{equation}{ZHR} = \frac{\overline{HR} \cdot F \cdot r^{6.5-{m}}}{\sin \left( h \right)}\label{eq:zhr} \end{equation}
 The hourly rate is given by $\overline{HR} = \frac{N}{T_{eff}}$, $N$ is the number of meteors observed, and $T_{eff}$ is the effective observation time of the observer. This corrects the number of meteors detected such that it is an hourly rate. \\
 The correction for the field of view, $F$, is given by $\frac{1}{1-k}$ where k is the percentage of the observer's field of view that is obstructed. \\
