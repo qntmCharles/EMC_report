@@ -3,18 +3,18 @@
 \begin{strip}
 	\begin{minipage}{\textwidth}
 		\begin{abstract}
-			I present an improved formula for calculating Zenithal Hourly Rate (ZHR) and an analysis of its validity for radio meteor detection. Beyond this, I assess the implications of the resultant ZHRs for antenna field of view, meteor shower population index and stream density. The formula, with modification is valid, and the results agree well with visual results. There are clear improvements that can be made, though as a first approximation the formula is adequate.
+			In this chapter I study the effect that antenna type has on the data produced by said antenna. This is done through an analysis of key characteristics describing important qualities of the data at hand. I find that, though there is variation between the differing types, there is no clear advantage for any of the considered antenna types. However, I also find that there are  I also Indications as to which antenna type receives the best detection counts may influence which antennas are used for future radio detection stations.
 		\end{abstract}
 	\end{minipage}
 \end{strip}
-\section{Overview}
+\section{Background}
 Radio meteor detection can use a variety of different antenna types. There are 12 main types used in the RMOB data I am using. Yagi antennas are overwhelmingly the most popular, followed by dipole antennas (see figure~\ref{fig:antennas}).
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{antennas}
 	\caption{Antenna usage in RMOB data \label{fig:antennas}}
 \end{figure}
-Each antenna type has it's own merits and cons, but that is a a discussion for another report. In this chapter I aim to analyse the effect that antenna type has on a number of key characteristics defining the qualities of the meteor detection for each antenna. To my knowledge, this has not been studied in detail before, so it is a worthwhile analysis to make. Indications as to which antenna type receives the best detection counts may influence which antennas are used for future radio detection stations.
+Each antenna type has it's own merits and cons, but that is a a discussion for another report. 
 \section{Methodology}
 \subsection{Selecting authors}
 There are 12 antenna types that will be analysed. In order to carry out the analysis, the observers must be split into groups for each of these types. This was done through  manual selection: displaying the antenna type of each observer (if it has one), and choosing which type this antenna is, through a python program. Any unknown types were declared as miscellaneous. These categories were then saved to their own file.
@@ -81,3 +81,4 @@ Instead of using standard error of the hourly detection counts to indicate the v
 \paragraph{Percentiles\\}
 As part of the data characteristics analysis, I used the maximum count to help summarise the data. This is not a very useful summary value to make, since the maximum itself holds little value. What would indicate the distribution of data better is a value such as the 90th percentile. This may give a better reflection of the data that an antenna produces.
 \section{Conclusion}
+-jpole, log periodioc, one of the others are consistently extreme
