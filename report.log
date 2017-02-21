@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.18)  16 FEB 2017 10:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.18)  21 FEB 2017 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -288,11 +288,97 @@ Package color Info: Driver file: pdftex.def on input line 147.
 File: pdftex.def 2016/07/10 v0.06j Graphics/color for pdfTeX
 \Gread@gobject=\count274
 ))
+(/usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/07/10 v1.0t Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count275
+\float@exts=\toks15
+\float@box=\box26
+\@float@everytoks=\toks16
+\@floatcapt=\box27
+)
+(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen105
+\WF@size=\dimen106
+\c@WF@wrappedlines=\count276
+\WF@box=\box28
+\WF@everypar=\toks17
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box29
+\beforetitleunit=\skip57
+\aftertitleunit=\skip58
+\ttl@plus=\dimen107
+\ttl@minus=\dimen108
+\ttl@toksa=\toks18
+\titlewidth=\dimen109
+\titlewidthlast=\dimen110
+\titlewidthfirst=\dimen111
+)
+(/usr/share/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2016/05/22 v1.1-161 Sub-captions (AR)
+
+(/usr/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen112
+\captionmargin@=\dimen113
+\captionwidth=\dimen114
+\caption@tempdima=\dimen115
+\caption@indent=\dimen116
+\caption@parindent=\dimen117
+\caption@hangindent=\dimen118
+)
+\c@ContinuedFloat=\count277
+Package caption Info: float package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+\c@subfigure=\count278
+\c@subtable=\count279
+)
+(/usr/share/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip59
+\thanksmargin=\skip60
+\droptitle=\skip61
+)
+(/usr/share/texmf-dist/tex/latex/abstract/abstract.sty
+Package: abstract 2009/06/08 v1.2a configurable abstracts
+\abstitleskip=\skip62
+\absleftindent=\skip63
+\absrightindent=\skip64
+\absparindent=\skip65
+\absparsep=\skip66
+)
 (/usr/share/texmf-dist/tex/latex/appendix/appendix.sty
 Package: appendix 2009/09/02 v1.2b extra appendix facilities
-\c@@pps=\count275
-\c@@ppsavesec=\count276
-\c@@ppsaveapp=\count277
+\c@@pps=\count280
+\c@@ppsavesec=\count281
+\c@@ppsaveapp=\count282
 )
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -300,23 +386,23 @@ Package biblatex Info: ... file 'english.lbx' found.
 (/usr/share/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2016/09/17 v3.6 biblatex localization (PK/JW/AB)
 )
-\@quotelevel=\count278
-\@quotereset=\count279
+\@quotelevel=\count283
+\@quotereset=\count284
  (./report.aux)
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
+LaTeX Font Info:    ... okay on input line 23.
 Package biblatex Info: No input encoding detected.
 (biblatex)             Assuming 'ascii'.
 Package biblatex Info: Automatic encoding selection.
@@ -327,135 +413,113 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report.bbl' found.
 
 (./report.bbl)
-Package biblatex Info: Reference section=0 on input line 13.
-Package biblatex Info: Reference segment=0 on input line 13.
+Package biblatex Info: Reference section=0 on input line 23.
+Package biblatex Info: Reference segment=0 on input line 23.
  (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count280
-\scratchdimen=\dimen103
-\scratchbox=\box26
-\nofMPsegments=\count281
-\nofMParguments=\count282
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count283
-\MPscratchDim=\dimen104
-\MPnumerator=\count284
-\makeMPintoPDFobject=\count285
-\everyMPtoPDFconversion=\toks16
-)
+\scratchcounter=\count285
+\scratchdimen=\dimen119
+\scratchbox=\box30
+\nofMPsegments=\count286
+\nofMParguments=\count287
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count288
+\MPscratchDim=\dimen120
+\MPnumerator=\count289
+\makeMPintoPDFobject=\count290
+\everyMPtoPDFconversion=\toks20
+) (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+))
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 18.
+(Font)              <12> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 18.
+(Font)              <8> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 27.
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: Reference `fig:waterfall' on page 1 undefined on input line 27.
-
-(./diurnal_shift.tex [1
-
-
-]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./zhr.tex
 Chapter 1.
-) (./spacial_variation.tex [2
-
-
-]
-Chapter 2.
-) (./temporal_variation.tex [3
-
-
-]
-Chapter 3.
-) (./antenna_variation.tex [4
-
-
-]
-Chapter 4.
-) (./zhr.tex [5
-
-
-]
-Chapter 5.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 8.
+(Font)              <7> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
+(Font)              <5> on input line 12.
 
-Underfull \hbox (badness 1490) in paragraph at lines 8--13
-\OT1/cmr/m/n/12 of the ob-server's field of view that is
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--13
+Underfull \hbox (badness 10000) in paragraph at lines 12--17
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [6
+ [1
+
 
 ]
-Underfull \hbox (badness 4060) in paragraph at lines 14--15
-\OT1/cmr/m/n/12 The In-ter-na-tional Me-teor Or-gan-i-sa-tion
- []
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 23.
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 19.
 (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 19.
- [7]
-
-LaTeX Warning: Reference `fig:hemisphere' on page 8 undefined on input line 35.
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 23.
 
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]\OT1/cmr/bx/n/14.4 Calculating ra-di-ant
+LaTeX Warning: Reference `fig:hemisphere' on page 2 undefined on input line 38.
+
+
+[2] [3]
+Underfull \vbox (badness 1701) has occurred while \output is active []
+
+ [4]
+[5]
+Overfull \hbox (5.9174pt too wide) in paragraph at lines 124--134
+[][] 
  []
 
+[6] <images/zhr/yagi.jpg, id=39, 398.23781pt x 177.66376pt>
+File: images/zhr/yagi.jpg Graphic file (type jpg)
 
-Underfull \vbox (badness 1584) has occurred while \output is active []
-
- [9]
-[10]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11])
-(./waterfall.tex [12
-
-]
-Chapter 6.
-) [13
+<use images/zhr/yagi.jpg>
+Package pdftex.def Info: images/zhr/yagi.jpg used on input line 151.
+(pdftex.def)             Requested size: 221.0pt x 98.5937pt.
 
 
-] [14
+LaTeX Warning: Reference `chap:diurnalshift' on page 7 undefined on input line 
+159.
+
+[7 <./images/zhr/yagi.jpg>]) [8
+
+] [9
 
 
-
-]
+] (./appendix.tex
 Appendix A.
-[15
+) [10
 
 
-
-] [16] [17] [18] [19] [20] [21]
-Underfull \hbox (badness 7273) in paragraph at lines 367--367
-[]\OT1/cmr/m/n/12 International Me-teor Or-ga-ni-za-tion.
- []
-
-[22
-
-
-
-] (./report.aux)
+] [11] [12] (./report.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -464,27 +528,29 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 7806 strings out of 493013
- 135512 string characters out of 6139317
- 598057 words of memory out of 5000000
- 11295 multiletter control sequences out of 15000+600000
- 9930 words of font info for 35 fonts, out of 8000000 for 9000
+ 9693 strings out of 493013
+ 166493 string characters out of 6139317
+ 631610 words of memory out of 5000000
+ 13134 multiletter control sequences out of 15000+600000
+ 9453 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 45i,9n,45p,1488b,1119s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/s
-hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on report.pdf (23 pages, 161470 bytes).
+ 42i,11n,57p,1488b,1343s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
+sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmti10.pfb>
+Output written on report.pdf (13 pages, 284728 bytes).
 PDF statistics:
- 126 PDF objects out of 1000 (max. 8388607)
- 88 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,6 +19,27 @@
 
 \refsection{0}
   \sortlist[entry]{ynt/global/}
+    \entry{bumba}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bd6ac39dcd3fe2d68161d343c7b44fef}{%
+           family={Bumbda},
+           familyi={B\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd6ac39dcd3fe2d68161d343c7b44fef}
+      \strng{fullhash}{bd6ac39dcd3fe2d68161d343c7b44fef}
+      \strng{authornamehash}{bd6ac39dcd3fe2d68161d343c7b44fef}
+      \strng{authorfullhash}{bd6ac39dcd3fe2d68161d343c7b44fef}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Bull. astr. Inst. Csl.}
+      \field{volume}{1}
+      \field{year}{1949}
+      \field{pages}{93}
+      \range{pages}{1}
+    \endentry
     \entry{kresak}{article}{}
       \name{author}{1}{}{%
         {{hash=cfe40f00c52974bacd75c41b9e6b7dea}{%
@@ -39,6 +60,26 @@
       \field{year}{1954}
       \field{pages}{120}
       \range{pages}{1}
+    \endentry
+    \entry{lindblad}{article}{}
+      \name{author}{1}{}{%
+        {{hash=20a62babd1a78d790e73d750b5bfb15b}{%
+           family={Lindblad},
+           familyi={L\bibinitperiod},
+           given={B.\bibnamedelimi A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{20a62babd1a78d790e73d750b5bfb15b}
+      \strng{fullhash}{20a62babd1a78d790e73d750b5bfb15b}
+      \strng{authornamehash}{20a62babd1a78d790e73d750b5bfb15b}
+      \strng{authorfullhash}{20a62babd1a78d790e73d750b5bfb15b}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Physics and Dynamics of Meteors}
+      \field{year}{1968}
+      \field{pages}{50\bibrangedash 62}
+      \range{pages}{13}
     \endentry
     \entry{hr_correction}{article}{}
       \name{author}{1}{}{%
@@ -63,6 +104,45 @@
       \field{year}{1999}
       \field{pages}{308\bibrangedash 317}
       \range{pages}{10}
+    \endentry
+    \entry{yagi}{online}{}
+      \name{author}{1}{}{%
+        {{hash=7b1d1185b835814de783483f686e9825}{%
+           family={Cisco},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b1d1185b835814de783483f686e9825}
+      \strng{fullhash}{7b1d1185b835814de783483f686e9825}
+      \strng{authornamehash}{7b1d1185b835814de783483f686e9825}
+      \strng{authorfullhash}{7b1d1185b835814de783483f686e9825}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Antenna Patterns and Their Meaning}
+      \field{year}{2007}
+    \endentry
+    \entry{sunspot}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4154aa6336161fee5d8f9012dc1f99f4}{%
+           family={Center},
+           familyi={C\bibinitperiod},
+           given={Space\bibnamedelimb Weather\bibnamedelima Prediction},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4154aa6336161fee5d8f9012dc1f99f4}
+      \strng{fullhash}{4154aa6336161fee5d8f9012dc1f99f4}
+      \strng{authornamehash}{4154aa6336161fee5d8f9012dc1f99f4}
+      \strng{authorfullhash}{4154aa6336161fee5d8f9012dc1f99f4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Solar Cycle Progression}
+      \field{year}{2017}
+      \verb{url}
+      \verb http://www.swpc.noaa.gov/products/solar-cycle-progression
+      \endverb
     \endentry
     \entry{zhr}{misc}{}
       \field{sortinit}{9}

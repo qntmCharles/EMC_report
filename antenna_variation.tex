@@ -1,8 +1,79 @@
-\chapter{Antenna Variation}
-\textcolor{red}{Probably want a better title than that...?}
+\chapter{Antenna Data Characteristics}
+\label{chap:antenna}
+\begin{abstract}
+	
+\end{abstract}
 \section{Overview}
-\section{Literature Review}
+Radio meteor detection can use a variety of different antenna types. There are 12 main types used in the RMOB data I am using. Yagi antennas are overwhelmingly the most popular, followed by dipole antennas (see figure~\ref{fig:antennas}).
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{antennas}
+	\caption{Antenna usage in RMOB data \label{fig:antennas}}
+\end{figure}
+Each antenna type has it's own merits and cons, but that is a a discussion for another report. In this chapter I aim to analyse the effect that antenna type has on a number of key characteristics defining the qualities of the meteor detection for each antenna. To my knowledge, this has not been studied in detail before, so it is a worthwhile analysis to make. Indications as to which antenna type receives the best detection counts may influence which antennas are used for future radio detection stations.
 \section{Methodology}
+\subsection{Selecting authors}
+There are 12 antenna types that will be analysed. In order to carry out the analysis, the observers must be split into groups for each of these types. This was done through  manual selection: displaying the antenna type of each observer (if it has one), and choosing which type this antenna is, through a python program. Any unknown types were declared as miscellaneous. These categories were then saved to their own file.
+\subsection{Analyses}
+The analysis focused on 6 values, aimed at summarising and describing the detections made by the observers in each antenna category. Two of these values are the mean and maximum of all data collected by each respective observer. The minimum is of little importance, since the value will almost always be 0 or 1. These indicate the typical detection counts for the observer. The standard error of the same data set is also taken, which indicates how much the data varies. A lower value indicates that the same detection count is generally seen, and a larger value indicates that the detection count varies erratically. The skew also indicates the distribution of the detection counts. A positive skew indicates that the detection counts trail off towards high values, whilst a negative skew indicates that the distribution is `steeper' for higher values, suggesting that there is a limit to the detection counts. The last two values are the peak hour of the diurnal shift, and the fit to an optimised sine curve for the mean detection counts over each hour of a day. This is calculated by averaging the values for all data for a given hour after midnight. A sine curve is in then fit to this, in the same process as chapter~\ref{chap:diurnalshift}, giving a sine function of the form $N = A \sin \left( \omega t + \phi \right)$ where $N$ is the detection count. The calculated `fit' is the sum of the covariances for $A$, $\omega$, and $\phi$. A comparison is made of these 6 values for each antenna type.
+
 \section{Results}
+\subsection{Mean \& maximum}
+Figure ~\ref{fig:ant:meanmaxmin} shows the result for the mean and maximum counts for each hour, averaged for each respective antenna type. There is no clear difference between the means, as shown by the error bars, which show standard error. The largest mean is for a Turnstile antenna, though this is likely due to a single observer with a large detection count, and this is supported by the large standard error. There is also no significant difference in the maximum values. The most extreme (both large and small) maximum counts have larger error bars, which suggests that there are only a few observers which have these maximum counts out of all those in the antenna category.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{antenna/meanmaxmin}
+	\caption{Mean and maximum hourly detection counts (maximum count in red, mean in blue)
+		\label{fig:ant:meanmaxmin}}
+\end{figure}
+
+\subsection{Standard error}
+Figure~\ref{fig:ant:err} shows the results for the mean standard error of the hourly counts for each antenna category. The most extreme values have the largest error bars, suggesting that this is because there is a small sample size. However, the turnstile, vertical and j-pole antennas have the largest standard errors, suggesting these antennas produce data with the most variation. Log periodic, ground plane, full wave loop and diamond antennas have the 
+lowest standard error suggesting the lower variation of the data.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{antenna/err}
+	\caption{Mean and maximum hourly detection counts
+		\label{fig:ant:err}}
+\end{figure}
+
+\subsection{Skew}
+From figure~\ref{fig:ant:skew}, it can be seen that log periodic, vertical and yagi antennas have the largest positive skew, with turnstile, discone and full wave loop antennas with the largest negative skew. Generally, a positive skew is expected since the data should trail off towards larger counts, whereas no counts are valid below 0, so there is a steeper end to the distribution of data. This is not seen in the data. The skewness values for each antenna category are relatively evenly distributed around 0. 5 of the categories have a standard error in the skew that is larger than the skew itself, suggesting that these values are not significant and cannot be considered completely valid.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{antenna/skew}
+	\caption{Mean and maximum hourly detection counts
+		\label{fig:ant:skew}}
+\end{figure}
+
+\subsection{Diurnal shift}
+The results are relatively evenly distributed around a peak hour of 9, though, as found in chapter~\ref{chap:spacial}, this is most likely due to the geographical location where the antenna is used. Based on this, it is likely that ground plane, omni, quad and turnstile antennas are mostly used in Europe, whilst full wave loop, J-pole and diamond antennas are used mostly at latitudes $\sim -180$ and $180$.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{antenna/peak}
+	\caption{Mean and maximum hourly detection counts}
+\end{figure}
+
+The larger results for j-pole, quad, turnstile and vertical antennas suggests that these are not as influenced by diurnal shift. However, these categories have much larger standard errors than other categories, suggesting that there is simply a low sample size. Vice versa, ground plane and log periodic antennas have much better fits to a sine curve, implying the antennas are more influence by diurnal shift.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\linewidth]{antenna/fit}
+	\caption{Mean and maximum hourly detection counts}
+\end{figure}
+
 \section{Discussion}
+\textcolor{red}{To discuss at NLO}
+\subsection{Improvements}
+\paragraph{Location}
+From previous chapters, it is known that the location where data is collected will influence the results. Because of this, simply grouping together observers who use the same antenna may not give an accurate reflection of the data characteristics unless the data is somehow normalised so that location has no effect. The simplest way to do this is to include more observers, and then analyse the antenna categories. When comparing these results, the location can be factored into any conclusions, removing the influence that location has on the data.
+\paragraph{Yagi n-element analysis\\}
+In my analysis I have grouped {\it all} yagi antennas into the same category. An analysis based on the number of elements on the antenna within the yagi category may indicate if there is an optimal number of elements for meteor detection, as well as the effect of different numbers of elements on the characteristics of the data.
+\paragraph{Coefficient of variation\\} 
+Instead of using standard error of the hourly detection counts to indicate the variation of the data, it may be better to use the coefficient of variation, $c_v$, defined as $c_v = \frac{\sigma}{\mu}$ where $\mu$ and $\sigma$ are the mean and standard deviation of the data respectively. This gives a better reflection of the variation as instead of factoring in the sample size, it factors in the mean, which is an improvement since the degree of variation is no longer proportional to the mean, giving no skew favouring lower means.
+\paragraph{Percentiles\\}
+As part of the data characteristics analysis, I used the maximum count to help summarise the data. This is not a very useful summary value to make, since the maximum itself holds little value. What would indicate the distribution of data better is a value such as the 90th percentile. This may give a better reflection of the data that an antenna produces.
 \section{Conclusion}
