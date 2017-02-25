@@ -1,17 +1,17 @@
 [0] Config.pm:354> INFO - This is Biber 2.6
 [0] Config.pm:357> INFO - Logfile is 'report.blg'
-[76] biber:302> INFO - === Tue Feb 21, 2017, 13:49:26
-[184] Biber.pm:359> INFO - Reading 'report.bcf'
-[311] Biber.pm:823> INFO - Found 5 citekeys in bib section 0
-[332] Biber.pm:3658> INFO - Processing section 0
-[517] Biber.pm:3828> INFO - Looking for bibtex format file 'bib.bib' for section 0
-[518] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
-[520] bibtex.pm:1282> INFO - Found BibTeX data source 'bib.bib'
-[568] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[568] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[568] Biber.pm:3487> INFO - Sorting list 'ynt/global/' of type 'entry' with scheme 'ynt' and locale 'en-US'
-[568] Biber.pm:3493> INFO - No sort tailoring available for locale 'en-US'
-[587] bbl.pm:597> INFO - Writing 'report.bbl' with encoding 'ascii'
-[591] Utils.pm:164> WARN - The entry 'kresak' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[592] bbl.pm:701> INFO - Output to report.bbl
-[593] Biber.pm:109> INFO - WARNINGS: 1
+[51] biber:302> INFO - === Fri Feb 24, 2017, 18:18:14
+[73] Biber.pm:359> INFO - Reading 'report.bcf'
+[219] Biber.pm:823> INFO - Found 20 citekeys in bib section 0
+[240] Biber.pm:3658> INFO - Processing section 0
+[261] Biber.pm:3828> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[263] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
+[266] bibtex.pm:1282> INFO - Found BibTeX data source 'bib.bib'
+[371] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[372] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[372] Biber.pm:3487> INFO - Sorting list 'ynt/global/' of type 'entry' with scheme 'ynt' and locale 'en-US'
+[372] Biber.pm:3493> INFO - No sort tailoring available for locale 'en-US'
+[404] bbl.pm:597> INFO - Writing 'report.bbl' with encoding 'ascii'
+[408] Utils.pm:164> WARN - The entry 'kresak' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
+[413] bbl.pm:701> INFO - Output to report.bbl
+[413] Biber.pm:109> INFO - WARNINGS: 1

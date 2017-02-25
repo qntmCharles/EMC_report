@@ -158,6 +158,8 @@ The values for $k$ are used to calculate the field of view correction factor. Th
 \subsubsection{Limiting magnitude}
 The limiting magnitudes are not as high as expected for radio detection. This demonstrates the fact that this is an estimation --- each factor is calculated assuming that it is the only factor to be considered, but this is not the case. The value for $k$ would typically be around 0.5, which would dramatically increase the ZHR, giving a more accurate value for the limiting magnitude.
 \subsection{Formula improvements}
+\paragraph{Radiant height correction\\}
+An invaluable analysis would be a validation of my proposed method of calculating the radiant height correction factor. Plotting the relative meteor flux against the radiant height may reveal a better approximation to the correction factor. The issue arises in isolating variables such as the actual ZHR (which may be lower than another time of measurement) and other factors, such as changing conditions. This can largely be solved by normalizing data against the expected ZHR, or measuring these changing variables and making a comparison.
 \paragraph{Diurnal shift correction\\}
 The diurnal shift of an observation can often be extreme, with a large range of variation over the course of 24 hours. Estimating this diurnal shift using techniques from chapter~\ref{chap:diurnalshift} will give an optimal fit sine curve, from which the expected number of meteors detected from this diurnal shift can be calculated. This will then replace the background detection count and will provide a more accurate estimate of the ZHR.
 \paragraph{Limiting magnitude\\}
@@ -172,4 +174,4 @@ There is often a marked difference between the location of the transmitting ante
 \subsubsection{Antenna type}
 When calculating the limiting magnitude and field of view, the type of antenna will influence the results greatly. Certain antennas may have a much larger field of view, or be less sensitive and have a lower limiting magnitude. 
 \section{Conclusion}
-idk tbh
+The ZHR formula, with modification, is valid for use in radio meteor detection. This is apparent from the good correlation between ZHR results from radio observation data when compared with visual observation, up to a constant shift. With knowledge of an antenna's field of view, and the population index of a meteor shower, estimations can be made more accurately. Further study is required to analyse the distribution of meteor magnitudes for larger limiting magnitudes than 6.5, as well as the best way to estimate the background detection rate of an observation station.

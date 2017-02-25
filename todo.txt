@@ -1,10 +1,7 @@
--Add abstracts to chapters, then change overviews to summarise the background information and significance of the analysis
+-Add keywords to each chapter, under abstract
 
--Conclusions:
-	-ZHR
-	-Spacial
-	-Temporal
-	-Antenna
+-Add glossary
 
--Diurnal shift:
-	-Discussion: why is there no correlation with latitude (DUH)
+- Change results & discussion of fit. It should mention that if positive it indicates that there is a positive correlation, but gives no indication of magnitude. Add using a correlation matrix to improvements.
+
+-Figure for ZHR & diurnal shift

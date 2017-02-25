@@ -19,6 +19,50 @@
 
 \refsection{0}
   \sortlist[entry]{ynt/global/}
+    \entry{bumba}{article}{}
+      \name{author}{1}{}{%
+        {{hash=bd6ac39dcd3fe2d68161d343c7b44fef}{%
+           family={Bumbda},
+           familyi={B\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd6ac39dcd3fe2d68161d343c7b44fef}
+      \strng{fullhash}{bd6ac39dcd3fe2d68161d343c7b44fef}
+      \strng{authornamehash}{bd6ac39dcd3fe2d68161d343c7b44fef}
+      \strng{authorfullhash}{bd6ac39dcd3fe2d68161d343c7b44fef}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Bull. astr. Inst. Csl.}
+      \field{volume}{1}
+      \field{year}{1949}
+      \field{pages}{93}
+      \range{pages}{1}
+    \endentry
+    \entry{watervapour}{article}{}
+      \name{author}{1}{}{%
+        {{hash=12e34587291f644d02b9efb67d261fc0}{%
+           family={Whipple},
+           familyi={W\bibinitperiod},
+           given={F.\bibnamedelimi L.},
+           giveni={F\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{12e34587291f644d02b9efb67d261fc0}
+      \strng{fullhash}{12e34587291f644d02b9efb67d261fc0}
+      \strng{authornamehash}{12e34587291f644d02b9efb67d261fc0}
+      \strng{authorfullhash}{12e34587291f644d02b9efb67d261fc0}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astrophysical Journal}
+      \field{title}{A Comet Model. II. Physical Relations for Comets and Meteors}
+      \field{volume}{113}
+      \field{year}{1951}
+      \field{pages}{464}
+      \range{pages}{1}
+    \endentry
     \entry{kresak}{article}{}
       \name{author}{1}{}{%
         {{hash=cfe40f00c52974bacd75c41b9e6b7dea}{%
@@ -39,6 +83,47 @@
       \field{year}{1954}
       \field{pages}{120}
       \range{pages}{1}
+    \endentry
+    \entry{lindblad}{article}{}
+      \name{author}{1}{}{%
+        {{hash=20a62babd1a78d790e73d750b5bfb15b}{%
+           family={Lindblad},
+           familyi={L\bibinitperiod},
+           given={B.\bibnamedelimi A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{20a62babd1a78d790e73d750b5bfb15b}
+      \strng{fullhash}{20a62babd1a78d790e73d750b5bfb15b}
+      \strng{authornamehash}{20a62babd1a78d790e73d750b5bfb15b}
+      \strng{authorfullhash}{20a62babd1a78d790e73d750b5bfb15b}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{journaltitle}{Physics and Dynamics of Meteors}
+      \field{year}{1968}
+      \field{pages}{50\bibrangedash 62}
+      \range{pages}{13}
+    \endentry
+    \entry{palladian}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5c8ef671ffec72896d06f7dfbd6d9326}{%
+           family={Marsden},
+           familyi={M\bibinitperiod},
+           given={Brian\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c8ef671ffec72896d06f7dfbd6d9326}
+      \strng{fullhash}{5c8ef671ffec72896d06f7dfbd6d9326}
+      \strng{authornamehash}{5c8ef671ffec72896d06f7dfbd6d9326}
+      \strng{authorfullhash}{5c8ef671ffec72896d06f7dfbd6d9326}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IAUC}
+      \field{number}{3881}
+      \field{title}{1983 TB and the Geminid meteors}
+      \field{year}{1983}
     \endentry
     \entry{zhr}{article}{}
       \name{author}{1}{}{%
@@ -88,6 +173,25 @@
       \field{pages}{308\bibrangedash 317}
       \range{pages}{10}
     \endentry
+    \entry{alomar}{article}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Atmos. Chem. Phys.}
+      \field{title}{Diurnal and annual variations of meteor rates at the arctic circle}
+      \field{volume}{4}
+      \field{year}{2004}
+      \field{pages}{1355\bibrangedash 1363}
+      \range{pages}{9}
+    \endentry
+    \entry{latitudes}{article}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{17th ESA Symposium on European Rocket and Balloon Programmes and Related Research}
+      \field{title}{Diurnal and annual variations of meteor rates at latitudes betwen 69$^{\circ}$N and 35$^{\circ}$S}
+      \field{year}{2005}
+    \endentry
     \entry{yagi}{online}{}
       \name{author}{1}{}{%
         {{hash=7b1d1185b835814de783483f686e9825}{%
@@ -104,6 +208,113 @@
       \field{labeltitlesource}{title}
       \field{title}{Antenna Patterns and Their Meaning}
       \field{year}{2007}
+    \endentry
+    \entry{stream}{online}{}
+      \name{author}{1}{}{%
+        {{hash=95afbda54b130c4a44bfc1cec9d71d7a}{%
+           family={NASA\bibnamedelima Cosmos},
+           familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Kenneth\bibnamedelimb R.\bibnamedelimi Lang},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{95afbda54b130c4a44bfc1cec9d71d7a}
+      \strng{fullhash}{95afbda54b130c4a44bfc1cec9d71d7a}
+      \strng{authornamehash}{95afbda54b130c4a44bfc1cec9d71d7a}
+      \strng{authorfullhash}{95afbda54b130c4a44bfc1cec9d71d7a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Comets produce meteor showers}
+      \field{year}{2010}
+      \verb{url}
+      \verb https://ase.tufts.edu/cosmos/view_picture.asp?id=1305
+      \endverb
+    \endentry
+    \entry{baa}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e79428abd2c62e759fe6e7612d734ea1}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Dr.\bibnamedelimi David},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e79428abd2c62e759fe6e7612d734ea1}
+      \strng{fullhash}{e79428abd2c62e759fe6e7612d734ea1}
+      \strng{authornamehash}{e79428abd2c62e759fe6e7612d734ea1}
+      \strng{authorfullhash}{e79428abd2c62e759fe6e7612d734ea1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Meteor numbers \& velocities}
+      \field{year}{2011}
+      \verb{url}
+      \verb http://britastro.org/radio/projects/DM-Meteor.temp/numbers.html
+      \endverb
+    \endentry
+    \entry{sunspot}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4154aa6336161fee5d8f9012dc1f99f4}{%
+           family={Center},
+           familyi={C\bibinitperiod},
+           given={Space\bibnamedelimb Weather\bibnamedelima Prediction},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{4154aa6336161fee5d8f9012dc1f99f4}
+      \strng{fullhash}{4154aa6336161fee5d8f9012dc1f99f4}
+      \strng{authornamehash}{4154aa6336161fee5d8f9012dc1f99f4}
+      \strng{authorfullhash}{4154aa6336161fee5d8f9012dc1f99f4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Solar Cycle Progression}
+      \field{year}{2017}
+      \verb{url}
+      \verb http://www.swpc.noaa.gov/products/solar-cycle-progression
+      \endverb
+    \endentry
+    \entry{hrofftimg}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labeltitlesource}{title}
+      \field{title}{Detecting Meteors by Radio in Penrith, Cumbria}
+      \verb{url}
+      \verb www.g4fui.net/meteors.html
+      \endverb
+    \endentry
+    \entry{hrofft}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labeltitlesource}{title}
+      \field{title}{HROFFT software download}
+      \verb{url}
+      \verb http://www.rmob.org/links.php
+      \endverb
+    \endentry
+    \entry{leonids}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e2d85ad5cbbc3179453e16cb0d4f0e1d}{%
+           family={National\bibnamedelima Geographic},
+           familyi={N\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={M.\bibnamedelimi Littmann},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           suffix={Elsevier},
+           suffixi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2d85ad5cbbc3179453e16cb0d4f0e1d}
+      \strng{fullhash}{e2d85ad5cbbc3179453e16cb0d4f0e1d}
+      \strng{authornamehash}{e2d85ad5cbbc3179453e16cb0d4f0e1d}
+      \strng{authorfullhash}{e2d85ad5cbbc3179453e16cb0d4f0e1d}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{1833 Meteor Storm Started Citizen Science}
+      \verb{url}
+      \verb http://voices.nationalgeographic.com/2014/08/30/1833-meteor-storm-started-citizen-science/
+      \endverb
     \endentry
     \entry{imo_meteor_calendar}{misc}{}
       \name{author}{1}{}{%
@@ -123,6 +334,45 @@
       \field{labeltitlesource}{title}
       \field{howpublished}{Available at \url{www.imo.net/resources/calendar/} (2017/02/15)}
       \field{title}{IMO Meteor Calendar}
+    \endentry
+    \entry{qgis}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labeltitlesource}{title}
+      \field{title}{Quantum Geographic Information System}
+      \verb{url}
+      \verb www.qgis.org
+      \endverb
+    \endentry
+    \entry{rmob}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labeltitlesource}{title}
+      \field{title}{Radio Meteor Observation Bulletin}
+      \verb{url}
+      \verb rmob.org
+      \endverb
+    \endentry
+    \entry{forwardscatter}{online}{}
+      \name{author}{1}{}{%
+        {{hash=3201c1b2e0c3aa35895ae15b51b35bdf}{%
+           family={Scan},
+           familyi={S\bibinitperiod},
+           given={Sky},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{3201c1b2e0c3aa35895ae15b51b35bdf}
+      \strng{fullhash}{3201c1b2e0c3aa35895ae15b51b35bdf}
+      \strng{authornamehash}{3201c1b2e0c3aa35895ae15b51b35bdf}
+      \strng{authorfullhash}{3201c1b2e0c3aa35895ae15b51b35bdf}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Radio wave propagation}
+      \verb{url}
+      \verb www.skyscan.ca/HowItWorks.htm
+      \endverb
     \endentry
   \endsortlist
 \endrefsection

@@ -1,0 +1,6438 @@
+Meteors: what the dinosaurs didn’t know
+An analysis of radio meteor detection
+
+DRAFT
+Charles Powell
+February 24, 2017
+
+Abstract
+Bananas.
+
+Contents
+1 Introduction
+1.1 Motivations . . . . . . . . . . .
+1.2 Background . . . . . . . . . . .
+1.2.1 What is a meteor? . . .
+1.2.2 Radio meteor detection
+1.2.3 Meteor showers . . . . .
+1.2.4 Magnitude . . . . . . .
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+2
+2
+2
+2
+2
+3
+3
+
+2 Data
+2.1 Where is the data from? .
+2.2 What is the data? . . . .
+2.3 Data collection & storage
+2.4 Final data set . . . . . . .
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+5
+5
+5
+6
+6
+
+3 Diurnal Shift
+3.1 Background . . . . . . . .
+3.2 Literature Review . . . .
+3.2.1 Model . . . . . . .
+3.2.2 Previous analyses .
+3.3 Methodology . . . . . . .
+3.3.1 Spatial analysis . .
+3.3.2 Temporal analysis
+3.4 Results & Discussion . . .
+3.4.1 Model . . . . . . .
+3.4.2 Sine-function fit .
+3.4.3 Spatial variation .
+3.4.4 Temporal variation
+3.4.5 Improvements . . .
+3.5 Conclusion . . . . . . . .
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+8
+8
+8
+8
+8
+9
+9
+9
+9
+9
+10
+11
+12
+13
+13
+
+4 Spacial variation of data characteristics
+4.1 Background . . . . . . . . . . . . . . . .
+4.2 Literature Review . . . . . . . . . . . .
+4.3 Methodology . . . . . . . . . . . . . . .
+4.4 Results . . . . . . . . . . . . . . . . . . .
+4.4.1 Latitude analysis . . . . . . . . .
+4.4.2 Longitude analysis . . . . . . . .
+4.5 Discussion . . . . . . . . . . . . . . . . .
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+
+14
+14
+14
+14
+15
+15
+16
+19
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+1
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+19
+19
+20
+20
+
+5 Temporal Variation of Radar Counts
+5.1 Overview . . . . . . . . . . . . . . .
+5.2 Literature Review . . . . . . . . . .
+5.3 Methodology . . . . . . . . . . . . .
+5.3.1 Data characteristics . . . . .
+5.3.2 Detection counts . . . . . . .
+5.3.3 Analysis by location . . . . .
+5.4 Results . . . . . . . . . . . . . . . . .
+5.4.1 Data characteristics . . . . .
+5.4.2 Monthly scale variation . . .
+5.4.3 Annual scale variation . . . .
+5.4.4 Variation since 2000 . . . . .
+5.5 Discussion . . . . . . . . . . . . . . .
+5.5.1 Data characteristics . . . . .
+5.5.2 Monthly scale variation . . .
+5.5.3 Annual scale variation . . . .
+5.5.4 Variation since 2000 . . . . .
+5.6 Conclusion . . . . . . . . . . . . . .
+
+& Data Characteristics
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . .
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+21
+21
+21
+22
+22
+22
+22
+22
+22
+23
+24
+24
+25
+25
+25
+25
+25
+26
+
+6 Antenna Data Characteristics
+6.1 Background . . . . . . . . . .
+6.2 Methodology . . . . . . . . .
+6.2.1 Selecting authors . . .
+6.2.2 Analyses . . . . . . . .
+6.2.3 Sample sizes . . . . .
+6.3 Results . . . . . . . . . . . . .
+6.3.1 Mean & maximum . .
+6.3.2 Standard error . . . .
+6.3.3 Skew . . . . . . . . . .
+6.3.4 Diurnal shift . . . . .
+6.4 Discussion . . . . . . . . . . .
+6.4.1 Mean & maximum . .
+6.4.2 Standard error . . . .
+6.4.3 Skew . . . . . . . . . .
+6.4.4 Diurnal shift . . . . .
+6.4.5 Improvements . . . . .
+6.5 Conclusion . . . . . . . . . .
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+4.6
+
+4.5.1 Latitude analysis .
+4.5.2 Longitude analysis
+4.5.3 Improvements . . .
+Conclusion . . . . . . . .
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+28
+28
+28
+28
+28
+29
+29
+29
+29
+29
+30
+31
+31
+31
+31
+31
+31
+32
+
+7 Zenithal Hourly Rate Validity for Radio Detection
+7.1 Background . . . . . . . . . . . . . . . . . . . . . . .
+7.2 Literature Review . . . . . . . . . . . . . . . . . . .
+7.2.1 Calculating ZHR . . . . . . . . . . . . . . . .
+7.2.2 Meteor shower information . . . . . . . . . .
+7.3 Methodology . . . . . . . . . . . . . . . . . . . . . .
+7.3.1 Assumptions . . . . . . . . . . . . . . . . . .
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+33
+33
+33
+33
+34
+34
+34
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+2
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+7.4
+
+7.5
+
+7.6
+
+7.3.2 Formula modification . .
+7.3.3 Calculating radiant height
+7.3.4 Calculating hourly rate .
+7.3.5 Analysis . . . . . . . . . .
+Results . . . . . . . . . . . . . . .
+7.4.1 Comparison . . . . . . . .
+7.4.2 Correction factors . . . .
+Discussion . . . . . . . . . . . . .
+7.5.1 Comparison . . . . . . . .
+7.5.2 Correction factors . . . .
+7.5.3 Formula improvements . .
+7.5.4 Inaccuracies . . . . . . . .
+Conclusion . . . . . . . . . . . .
+
+8 Image Analysis
+8.1 Overview . . . . .
+8.2 Literature Review
+8.3 Methodology . . .
+8.4 Results . . . . . . .
+8.5 Discussion . . . . .
+8.6 Conclusion . . . .
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+34
+35
+35
+36
+37
+37
+38
+38
+38
+39
+39
+40
+40
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+.
+.
+.
+.
+.
+.
+
+41
+41
+41
+41
+41
+41
+41
+
+9 Conclusion
+42
+9.1 Acknowledgements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 42
+Appendices
+
+43
+
+A Zenithal hourly rate results
+
+44
+
+3
+
+Chapter 1
+
+Introduction
+1.1
+
+Motivations
+
+To all but the dinosaurs, meteors are quite cool.
+I must first admit that I have lied to you: this report is not about why meteors rock. In fact, half
+of meteors aren’t made of rock, but it got your attention, didn’t it? And now you’re reading this! In
+this report I provide an analysis of a variety of variables that apply to meteor detection. Each of these
+analyses has it’s own significance purely based on
+knowledge, though I have decided to venture into Figure 1.1: Diagram of forward scatter radio methis EMC project out of my own interest in the teor detection (courtesy of [forwardscatter])
+subject. Much of the work in this report has been
+an intention of mine for a year or two; as a product of working with colleagues that are now very
+1.2.2 Radio meteor detection
+much my friends in the Lockyer Technology Centre
+(LTC) at the Norman Lockyer Observatory (NLO).
+The intense heat of a meteor ionises the air
+around it, causing the visible streak seen in the
+sky. The ionised air along the path of the meteor is
+capable of reflecting radio waves, allowing a signal
+to be received. This is radio meteor detection. The
+1.2 Background
+diagram for detection is shown in figure 1.1.
+The transmitting antenna sends out a signal that
+reflects off of the ionised trail and is received by
+1.2.1 What is a meteor?
+another station. The data that comes from detecting these ionised trails can be considered in variMeteoroids are rocky or metallic bodies much ous ways; most popularly by simply counting the
+smaller than asteroids, which, despite sizes ranging number of detections an hour, or more visibly by
+from a grain of sand to centimetres wide, produce displaying the intensity of the reflected signal for a
+streaks of light from the intense heat vaporising range of frequencies against time. This produces a
+the meteoroid. At this point, it is a meteor. It is a rather beautiful ‘waterfall’ plot, seen in figure 1.2.
+matter of debate whether the meteor is the object The ‘echo’ received from the meteor has a characcausing the streak across the sky, or the streak teristics shape depending on whether upper sideitself. Meteors that survive the plummet to Earth band (USB) or lower sideband (LSB) is used. In
+are promoted to meteorites.
+figure 1.2a, USB is used, producing an echo that
+trails off to the right, and has a peak to the left.
+4
+
+(a) 2D
+(b) 3D
+
+Figure 1.3: Meteor stream diagram (courtesy of
+[stream])
+
+Figure 1.2: Waterfall plot
+
+as the meteoroids spread out across the entire orbit
+of the debris. However, showers caused by periodic
+comets will not suffer this effect since with each of
+the Comet’s orbits, more debris is shed.
+
+The colour of the peak indicates the intensity of the
+received echo. The blue noise surrounding the echo
+is radio noise.
+The alternative method, counting the number of
+meteors detected in an hour, is discussed in chapter 2.
+
+1.2.3
+
+The most famous meteor showers include the Perseids, which often have the greatest number of meteors observed, which peak on the 12th or 13th
+of August. The Leonids originally gave birth to
+the name ‘meteor shower’, after a meteor ‘storm’
+in 1833 producing thousands of meteors a minute.
+(figure 1.4) This occurs once every 33 years (on average). Other showers, such as the Taurids, do not
+produce as many meteors, but are notable for frequent fireballs. These are meteors that explode due
+to the incredible pressure and heat of re-entry, and
+cause a sudden flash of light that can often illuminate the whole sky.
+
+Meteor showers
+
+Typically, visual observation of meteors is done
+during a meteor shower. This event is characterised
+by an increased number of meteors observed, that
+are not sporadic. Sporadic meteors are those that
+do not appear to come from a common source –
+they are simply debris entering the Earth’s atmosphere. During a meteor shower, many more meteors are observed than normal, and most importantly, they appear to come from a common source:
+the radiant. This is the apparent source of all
+the shower meteors, that is, the meteors appear
+to travel out in all directions from this point.
+The cause of a meteor shower is the Earth passing
+through the trail of debris left by a comet: dirty
+snowballs (figure ??). The only (notable) exception to this is the Geminids shower, which is caused
+by a Palladian asteroid rather than a comet’s trail
+[palladian]. The debris can be produced in many
+different ways, either through water vapour drag
+[watervapour] (cite Fred Whipple 1951), by which
+ice melts and drags sand and pebble sized debris off
+the comet, or the breakup of parts of a comet.
+
+1.2.4
+
+Magnitude
+
+A measure of brightness (used throughout Astronomy) is magnitude. The magnitude scale is
+logarithmic and historically based around a single star, α Lyrae, which was used as the 0 point,
+though it is now defined in terms of flux. A decrease
+in
+magnitude by 1 means a brightness increase of
+√
+5
+100 ≈ 2.512. The larger the magnitude of a star,
+the fainter it is. Negative magnitudes are possible:
+for example, the Sun has an apparent magnitude of
+-27.
+Apparent magnitudes are a measure of brightness
+As time passes, the stream will pass around the from Earth, whilst absolute magnitudes are an obSun and spread out. This means that, with time, a jective measure of brightness, being the theoretical
+meteor shower’s peak will become less pronounced brightness of a star from a set distance (1 parsec).
+5
+
+Figure 1.4: Leonids shower November 1833 (courtesy of [leonids])
+For visual observation (naked eye), meteors fainter
+than 6.5 in apparent magnitude cannot be seen.
+This is not the case for radio meteor detection.
+
+6
+
+Chapter 2
+
+Data
+2.1
+
+Where is the data from?
+
+The Radio Meteor Observing Bulletin (RMOB)
+[rmob] is an organisation of people from the field of
+radio meteor scatter observations and data reduction. Started in August 1993, the intention was to
+enable easy communication of data from the Perseid meteor shower. In the years that followed the
+bulletin became monthly and now has hundreds
+of observers in various locations around the world.
+The long-term aim is to covert the entire world, allowing detection of stream outbursts that will not
+be noticed visually.
+Pierre Terrier, an RMOB member, has produced
+software that allows observers to upload data to a
+database on the RMOB website (rmob.org). This
+is the source of my data, providing a range of
+data dating back to 2000, from observers across the
+globe.
+
+2.2
+
+(a) Text format
+
+What is the data?
+
+(b) Image format
+
+Figure 2.1: RMOB data formats
+
+The data provided by RMOB is a text and image
+collection, as in figure 2.1.
+The data is collected using the observer’s own radio setup. This will include an antenna, and a way
+of getting the signal to the computer. Typically
+this is done using a receiver (to control properties
+of the signal such as squelch) which feeds into the
+audio port of a computer or laptop. The software
+works in two parts.
+The first stage is detecting the meteors from the
+signal. This is done using HROFFT [hrofft] (figure 2.2).
+As can be seen in figure 2.2, the intensity of the signal is calculated and shown in a light blue colour.
+
+The full waterfall plot is shown above this, making
+up the main part of the screen, much the same as
+figure 2.1b. When the intensity of the signal goes
+over a threshold, it is noted as a meteor (yellow
+spike). The first threshold is 25dB, the second is
+50dB and the third is 75dB. This information is
+then passed onto Colorgramme Lab.
+In Colorgramme Lab, the counts are converted to
+text format and stored as seen in figure 2.1a. At the
+end of the month, this data is uploaded to RMOB.
+7
+
+stored), the date (in the format YYYY-MM) and
+the data itself. Storing every single item of data
+would be inefficient, so the data must be loaded
+through by typing entry.loadData() first. This
+opens the location in my filesystem, loads the .csv
+file, and the data is then available for processing.
+Each of these entries is stored in an ‘observer’ object. This is done by storing the entries in a dictionary, so that the correct data can be selected by
+specifying the month which is associated with the
+month of the entry. Some RMOB text files include
+properties of the detection setup, such as antenna,
+Figure 2.2: HROFFT software screen (courtesy of location, and frequencies. These are stored as part
+of the observer object as attributes. This allows an
+[hrofftimg])
+easier analysis, since in (for example) spatial variation, the GMAP location can be selected by typobserver.locationAttr[‘latitudeGMAP’].
+2.3 Data collection & storage ing
+Where two entries for the same observer differ,
+there is a ‘collision’. In this event, two separate
+Collection
+observers are stored.
+I have collected the data using webscraping.
+This is a process where a program (mine is written
+in Python) goes to a webpage, finds all the links 2.4
+Final data set
+on the page, and returns them. By going through
+each page of data available on the website, I could
+Figure 2.3 shows how many observers conthen download each text file, for each observer, for tributed to RMOB each month since 2000. Overeach month, for each year.
+all, there are 345 observers in my data set, with
+5110 entries in total. This means, at most, I have
+3,800,000 hourly counts. As can be seen in the figure, more and more observers are uploading each
+Storage
+I created two ‘objects’ in Python in order to store month. This can only mean good things for meteor
+the data. Objects are similar to real life objects – detection analysis!
+self-contained elements that have their own properties. In the case of the RMOB data, it can be easily
+split into observers (the stations or people detecting the meteors) and ‘entries’: monthly collections
+of data (a single text file from RMOB).
+Using the links collected from webscraping, each
+file was downloaded, formatted, and loaded into an
+entry. The data is not stored as part of the entry:
+the formatted file is saved to a folder. The formatting itself is so that the data is easy to use. Instead
+of storing the counts using “ — ” to separate the
+hours, I am using simple commas (“,”) to separate the hours. Instead of using “???” to denote
+unavailable data, I am using “-1”. This makes it
+easier both to load the data, and to remove empty
+data.
+Each entry has properties: the source of the data
+(the location in my filesystem that the data is
+
+Figure 2.3: Number of observers contributing each
+month
+Figure 2.4 shows the locations available in the data
+set. There is clearly a wide variety of locations,
+across the globe, which will make an analysis of
+8
+
+spatial variation valid and worthwhile.
+
+Figure 2.4: Locations of observers (where known)
+Figures 2.5 and 2.6 show the volume of data available for each country, and the average number of
+entries uploaded each month.
+
+Figure 2.5: Volume of data from each location
+(where known)
+
+Figure 2.6: Average number of entries per month
+from each location (where known)
+
+9
+
+Chapter 3
+
+Diurnal Shift
+Abstract
+
+3.1
+
+Background
+
+For years, a notable increase and decrease over a
+single days’ time scale has been observed in detection counts. An example of this is in figure 2.1b.
+The red colours indicate a higher detection count,
+observed in the early hours of the morning. This
+diurnal shift has been given an explanation by modelling the phenomenon. The word ‘diurnal’ refers to
+the time scale being a single day, and ‘shift’ refers
+to the increase in detection counts.
+
+3.2
+3.2.1
+
+Figure 3.1: Diurnal shift model
+
+3.2.2
+
+Literature Review
+Model
+
+Dr David Morgan of the BAA Radio Astronomy Group presents a somewhat detailed explanation [3] of why diurnal shift occurs. The suggestion is that diurnal shift is dependent on sporadic meteors rather than shower meteors, and depends on the variation of their intercept velocity
+with an observer on Earth. This changes since, as
+the Earth rotates, the combination of the orbital
+velocity, rotational velocity and meteor intercept
+velocity changes. As can be seen in figure 3.1 (courtesy of the same article [3]), at Sunrise, the meteors
+velocity adds to Earth’s orbital velocity, whilst at
+Sunset, these velocities subtract.
+10
+
+Previous analyses
+
+Diurnal variation is well studied. W. Singer, U.
+von Zahn and J. Weiß present an analysis [1] of the
+diurnal and annual variations of meteor rates at
+the Arctic circle, specifically the ALOMAR observatory. They observe a clear diurnal shift, as well
+as an annual variation of this diurnal shift. The
+expectation that the intensity of the diurnal shift
+decreases towards the North Pole is not observed.
+Singer, W., von Zahn, U., Batista, P. P., Fuller, B.,
+& Latteck, R. present an analysis [2] of the same
+subject that does observe an increase in diurnal
+shift intensity with decreasing latitude, which disagrees with the previous article [1]. However, this
+analysis uses a wider range of latitudes to analyse,
+so the conclusion is likely more valid.
+
+Category
+Europe
+Asia & Australia
+North America
+
+N◦ observers
+220
+12
+37
+
+3.3.2
+
+Finally I will analyse how the peak hour and parameter covariances vary over time, from 2000 to
+2016. This will use the same calculated variables
+as the spatial analysis. These analyses will be completed using a Python program.
+
+Table 3.1: Sample sizes for location categories
+
+3.3
+
+Methodology
+
+3.4
+
+In this analysis I will use previous results to
+examine spatial and temporal variation of diurnal
+shift, as well as how well a sine-function fits the
+diurnal shift curve. The diurnal shift curve is
+generated by taking the mean of all data for a
+given hour after midnight, for each observer. Time,
+for all observers, is recorded in UTC. Using this
+curve I will compare the intensity of diurnal shift
+for three different location categories: Europe,
+Asia & Australia, and North America. The sample
+sizes for each category are shown in table 3.1. In
+conjunction with this, I will fit a sine curve, to give
+an indication of a suitable function to describe the
+shift.
+
+3.3.1
+
+Spatial analysis
+
+I will use QGIS [qgis] to generate a map, with a
+dot representing each observer with a known location. These dots will be coloured based on the peak
+hour of diurnal shift, indicating how this changes
+with location. Further to this, I will analyse the
+variation of the peak hour of diurnal shift, as well
+as the sum of parameter covariance
+for a sine func
+tion of the form A sin 2π
+t
++
+φ
++
+µ,
+indicating how
+24
+well a sine curve fits the diurnal shift. This is calculated using a covariance matrix M , which gives the
+covariance of the parameter estimates as the sum
+of:
+3
+X
+
+Diag (M )i · χ2residual
+
+ 21
+
+Temporal analysis
+
+3.4.1
+
+Results & Discussion
+Model
+
+I aim to improve the model presented by Dr
+David Morgan [3].
+Inaccuracies
+The diagram and explanation have a few issues.
+Firstly, the diagram states (in conjunction with the
+explanation) that the path of the Earth intercepts
+more meteors at sunrise than sunset, causing the
+increase. This is not the case: the path of the
+Earth does not change, nor does the number of
+meteors being intercepted. What changes is the
+number of meteors that are intercepted that can
+be detected by a given observer. The explanation
+is suitable, but only if the cause is more rigorously
+explained as the velocity being proportional to the
+number of detections. When there is a greater
+velocity, more meteors can actually reach the
+Earth’s atmosphere and be detected.
+This is where the explanation appears to fall down.
+The diagram shows meteors intercepting the Earth
+at Sunset, and Sunrise, but nothing in between.
+Perhaps this is an ambiguity, but the implication
+is that there is a sudden increase and decrease. As
+is clear from the results, this isn’t the case. The
+increase fits a sine curve remarkably well and the
+change occurs throughout the day. This suggests
+that the change, whilst it is indeed dependent on
+meteor intercepts, is a function applied to meteor
+velocities that is based on the angle of Earth’s
+rotation.
+
+(3.1)
+
+i=1
+
+Resolution
+Building upon the previous model, I assume that
+Here, χ2residual = σ2X−x
+(N −3) where N is the number the number of meteors detected is proportional to
+of data points. This analysis will be over two inde- the mean incident velocity of meteors to Earth.
+pendent variables: latitude and longitude.
+This is reasonable: the actual velocities are of
+11
+
+course random. However, an overall larger mean
+incident velocity of a collection of meteors means
+that proportionally more will reach Earth, of those
+that are in a direction that could cause a collision
+with Earth’s atmosphere. Of a group of meteors
+with random velocities (both random magnitude
+and direction), very few will be on a course tangential to Earth’s atmosphere. However, this does not
+change as Earth rotates, so it is a negligible variable. I consider only those that are tangential with
+the atmosphere, and so only those that could cause
+a detection. Thus, we have, at a very basic level:
+N ∝ vincident
+
+(3.2)
+
+The incident velocity is dependent on factors such
+as the Earth’s rotational velocity, orbital velocity
+and the velocity of the sporadic meteors themselves. vmeteor is difficult to consider, since it (theoretically) has a random direction. We know that
+vorbit ≈ 30000 ms−1 and vrotation ≈ 450 ms−1 .
+Assuming that the path described by Earth’s orbit around the Sun is a straight line through Earth
+when ‘up close’, let θ be the angle between a radius
+from the Earth’s centre to the observer’s location,
+and the orbital path (figure ??). The set of meteors
+that can be detected appear, from above, to form
+a triangle. The average velocity of these meteors
+will be along the height of this triangle: perpendicular to the surface of Earth. This means that
+the rotation velocity can be disregarded. Thus, the
+remaining velocity to consider is Earth’s rotational
+velocity:
+vincident = vorbit cos θ + vmeteor
+
+(3.3)
+
+Clearly, this is at a maximum when θ = 0◦ . Now we
+must consider what time (in UTC) this corresponds
+to for an observer with a given longitude.
+H=
+
+3.4.2
+
+shows how well a sine curve fits in comparison. The
+implication of this is that the cause of diurnal shift
+is based on a sine function of the Earth’s rotation
+(i.e. the hour of the day).
+
+(3.4)
+
+Sine-function fit
+
+Figure 3.2: Diurnal shift across all authors & sinefunction fit
+
+Figure 3.3 shows the same graph as figure 3.2 (for
+comparison), as well as diurnal shift curves for each
+respective location. Surprisingly, each location category shows a sine curve. The peak of these sine
+curves appears to be correlated well with latitude.
+The average longitudes in degrees are, for Europe,
+Asia & Australia, and North America respectively:
+∼ 15, ∼ 150 & ∼ −100. This supports the idea
+of a sine-function describing the diurnal shift, since
+larger longitudes produce a greater hour of diurnal shift, bearing in mind that the hour for the
+North American categoryw ill ‘wrap’ around, due
+to timezones. The average latitudes in degrees are
+(respectively): ∼ 45, ∼ 35 & ∼ 15. The North
+American category has the largest intensity, followed by the European category and then Asia &
+Australia, though this is not the order of latitudes.
+This appears to disagree with research noted in section 3.2.2, which suggested that the intensity (amplitude) of diurnal shift is dependent on latitude.
+
+Figure 3.2 shows the results for a sine function fit.
+The optimal sine function and cubic are shown in
+red and green respectively. The sum of the covariance for each parameter of the optimal sine curve
+The sum of parameter covariances for each loca(of the form A sin (ωt + φ) + µ) is 0.814, which indicates a positive correlation. This suggests (as is tion category are shown below. The positive numclearly apparent from the figure) that the sine func- bers all indicate a positive correlation, as expected
+tion fits well. As a reference, I fitted a cubic. This from the figures.
+12
+
+Figure 3.3: Diurnal shifts for each individual location (all observers’ shift included for reference) Figure 3.4: Peak hour of diurnal shift for each observer
+Category
+All
+Europe
+Asia & Aus.
+N. America
+
+A
+13.4
+15.4
+-7.19
+29.5
+
+φ
+-0.941
+-0.302
+-0.585
+-2.05
+
+µ
+59.2
+48.4
+19.0
+68.1
+
+Covar.
+0.454
+0.498
+0.352
+1.16
+
+all. However, this is expected. There is no logical
+reason why the peak hour would be influenced by
+the latitude.
+
+Table 3.2: Sum of parameter covariances for each
+location category
+
+3.4.3
+
+Spatial variation
+
+Created using QGIS, I present a map showing the
+location of each observer in the data set. The dot
+for each circle is coloured (as in the legend) based
+on the peak hour of the diurnal shift. This gives
+a more visual demonstration of what is shown in
+figures 3.3 and 3.7: the colours are clearly grouped
+based on location. Observers in Europe have diurnal shift peaks mostly around 6:00, North AmeriFigure 3.5: Peak hour of diurnal shift against latican observers have peaks around 15:00 and in Asia
+tude
+& Australia around 20. This supports implications from the previously stated figures. There are
+In figure 3.6 little correlation is seen again. The
+clearly anomalous results for some observers (note
+the blue dots in Europe), though this is expected. covariances vary widely. There is no clear trend,
+suggesting that the latitude of an observer has no
+effect on how well data fits a sine function. ConLatitude
+sequently, it would appear that diurnal shift is a
+There appears to be little correlation between
+global phenomenon.
+latitude and the peak hour. Although, overall,
+the hour appears to decrease as the latitude varies
+from −40◦ to 60◦ , there errors are substantial. Longitude
+The implication of this is there is little agreement
+Figure 3.7 shows agreement with figures 3.3 and
+within each category, suggesting no correlation at 3.4. The peak hour is lowest for a longitude of
+13
+
+Figure 3.6: Optimal sine function fit against latitude
+
+Figure 3.8: Optimal sine function fit against longitude
+
+0◦ and increases either side of this, as seen in the 3.4.4 Temporal variation
+stated figures. The errors for some categories are
+Figure 3.9 shows the same result as previously
+reasonably large, though still fall in a range that
+noted. The variation for each location category
+fits the trend. There is, of course, minor variation
+varies around the hours expected if peak hour is
+though the trend is clear from the data: latitude
+correlated with longitude. There is a large amount
+and peak hour of diurnal shift are related.
+of variation for the Asia & Australia category, so
+it is hard to make an analysis from this. It is clear
+that in more recent years, there is less variation.
+Over time, no categories appear to increase or decrease, but instead fluctuate around certain values.
+Generally, the fit is reasonably good. Between 2005
+
+Figure 3.7: Peak hour of diurnal shift against longitude
+The covariance varies a small amount with longitude other than a few categories. There does not
+appear to be a clear trend. However, the poorest fits have large errors indicating that this is not Figure 3.9: Peak hour of diurnal shift change over
+a poor fit throughout observers in said categories. time
+Consequently it would seem that the fit varies modand 2011, the fits are much worse, indicating either
+erately across the globe.
+14
+
+a weaker diurnal shift (an unlikely phenomenon)
+or a more intense background level. For periods
+outside this, there is a low value of variation. All
+categories have a similar fit and absent trend over
+time.
+
+Figure 3.10: Optimal sine function fit change over
+time
+
+3.4.5
+
+Improvements
+
+Annual variation
+A question, that may reveal more information
+on the processes behind diurnal shift, is whether
+the phenomenon changes on a yearly time scale.
+Seasonal variation of diurnal shift may indicate an
+influence from sources such as the Sun, or the orientation of the Earth relative to it’s orbit.
+Intensity variation with latitude
+Singer, W., von Zahn, U., Batista, P. P., Fuller,
+B., & Latteck, R. [2] analyse a variation of diurnal shift amplitude with latitude. Their analysis is
+over a relatively small range of latitudes. A further investigation, with a wider range of latitudes
+and more observers involved, could confirm or support their analysis. My own analysis indicates that
+there is little correlation.
+
+3.5
+
+Conclusion
+
+There is a clear correlation between longitude
+and peak hour of diurnal shift, proportional to a
+15
+
+sine function. This is apparent from several results, and the model I present. This indicates that
+my model is valid and is supported by the data.
+In addition, based on this analysis and previous
+analyses, it seems that there is little correlation
+between location and a sine function fit, suggesting that the intensity of diurnal shift (in the sense
+of relative intensity compared to background rates)
+is roughly uniform across the globe. However, there
+is no clear link to be made between the amplitude
+of diurnal shift and latitude. There appears to be a
+correlation, in general, with location, with a clear
+difference in amplitude between different location
+categories.
+
+Chapter 4
+
+Spacial variation of data
+characteristics
+Abstract
+In the following chapter I present an analysis of variation of data characteristics by latitude
+and longitude. I find little correlation between data characteristics and latitude, and a limited
+correlation with longitude. However, I find supporting results for a model of diurnal shift. A
+symmetric distribution for meteor counts is suggested from the results.
+
+4.1
+
+Background
+
+categories based on location.
+
+Once chapter 3 is done, mention it in detail here
+The significance of this analysis includes a supporting argument for diurnal shift (see chapter 3), and
+potential identification of locations with particularly good detection counts, which has implications
+for the levels of radio noise where the detection
+takes place. An analysis of detection rates based
+on both longitude and latitude could yield results
+that beg an investigation: perhaps at higher latitudes there are more meteors travelling tangential
+to the atmosphere, giving more detections?
+
+4.2
+
+Literature Review
+
+I can’t seem to find any. What do?
+
+4.3
+
+Methodology
+
+Selecting observers
+Observers were selected based simply on whether
+they had Google Maps (GMAP) co-ordinates available. These co-ordinates are entered when uploading data to RMOB and are stored as part of the
+observer class location attributes dictionary. Provided an observer had both latitude and longitude
+available, then the analysis would be carried out on
+this data. Once all the observers had been checked
+and analysed (if necessary), the categorisation into
+groups could take place. I used a basic process
+to group the observers, based on the difference between the current observer and the previous. Of
+course, the observers had to be sorted by increasing latitude or longitude (depending on the analysis) first. If the difference between co-ordinates
+was less than 10 degrees, then the two observers are
+considered part of the same group. This resulted
+in 9 categories for latitude, and 14 for longitude.
+These categories are not uniformly spread around
+the globe, but do provide a grouping of observers.
+
+In this chapter I present two analyses on the variation of certain data characteristics by latitude and
+longitude. In order to carry out these analyses, the Analysis
+observers from the RMOB data must be split into
+These characteristics
+16
+
+summarise
+
+the
+
+data,
+
+namely 6 values: mean hourly count, max hourly
+count, skewness, peak hour of diurnal shift, fit to
+a sine function, and standard error. The standard
+error of all data for the observer is significant since
+it indicates how much the data varies over the time
+frame under consideration. A lower value indicates
+that the same detection count is generally seen, and
+a larger value indicates that the detection count
+varies erratically. The skew also indicates the distribution of the detection counts. A positive skew
+indicates that the detection counts trail off towards
+high values, whilst a negative skew indicates that
+the distribution is ‘steeper’ for higher values, suggesting that there is a limit to the detection counts.
+The last two values are the peak hour of the diurnal
+shift, and the fit to an optimised sine curve for the
+mean detection counts over each hour of a day. This
+is calculated by averaging the values for all data for
+a given hour after midnight. A sine curve is in then
+fit to this, in the same process as chapter 3, giving
+a sine function of the form N = A sin (ωt + φ) + µ
+where N is the detection count. The calculated ‘fit’
+is the sum of the covariances for A, µ, and φ. ω is
+assumed to be 2π
+24 so that the shift has a period
+of one day. These 6 values will be calculated for
+each ‘entry’ (month) for each observer, and then a
+mean will be taken from all the results for a given
+location category.
+
+4.4
+4.4.1
+
+Latitude analysis
+
+Sample sizes
+Table 4.1 shows the sample sizes for each latitude
+category.
+Latitude range (◦ )
+-43 – -33
+-31 – -22
+-20 – -19
+-4 – 5
+8 – 12
+23 – 33
+33 – 44
+44 – 53
+54 – 57
+
+Figure 4.1: Mean hourly detection count
+
+Maximum hourly detection count
+The standard errors are generally larger for the
+same categories compared to the mean hourly
+count. This suggests there is a much larger variation in the maximum count within each category.
+There is no clear trend over the latitude categories,
+as there is a large peak in category IV as well as
+VII. The lowest maximum hourly count is category
+III.
+
+Results
+
+Category
+I
+II
+III
+IV
+V
+VI
+VII
+VIII
+IX
+
+Mean hourly detection count
+As can be seen in figure 4.1, overall, the detection count is ∼ 60. There is a very low sample size
+for the category around a latitude of 0, which explains the large standard error. There does not
+appear to be an overall trend, there are no exceedingly anomalous results and there is no clear
+pattern across the categories. The minimum mean
+hourly detection count is category II (∼ −30◦ ) and
+the maximum is (∼ 0◦ ).
+
+No observers
+2
+3
+1
+3
+2
+5
+33
+107
+9
+
+Minimum hourly detection count
+For categories I – VI the minimum is 1. This
+is as expected. Category IX has the largest minimum, though there is a large error, indicating the
+low sample size. Categories VII – IX are the only
+categories without a minimum of 0.
+Skewness
+Generally, the skewness is positive. There is
+a large error (relative to the values) indicating
+a widely varying skewness within each category.
+
+Table 4.1: Sample sizes for latitude categories
+17
+
+Figure 4.2: Maximum hourly detection count
+
+Figure 4.4: Skewness of hourly counts
+
+Figure 4.5: Variation in hourly detection count
+
+Figure 4.3: Minimum hourly detection count
+
+There is no clear trend, though the skewness appears to decrease as the latitude increases. There
+is only one category (V) with a negative skewness.
+
+Diurnal shift
+There is no clear trend for the peak hour of the
+diurnal shift. There is a large error for most categories, for all categories at least an error of 1 hour.
+The large error indicates a large amount of variation within each category.
+For categories I–III and V, the fit is relatively good
+(∼ 2). Categories VI – IX have a slightly worse fit,
+around 6. Rather anomalously, category IV has a
+very poor fit, though in figure 4.5 a large amount
+of variation is seen, so this is expected.
+
+Standard error
+The standard error appears to be relatively low
+for most of the categories, and with similar values,
+varying only by ∼ 3. The only exception to this is
+category IV, which has the largest standard error
+4.4.2 Longitude analysis
+of ∼ 10, though there is a much larger error in this
+than the other categories. This could simply be an Sample sizes
+Table 4.2 shows the sample sizes for each longianomalous reading.
+18
+
+Category
+I
+II
+III
+IV
+V
+VI
+VII
+VIII
+IX
+X
+XI
+XII
+XIII
+XIV
+
+Figure 4.6: Peak hour of diurnal shift
+
+Longitude range (◦ )
+-123 – -114
+-112 – -104
+-100 – -90
+-88 – -78
+-72 – -71
+-48 – -44
+-9 – 0
+1 – 12
+12 – 21
+22 – 32
+36 – 46
+47 – 49
+109 – 110
+139 – 148
+
+No observers
+7
+6
+4
+4
+1
+2
+56
+32
+34
+5
+4
+4
+1
+3
+
+Table 4.2: Sample sizes for longitude categories
+
+Figure 4.7: Fit of diurnal shift to an optimal sine
+function
+
+tude category.
+
+Figure 4.8: Mean hourly detection count
+
+4000. This is likely only a single observer, however,
+as indicated by the low sample size and large error.
+
+Mean hourly detection count
+There is no clear trend for the mean hourly
+count. The lowest mean is ∼ 10, for category VI.
+The maximum is XII, with a mean hourly count of
+more than 200. The errors are smallest for the categories with the largest sample sizes, namely categories VII – IX.
+
+Minimum hourly detection count
+The minimum values are, unlike in figure 4.3,
+not all 1. Most are a low value, though there is
+an anomalous result for XII, similar to the mean
+hourly count. This anomalous result is reflected by
+the large error.
+
+Maximum hourly detection count
+Most maximum hourly detection counts are Skewness
+9 out of 14 categories are positive. This is simaround 500, though there is an anomalous maximum for category X, with a maximum of more than ilar to figure 4.4. There is a large error for most
+19
+
+Figure 4.9: Maximum hourly detection count
+
+Figure 4.11: Skewness of hourly counts
+
+Figure 4.10: Minimum hourly detection count
+
+categories, indicating a large amount of variation
+within each category. This suggests there is little correlation between longitude and skewness of
+hourly counts.
+
+Figure 4.12: Variation in hourly detection count
+
+gitude and the peak hour of diurnal shift. This is
+discussed in more detail in chapter 3. The peak
+hour is lowest for low longitudes, around 6, and
+larger for large latitudes, approximately 14 for a
+longitude of -125◦ and 125◦ .
+Generally, the fit is around ∼ 4 for all categories
+other than IV, X, and XII. There are very poor
+fits for categories X and XII, though these categories have anomalous readings in other analyses
+too. Other than these two categories, the errors
+Diurnal shift
+There appears to be a correlation between lon- are small.
+Standard error
+Figure 4.12 shows that there is a relatively low
+variation for most categories. The exceptions are
+categories X and XII, with errors of ∼ 10 and ∼ 15
+respectively. There is a small error for all other categories, indicating a similar level of variation within
+the category.
+
+20
+
+imum. This is a reasonable explanation, since the
+only categories that don’t have a mean minimum of
+1 have the largest sample sizes. Larger variations
+in maximum are expected. The maximum has no
+limit (theoretically) though the minimum cannot
+be below 0, so variation in minimum is limited but
+this is not the case for maximum hourly detection
+counts.
+Skewness
+The positive skewness is expected. There is likely
+to be more positive skew than negative, so on average it will be positive. Though most values are
+positive, they are all close to 0. This suggests that
+the distribution of meteor counts is symmetric.
+
+Figure 4.13: Peak hour of diurnal shift
+
+Standard error
+There appears to be, on average, a small amount
+of variation in hourly counts. This was not expected: often counts may vary widely across the
+course of a day, though the range over which the
+variation takes place is apparently small enough
+that the standard error is not large.
+Diurnal shift
+Correlation between latitude and the peak hour
+of an observer’s diurnal shift is not expected, and
+this is reflected in the results. There is no apparent reason why the diurnal shift would vary with
+latitude, as discussed in chapter 3.
+Figure 4.14: Fit of diurnal shift to an optimal sine
+function
+
+4.5.2
+
+Longitude analysis
+
+Mean, maximum & minimum hourly count
+There is no expectation for a correlation between
+the mean and the longitude. There is a large vari4.5.1 Latitude analysis
+ation in the results, though without an analysis of
+location based on latitude and longitude, there is
+Mean, maximum & minimum hourly count
+no way of knowing if the increased mean hourly
+The mean does not appear to correlate with the
+detection counts are a result of the location or an
+latitude, but this is expected. Though the aim of
+observer’s detection system.
+this analysis was to determine if there are especially
+good locations for meteor detection, the reality is
+that on average, most places will be of the same Skewness
+quality for meteor detection.
+Similar to the latitude analysis of skew, there is
+It is not necessarily expected that the minimum less grouping around 0 than expected. However, a
+isn’t 1, though the reason is likely that most ob- slightly positive skew is not anomalous: counts will
+servers in the category do have a minimum of 1, but trail off towards larger numbers, but will never be
+a few observers don’t, which changes the mean min- below 0, giving a slightly positive skew.
+
+4.5
+
+Discussion
+
+21
+
+Standard error
+The large increase in standard error for categories X and XII are obscure. This increase could
+be due to the location, but most likely it is a result
+of the set up of the observers in the sample. This
+would explain the anomalous results, since the low
+sample sizes of 5 and 4 respectively would allow for
+a large variation due to a single observer’s counts.
+Diurnal shift
+The apparent correlation between longitude and
+peak hour of diurnal shift is discussed in detail in
+chapter 3. It is an expected result based on the
+model for diurnal shift.
+
+4.5.3
+
+Improvements
+
+Percentiles
+Analysing the maximum and minimum hourly
+detection counts can only reveal a certain amount
+of information. It does give some indication towards the distribution of hourly counts, but taking
+quartiles, or 90th and 10th percentiles, will give
+more indication. The maximum may be extremely
+large, but there are no other values similar to it
+for a given observer, in which case the 90th percentile would reveal a lot more about the distribution. Similarly, the minimum is likely to always be
+0 or 1, which does not provide much information,
+whilst the 10th percentile would indicate how many
+hourly counts are this small.
+Joint latitude & longitude analysis
+Whilst analysing latitude and longitude individually reveals, or thwarts, correlations, it is not as
+valuable as a joint analysis. This could be represented using a 3D plot, and would indicate much
+more clearly hotspots for meteor detection, and
+may reveal correlations that are not solely between
+latitude and longitude, but a correlation between
+the two.
+
+4.6
+
+Conclusion
+
+There does not appear to be a large degree of
+correlation between most data characteristics and
+latitude or longitude. There appears to be a correlation between peak hour of diurnal shift and longitude, as expected based on the models discussed
+22
+
+in chapter 3. There are clearly anomalous readings for some results, namely standard error (longitude) and minimum hourly detection count (latitude). Likely explanations for this are low sample
+sizes. Further work, focusing on longitude and latitude, may clarify some results, indicating which
+apparent trends persist and which are anomalous.
+
+Chapter 5
+
+Temporal Variation of Radar Counts
+& Data Characteristics
+Abstract
+I present a study of the variation through time of radio meteor detection counts and characteristics of observer data. Results indicate a significant increase in radar counts between 2005
+and 2011. I expand on previous research by Lindblad [lindblad] and Bumba [bumba], providing these results which support their hypotheses of correlation between radar counts and solar
+activity. I also find an increase in meteor counts towards the middle of the year and discount
+day-night variation as a cause of increased counts.
+
+5.1
+
+Overview
+
+from across the globe.
+
+In this chapter I investigate temporal variations
+in meteor detection count over time. There are
+many patterns that arise in meteor detection: diurnal shift over the course of a day, and showers
+causing variation over the course of a year. These
+variations can occur because of a variety of factors.
+In chapter 3 I have investigated the cause of diurnal
+shift, in chapter 7 I have investigated meteor showers. In this chapter I will analyse the variation of
+counts on a diurnal, monthly and annual scale.
+Knowledge of the variation seen in meteor detection may help to improve methods such as Zenithal
+Hourly Rate (ZHR); by providing a better understanding of the background detection counts, normalising data to investigate meteor showers can become easier. See chapter 7 for more on ZHR. Of significance is a comparison between these results and
+other analyses of temporal variation, but for visual
+detection: will radio detection be more influenced?
+Are the same variations seen? This analysis will
+demonstrate whether any variation is a worldwide
+phenomenon since the data set includes observers
+23
+
+5.2
+
+Literature Review
+
+Lindblad (1968) [lindblad] provides a similar
+analysis on long-term variation in meteor radar
+rates, as well as echo amplitudes. In this paper it
+is seen that the echo amplitudes correlate with the
+electron line density, indicating an influence from
+the solar wind. It is also observed that long-term
+variation in radio meteor detection count can be explained qualitatively by a variation in atmospheric
+density in the region where most meteors burn up,
+which itself is related to the solar cycle. During solar minimum, the shortest ionisation trails are seen,
+as well as higher electron line densities, suggesting
+that meteor echo signal strength will be greater at
+solar minimum.
+Bumba (1948) [bumba] calculated the yearly rate
+of meteors as a function of position in the solar cycle, demonstrating that there is an inverse relationship between solar activity and detection counts,
+that is, counts are maximised when solar activity
+
+Location
+Europe
+North America
+Asia & Australia
+
+is at a minimum.
+
+5.3
+
+Methodology
+
+Table 5.1: Sample sizes for location categories
+
+There are two main analyses.
+
+5.3.1
+
+Data characteristics
+
+5.3.3
+
+The first is an analysis of the variation over time
+of characteristics that summarise the data, specifically 4 values. (Note that these are the same as
+chapter 3 and ??, other than the mean, minimum
+and maximum values which are not included in
+this analysis). The standard error of all data for
+the observer is taken, which indicates how much
+the data varies. A lower value indicates that the
+same detection count is generally seen, and a larger
+value indicates that the detection count varies erratically. The skew also indicates the distribution
+of the detection counts. A positive skew indicates
+that the detection counts trail off towards high values, whilst a negative skew indicates that the distribution is ‘steeper’ for higher values, suggesting that
+there is a limit to the detection counts. The last
+two values are the peak hour of the diurnal shift,
+and the fit to an optimised sine curve for the mean
+detection counts over each hour of a day. This is
+calculated by averaging the values for all data for a
+given hour after midnight. A sine curve is in then
+fit to this, in the same process as chapter 3, giving
+a sine function of the form N = A sin (ωt + φ) + µ
+where N is the detection count. The calculated ‘fit’
+is the sum of the covariances for A, µ, and φ. ω is
+assumed to be 2π
+24 so that the shift has a period of
+one day. These 6 values will be calculated for each
+observer, then the mean is recorded for all data for
+each month of each year.
+
+5.3.2
+
+No observers
+220
+37
+12
+
+Analysis by location
+
+For each of the above analyses, they will be repeated for data from all observers around the world
+from the RMOB data set, as well as specific locations, namely observers from Europe, Asia & Australia, and North America. The sample sizes for
+observers in each location category are shown in
+table 5.1.
+
+5.4
+
+Results
+
+5.4.1
+
+Data characteristics
+
+Standard error
+From figure 5.1 it is clear that the standard error
+is relatively small, and does not vary a great deal
+long term. There are short-term anomalies, for example in 2000 and 2008, for observers located in
+North America, and in 2005 for observers located in
+Europe. There is a clear increase in standard error
+for all categories from 2005 to 2011. The variation
+within each year does not appear to be periodic.
+
+Detection counts
+
+The second analysis is of the mean hourly detection counts for all observers in the sample, over various scales. The scales being considered are daily,
+monthly and yearly. For yearly the mean will be
+taken over the entire year, and also each month in
+a year, to give a higher resolution of the variation.
+A similar analysis, on the yearly scale, will be completed which uses data solely from the night-time,
+or day-time (for the location of the observer).
+24
+
+Figure 5.1: Variation of standard error
+
+Skewness
+There does not appear to be a long term trend.
+The skewness is generally larger than 0, however it
+varies by ∼1, around 2000. This variation decreases
+over time, and the skewness appears to be closer to
+0 for years 2005 onwards. There are anomalous
+results, but they are short term. For observers located in Europe, the skewness dips below 0 around
+2005-2011 before fluctuating around 0 from 2011
+onwards. This is the same for all categories; the
+values fluctuate around 0 between 2011 and 2015.
+
+Figure 5.3: Variation of peak hour of diurnal shift
+
+though this category does decrease too.
+
+Figure 5.2: Variation of skewness
+
+Diurnal shift
+Between 2003 and 2007 there is a large amount
+of variation for observers in both Asia & Australia,
+and North America. Towards more recent years,
+the variation is much smaller for all categories. The
+overall trend is not clear due to the large variation. Mostly, each category appears to fluctuate
+around certain values. For observers in Europe,
+this is ∼ 6, in Asia & Australia the values fluctuate around ∼ 18, and in North America, around
+∼12. During the periods with the most fluctuation
+in figure 5.3, the sum of the parameter covariance,
+indicating how well a sine function fits the data, is
+greatest. The mean fit, across all observers, is relatively low throughout the years available, however
+there is again a noticeable increase between 2005
+and 2010, which fits in with increases & decreases
+in other analyses. The fit is closer to 0 in recent
+years, for all categories other than North America,
+25
+
+Figure 5.4: Variation of fit to optimal sine function
+for diurnal shift
+
+5.4.2
+
+Monthly scale variation
+
+The variation over the course of a month is shown
+in figure 5.5. There is no overall trend throughout
+a month. There is no overall increase or decrease,
+though there is a slight increase around the 13th
+day in the month.
+
+5.4.4
+
+Between 2003 and 2011 there is a dramatic increase in the mean hourly detection count across
+an entire year. This increase is on the order of ∼
+2 times, from ∼ 60 to ∼ 120. This increase is out
+of phase by 1 year for the North American category. Once the count returns to ∼ 60, it remains
+there from 2011 to 2016. There is no data available for the Asia & Australia category for the maximum period so it is not known if the same increase
+is seen, however the category containing observers
+from the entire world exhibits the increase. Whilst
+the North American category has another peak in
+2003, the standard error is much larger. Figure 5.8
+
+Figure 5.5: Variation in mean hourly detection
+count over a month
+
+5.4.3
+
+Variation since 2000
+
+Annual scale variation
+
+There is a clear increase from the beginning of a
+year to the end, for all categories other than Asia
+& Australia. From January to February, there is a
+small decrease, followed by an increase until June.
+This is followed by a small decrease of ∼ 10 detections an hour, until August. The mean hourly
+detection count then remains roughly constant until the end of the year. This is the same for all
+categories other than Asia & Australia. For this
+category, there is an increase in April and May,
+and then a decrease and a constant hourly count Figure 5.7: Variation in mean hourly detection
+for the rest of the year.
+count since 2000 by year
+shows the same data as figure 5.7 but on a finer
+resolution: for each month of each year available.
+The same increase is seen as before, though it is
+clear there there is much more variation between
+2004 and 2011, as noted in section 5.4.1. It is clear,
+from 2011 onwards, that there is a periodic variation each year, with a greater hourly detection
+count in the middle of the year.
+
+Daytime vs. night-time rates
+In light of the correlation between the solar minimum and the maximum detection counts, I carried
+out a paired t-test to determine if there is a significant difference between the mean hourly detection
+counts when considering only daytime values, and
+night-time values. There is no significant difference
+between daytime and night-time (1% significance
+level).
+
+Figure 5.6: Variation in mean hourly detection
+count over a year
+
+26
+
+with the greater detection counts, the diurnal shift
+has less influence on the total counts, meaning there
+is a worse fit for a sine function.
+
+5.5.2
+
+It is expected that there is no overall trend over
+the course of a month. Any variation on this scale
+could potentially be caused by the moon, though it
+is unlikely that it would have an impact, and this
+is seen in the results. The small increase around
+the 11th-14th day of the month may be caused by
+a large shower, such as the Perseids, which causes
+such an increase in counts that it influences the
+mean across all months.
+
+Figure 5.8: Variation in mean hourly detection
+count since 2000 by year and month
+
+5.5
+5.5.1
+
+Monthly scale variation
+
+Discussion
+
+5.5.3
+
+Data characteristics
+
+Standard error
+The low variation shows that there are not large
+changes in hourly detection counts. This implies
+that influences from meteor showers do not greatly
+increase or decrease the detection counts, at least
+on a degree that would cause great variation. The
+increase from 2005 to 2011 agrees with figure 5.7,
+where the variation greatly increases during the
+maximum in detection counts. The influence of a
+solar minimum, causing greater detection counts,
+supports this. With the absence of a strong solar
+wind, variations in the number of meteors are likely
+to have more effect.
+
+Annual scale variation
+
+The increase in the middle of the year may be due
+to an increased number of meteor showers, or some
+other phenomenon. This increase can likely be considered part of the summer, since most observers in
+the sample are in the Northern Hemisphere. The
+low standard errors suggest that there is a clear periodic increase, and on the order of ∼ 20 counts an
+hour. The Asia & Australia exhibits an increase,
+but two months earlier, and it does not persist for
+the rest of the year as other categories do. I do
+not put forward any explanation for this increase,
+further investigation is required.
+
+5.5.4
+
+Variation since 2000
+
+The increase centred around 2007 is significant.
+The maximum of the hourly detection counts occurs between 2006 and 2008, whilst the solar minimum occurs in 2009, however the sunspot number
+is not much larger than this from 2006, as can be
+seen in figure 5.10. This correlation (as well as a
+slight phase difference of 1 or 2 years) between solar
+minima and meteor maxima is noted in other articles [lindblad]. That the solar cycle has an impact
+on meteor detection rates is not unexpected. The
+Diurnal shift
+I provide no explanation for the large amount of solar cycle influences heavily the solar wind and
+variation in the diurnal shift peak hour for earlier electron density, which will have a large influence
+years, around 2000. In more recent years, the vari- on detection rates, especially for radio detection.
+ation is less severe and the peak hour fluctuates
+around values that are expected from chapter 3. Daytime vs. night-time rates
+There is a worse fit during the years where there is
+The fact that there is no significant difference
+a maximum in detection counts, possibly because, between daytime and night-time counts seems to
+Skewness
+It is expected that the skewness fluctuates
+around 0, primarily above 0. There will be an
+abrupt end in the distribution of possible detection counts since they cannot be negative, whereas
+there will be a tail towards large counts since there
+is (theoretically) no limit.
+
+27
+
+(a) All observers
+
+(b) Observers in Europe
+
+(c) Observers in North America
+
+(d) Observers in Australia & Asia
+
+Figure 5.9: Daytime vs. Night-time hourly detection counts
+disagree with other studies. However, this simply
+rules out an influence from the Sun being above the
+horizon, or not. This does not discount the influence of the solar wind, since the change in electron
+density is not on only one side of the Earth. Thus
+any increase caused by the solar wind would not
+cause a significance difference between daytime and
+night-time counts.
+
+ports hypothesis from Lindblad and Bumbda, as
+cited in section 5.2. There is no basis to reject
+the hypothesis that the daytime and night-time
+hourly detection counts are different (1% significance level), indicating that there is no influence
+on detection counts that varies over a single day’s
+time frame. The results also show an increase in the
+middle of the year, which I provide no full explanation for. Further work on a hemispherical analysis
+may provide more information on this. A combi5.6 Conclusion
+nation of a temporal and spacial analysis may also
+provide more information, since the two ‘dimenI have found a significant increase in hourly de- sions’ of variation often work in conjunction with
+tection counts between 2005 and 2011. The in- one another.
+crease correlates well with solar activity, which sup28
+
+Figure 5.10: Solar cycle sunspot number over time
+[sunspot]
+
+29
+
+Chapter 6
+
+Antenna Data Characteristics
+Abstract
+In this chapter I study the effect that antenna type has on the data produced by said antenna.
+This is done through an analysis of key characteristics describing important qualities of the data
+at hand. I find that, though there is variation between the differing types, there is no clear
+advantage for any of the considered antenna types. However, I also find that there are I also
+Indications as to which antenna type receives the best detection counts may influence which
+antennas are used for future radio detection stations.
+
+6.1
+
+Background
+
+6.2
+
+Methodology
+
+Radio meteor detection can use a variety of dif- 6.2.1 Selecting authors
+ferent antenna types. There are 12 main types
+There are 12 antenna types that will be analused in the RMOB data I am using. Yagi antennas are overwhelmingly the most popular, followed ysed. In order to carry out the analysis, the obby dipole antennas (see figure 6.1). Each antenna servers must be split into groups for each of these
+types. This was done through manual selection:
+displaying the antenna type of each observer (if it
+has one), and choosing which type this antenna is,
+through a python program. Any unknown types
+were declared as miscellaneous. These categories
+were then saved to their own file.
+
+6.2.2
+
+Analyses
+
+The analysis focused on 6 values, aimed at summarising and describing the detections made by the
+observers in each antenna category. Two of these
+values are the mean and maximum of all data collected by each respective observer. The minimum
+is of little importance, since the value will almost
+always be 0 or 1. These indicate the typical detection counts for the observer. The standard error
+of the same data set is also taken, which indicates
+how much the data varies. A lower value indicates
+that the same detection count is generally seen, and
+
+Figure 6.1: Antenna usage in RMOB data
+type has it’s own merits and cons, but that is a a
+discussion for another report.
+30
+
+a larger value indicates that the detection count
+varies erratically. The skew also indicates the distribution of the detection counts. A positive skew
+indicates that the detection counts trail off towards
+high values, whilst a negative skew indicates that
+the distribution is ‘steeper’ for higher values, suggesting that there is a limit to the detection counts.
+The last two values are the peak hour of the diurnal
+shift, and the fit to an optimised sine curve for the
+mean detection counts over each hour of a day. This
+is calculated by averaging the values for all data for
+a given hour after midnight. A sine curve is in then
+fit to this, in the same process as chapter 3, giving
+a sine function of the form N = A sin (ωt + φ) + µ
+where N is the detection count and t is the hour.
+The calculated ‘fit’ is the sum of the covariances for
+A, µ, and φ. ω is assumed to be 2π
+24 so that the shift
+has a period of one day. A comparison is made of
+these 6 values for each antenna type.
+
+6.2.3
+
+Sample sizes
+
+Sample sizes for each antenna category are shown
+below.
+Antenna
+Diamond
+Discone
+Full wave loop
+Ground plane
+J-pole
+Log periodic
+Omni
+Quad
+Turnstile
+Vertical
+Yagi
+
+6.3
+6.3.1
+
+to a single observer with a large detection count,
+and this is supported by the large standard error. There is also no significant difference in the
+maximum values. The most extreme (both large
+and small) maximum counts have larger error bars,
+which suggests that there are only a few observers
+which have these maximum counts out of all those
+in the antenna category.
+
+Figure 6.2: Mean and maximum hourly detection
+counts (maximum count in red, mean in blue)
+
+o
+
+N observers
+4
+12
+5
+25
+4
+6
+3
+3
+6
+23
+113
+
+6.3.2
+
+Standard error
+
+Figure 6.3 shows the results for the mean standard error of the hourly counts for each antenna
+category. The most extreme values have the largest
+error bars, suggesting that this is because there is a
+small sample size. However, the turnstile, vertical
+and j-pole antennas have the largest standard errors, suggesting these antennas produce data with
+the most variation. Log periodic, ground plane, full
+wave loop and diamond antennas have the lowest
+standard error suggesting the lower variation of the
+data.
+
+Results
+
+6.3.3
+
+Mean & maximum
+
+Figure 6.2 shows the result for the mean and
+maximum counts for each hour, averaged for each
+respective antenna type. There is no clear difference between the means, as shown by the error
+bars, which show standard error. The largest mean
+is for a Turnstile antenna, though this is likely due
+31
+
+Skew
+
+From figure 6.4, it can be seen that log periodic,
+vertical and yagi antennas have the largest positive
+skew, with turnstile, discone and full wave loop antennas with the largest negative skew. Generally,
+a positive skew is expected since the data should
+trail off towards larger counts, whereas no counts
+
+it is likely that ground plane, omni, quad and turnstile antennas are mostly used in Europe, whilst full
+wave loop, J-pole and diamond antennas are used
+mostly at latitudes ∼ −180◦ and 180◦ .
+
+Figure 6.3: Variation of hourly detection counts
+
+are valid below 0, so there is a steeper end to the
+distribution of data. This is not seen in the data.
+The skewness values for each antenna category are
+Figure 6.5: Peak hour of diurnal shift
+relatively evenly distributed around 0. 5 of the categories have a standard error in the skew that is
+The larger results for j-pole, quad, turnstile and
+larger than the skew itself, suggesting that these
+vertical
+antennas suggests that these are not as invalues are not significant and cannot be considered
+fluenced
+by diurnal shift. However, these categories
+completely valid.
+have much larger standard errors than other categories, suggesting that there is simply a low sample size. Vice versa, ground plane and log periodic
+antennas have much better fits to a sine curve, implying the antennas are more influence by diurnal
+shift.
+
+Figure 6.4: Skewness of hourly detection counts
+
+6.3.4
+
+Diurnal shift
+
+The results are relatively evenly distributed
+Figure 6.6: Fit to optimal sine function for diurnal
+around a peak hour of 9, though, as found in chapshift
+ter 4, this is most likely due to the geographical
+location where the antenna is used. Based on this,
+32
+
+6.4
+
+Discussion
+
+within each category. Ground plane and log periodic antennas appear to produce data that fits a
+sine-function very well, indicating a greater period6.4.1 Mean & maximum
+icity in the data than other antennas. The poorest
+There is no clear trend for an antenna which pro- fits have large standard errors, indicating that these
+duces data which, on average, has greater hourly values are of little validity.
+counts. This is expected. Were there an antenna
+that was particularly good at radio meteor detec6.4.5 Improvements
+tion, it would likely be used widely. Equally, if
+there was an antenna that produced particularly Location From previous chapters, it is known
+poor data, it would not be used at all. The stan- that the location where data is collected will infludard errors, for all categories, range across ∼ 20 ence the results. Because of this, simply grouping
+counts an hour. This is substantial, and suggests together observers who use the same antenna may
+that there is little agreement between characteris- not give an accurate reflection of the data charactics of data for observers that use the same anten- teristics unless the data is somehow normalised so
+nas.
+that location has no effect. The simplest way to
+do this is to include more observers, and then analyse the antenna categories. When comparing these
+6.4.2 Standard error
+results, the location can be factored into any conFor some categories, the mean standard error clusions, removing the influence that location has
+is much larger. However, these categories have on the data.
+greater errors. Diamond, full wave loop, ground
+plane and log periodic antennas appear to produce
+Yagi n-element analysis
+data with the lowest amount of variation. The imIn my analysis I have grouped all yagi antennas
+plication is that the antennas are poor at detecinto the same category. An analysis based on the
+tion meteors, so there will be little variation in the
+number of elements on the antenna within the yagi
+counts. However, comparing these categories with
+category may indicate if there is an optimal numfigure 6.2, they are the lowest categories (other than
+ber of elements for meteor detection, as well as the
+full wave loop), but not significantly lower than otheffect of different numbers of elements on the charers.
+acteristics of the data.
+
+6.4.3
+
+Skew
+
+6.4.4
+
+Diurnal shift
+
+Coefficient of variation
+Instead of using standard error of the hourly deLog periodic, vertical and yagi antennas all aptection
+counts to indicate the variation of the data,
+pear to produce reasonably positively skewed data.
+it
+may
+be
+better to use the coefficient of variation,
+The same extremity is not seen for a negative skew.
+c
+,
+defined
+as cv = σµ where µ and σ are the mean
+Other than vertical antennas, the error is not too v
+large, indicating that there is some correlation. A and standard deviation of the data respectively.
+lack of correlation with other properties indicates This gives a better reflection of the variation as
+that this is an anomalous result. However, further instead of factoring in the sample size, it factors in
+the mean, which is an improvement since the deinvestigation may yield this to be untrue.
+gree of variation is no longer proportional to the
+mean, giving no skew favouring lower means.
+Variations in the peak hour of diurnal shift are
+likely due to location, as discussed in chapter 3 and
+4. However, most antennas appear to produce data
+with peaks around hour ∼ 9. Errors for all categories are substantial, indicating little agreement
+33
+
+Percentiles
+As part of the data characteristics analysis, I
+used the maximum count to help summarise the
+data. This is not a very useful summary value to
+make, since the maximum itself holds little value.
+
+What would indicate the distribution of data better is a value such as the 90th percentile. This may
+give a better reflection of the data that an antenna
+produces.
+
+6.5
+
+Conclusion
+
+There is no clear correlation between any characteristics and the antenna types. However, jpole, log periodic and turnstile antennas consistently have the most extreme values. However, the
+extremes for these antenna types do not necessarily imply the same characteristics of the data. Log
+periodic antennas appear to provide consistently
+positive-skewed data. Turnstile antennas appear
+to provide the largest detection counts. A consistent theme throughout the results are large errors,
+suggesting large variation within each antenna category, implying little correlation between the given
+antenna type and the characteristic under consideration. Greater sample sizes, as well as isolation
+of other variables (location, time) may reveal more
+correlation.
+
+34
+
+Chapter 7
+
+Zenithal Hourly Rate Validity for
+Radio Detection
+Abstract
+I present an improved formula for calculating Zenithal Hourly Rate (ZHR) and an analysis
+of its validity for radio meteor detection. Beyond this, I assess the implications of the resultant
+ZHRs for antenna field of view, meteor shower population index and stream density. The
+formula, with modification is valid, and the results agree well with visual results. There are
+clear improvements that can be made, though as a first approximation the formula is adequate.
+
+7.1
+
+Background
+
+Zenithal Hourly Rate (ZHR) is a measure of the
+activity of a meteor shower. The value indicates
+how many meteors an observer can expect to see,
+assuming optimal viewing conditions, with the meteor shower’s radiant at the observer’s zenith (directly overhead).
+
+7.2
+7.2.1
+
+Literature Review
+Calculating ZHR
+
+A formula already exists for calculating the theoretical ZHR from known data and conditions [zhr].
+The formula (7.1) depends on four correction factors.
+HR · F · r6.5−m
+ZHR =
+(7.1)
+sin (h)
+N
+, N is
+The hourly rate is given by HR = Tef
+f
+the number of meteors observed, and Tef f is the
+effective observation time of the observer. This
+corrects the number of meteors detected such that
+it is an hourly rate.
+
+35
+
+The correction for the field of view, F , is given by
+1
+1−k where k is the percentage of the observer’s
+field of view that is obstructed.
+The correction factor for limiting magnitude is
+given by r6.5−m , where m is the limiting magnitude
+of the observer. This corrects the value such that
+it is representative of the ZHR when the limiting
+magnitude is 6.5. The value of r itself is the
+population index; a measure of the magnitude
+distribution of the shower. For each increase by
+1 in magnitude (bearing in mind that a greater
+magnitude is a lower value), the number of meteors
+you would expect to see increases by r.
+The final correction factor is for the altitude of
+the radiant above the horizon, measured as an
+angle. This is effectively π2 − z where z is the
+zenith distance in radians. The radiant is the
+observed point of origin for all meteors in the
+shower. This correction factor is given by sin h
+where h is the angle from the horizon to the radiant.
+
+7.2.2
+
+Meteor shower information
+
+The International Meteor Organisation (IMO)
+provides a list of “meteor shower calendars”
+[imo˙meteor˙calendar]. These contain a list of
+notable meteor showers, with information on these
+showers including the active range (period in which
+the shower produces visible meteors), the date
+of it’s maximum, the expected ZHR, radiant coordinates (in right ascension and declination), and
+finally the population index. This calendar will be
+the source of my data for visual observation data,
+and will provide the information from which comparisons can be made with the radio observation
+data.
+
+correction (which is sin1 h ) approaches inf. This is
+clearly wrong. When the radiant approaches the
+horizon, the number of meteors observed doesn’t
+approach 0, and thus the correction should not approach inf. In other words, you do not see infinitely
+many meteors when the radiant is at the zenith
+compared to the horizon. Further to this, the use
+of a sine function simply means that there is no
+way a calculation can be made when the radiant
+is at the horizon — this should be possible. The
+sine function also results in a negative ZHR when
+the radiant is below the horizon. Clearly, you do
+not expect to see anti-meteors when the radiant is
+below the horizon.
+
+Previous Solution Solutions to the issue with
+the radiant height correction factor have been studied previously [hr˙correction]. In this article, a
+7.3.1 Assumptions
+piecewise function is noted from Kresák [kresak]
+which uses a cosine function of the zenith distance
+The following assumptions are made in my cal(which equates to a sine function of the radiant alticulations.
+tude) down to 80◦ , and then uses another function
+• The receiving antenna is active for the entire which extends the domain of the model to ∼100◦ .
+The article itself puts forward a complex function
+period where data is available.
+which works over a similar domain. This is not
+• The antenna detects meteors across the entire a first approximation though, it is an attempt at
+sky.
+an accurate function to describe the flux correction
+• Detected meteors are travelling tangential to factor for a range of radiant altitudes. The article
+notes that there is a small, yet present, possibility
+Earth’s surface.
+of shower meteors for a radiant below the horizon,
+• The shower meteors are incident uniformly in and the reason for this dramatically lower expected
+all directions around the radiant.
+detection count is that the atmosphere shields the
+Earth from most of the debris, and only those travelling tangential to the Earth’s surface are detected.
+7.3.2 Formula modification
+This may be applicable to visual observation, but
+The formula [zhr] for ZHR has a number of is- radio detection almost relies on meteors travelling
+sues that cause inaccurate results. In order to use tangential to the Earth’s surface, so the radiant
+the formula in my analysis, these errors must be being below the horizon does not have such a dracorrected.
+matic effect. For this reason, I do not believe this
+is a useful replacement for the correction factor.
+Inaccuracy of radiant height correction
+
+7.3
+
+Methodology
+
+Problems
+Perhaps the largest error is that of the radiant
+height correction. The correction assumes a sine
+function of the angular radiant height, which varies
+(with −π ≤ h ≤ π) between -1 (for h = −π)
+and 1 (for h = π). This creates a number of issues: when the radiant approaches the horizon, h
+approaches 0, as does sin h. This means that the
+36
+
+Solution
+From a basic geometric standpoint, the number
+of meteors you expect to observe, varying with the
+radiant height, should depend on the proportion of
+a hemisphere (with the radiant at the pole) that
+is visible (figure ??). Of course, this assumes that
+meteors from the radiant travel uniformly in all directions. A wedge of a sphere has a curved surface
+
+area of 2αr2 , where α is the angle at the central
+axis of the wedge. Thus, the proportion, p, of the
+2
+α
+hemisphere that is visible is 2αr
+2πr 2 = π . For an angle
+α varying between −π and π, the proportion will
+vary between -1 and 1 (perhaps where the original
+sine factor came from). When the radiant is at the
+zenith, you would obviously expect to see the same
+number as if the radiant was at the zenith, so the
+correction factor, c, is 1. When the radiant is at
+the horizon, half the hemisphere is visible, so you
+would expect to see half the number of meteors at
+the zenith (c = 2), and when the radiant is directly
+below you (at the nadir) then you would expect to
+see no meteors (from the shower), since none of the
+hemisphere of the radiant is visible to you. Mapping the proportion linearly from −1 < p ≤ 1 to
+h
+for −π < hR ≤ π,
+0 < 1c ≤ 1 yields 1c = 12 + 2π
+where h is in radians. This satisfies the expected
+correction factor.
+
+The calculation of this background rate is a chapter
+in itself. The difficulty arises in that if the baseline is larger than any detection counts within the
+active range, the resulting ZHR will be negative,
+and this is not a valid result. A solution to this is
+to choose the minimum hourly detection count in
+the active range of the shower, but this is rather
+artificial, and often results in a baseline of 1 or
+0. Instead, I have decided to calculate the background hourly detection count by taking the mean
+hourly detection count for the lower quartile of all
+hours outside the active range of any meteor showers. This will result in some ZHRs being negative,
+but these results should be minimal and can simply
+be discarded.
+Field of view correction
+
+I will not include a field of view correction factor,
+since it is not possible to know exactly the field
+of view that each antenna has available, since it is
+Population index limitations
+not part of any data that an observer can upload to
+The population index indicates the magnitude RMOB. This should have a reasonably large impact
+distribution of the meteor shower. For each ex- on the results, however the correction factor will be
+tra magnitude of visibility, an observer would ex- absent for all calculations so the error is the same
+pect to see r times more meteors. This is true, everywhere (on average). In fact, using the final
+but only up to a point. Without a limit on how results may allow the average field of view to be
+far this model works, the implication is that this calculated.
+power-law distribution carries on forever. Clearly
+this is not true: if limiting magnitude was (rather
+7.3.3 Calculating radiant height
+absurdly) 40, you wouldn’t expect to see 1.1 trillion meteors (if r = 2.0). Thus the model is not
+From the spherical law of cosines, we know that
+applicable for limiting magnitude, m > 6.5, since
+cos z = sin φ sin δ + cos φ cos δ cos (θ − α)
+the model that the magnitude distribution is of the
+form N = No rm is no longer valid. The radio observation of meteors has a larger limiting magnitude where z is the zenith distance, φ is the observer’s
+than visual observation: meteors down to the size latitude, α and δ are the right ascension and decof a grain of sand, and smaller, can be detected. lination of the shower radiant, and θ is the local
+Thus the population index model is not applica- apparent hour angle (an angular measure of loble for radio meteor detection, unless the model is cal sidereal time, which effectively measures time
+against the stars rather than the Earth’s rotation).
+refined for larger limiting magnitudes.
+Since h = π2 − z, cos z can be replaced with sin h.
+This relations the radiant altitude to the longitude
+Background detection count
+of the observer and the radiants astronomical coIn visual observation of meteors, the background ordinates.
+level of sporadic meteors is rather low. However,
+for radio meteor detection, there is a much greater 7.3.4 Calculating hourly rate
+background detection rate and this will impact how
+accurate the ZHR is. A correction is required to reThe hourly rate is given by the observed hourly
+move the effect of any background detection rates. rate (the data I actually have), minus the baseline
+37
+
+Shower
+Geminids
+Leonids
+Orionids
+Perseids
+Quadrantids
+η aquariids
+
+N◦ observers
+67
+61
+43
+39
+58
+34
+
+This calculation will be done for each hour available, and then a mean will be taken. This process
+will be applied to three ranges of dates: the entire active period of the shower (for a given year),
+two days either side of the peak date, and the peak
+date. Once this has been calculated for all the available data in the given ranges, the mean and 90th
+percentile are recorded. These will then be comTable 7.1: Sample sizes for meteor showers
+pared to the known values from the IMO meteor
+shower calendar [imo˙meteor˙calendar]. I am using the 90th percentile rather than the maximum
+hourly rate. This should be divided by the effec- ZHR since the maximum itself is of little worth to
+tive observation time, but since I am making the indicate the distribution of ZHRs. A box plot for
+assumption that the antenna are receiving across each year of each shower would yield the most inthe entire hour, then there is no need for this.
+formation but would provide far too much data to
+consider at once, whereas the 90th percentile indicates the maximum clearly without producing the
+7.3.5 Analysis
+exact same result if, for instance, the maximum
+Selecting observers In order to carry out the ZHR was the same across all three periods under
+analyses, the observers had to be split into groups consideration.
+for each shower. This was done simply by checking which months each observer was active for, and Correction factors
+adding it to a given category if the observer is acThe final results will then be used to estimate the
+tive during the shower. This selection was refined average field of view across all observers whose data
+further so that an observer must be active for the are used, as well as the average limiting magnitude.
+entire peak date, and have no more than 12 inactive This is a rough calculation, and is likely to have a
+hours during the active period of the shower. The large uncertainty, but it gives an estimate towards
+sample sizes for each shower are shown in table 7.1. the true values and is an interesting calculation to
+make. The formula for the field of view factor is
+Comparison
+My analysis of the ZHR will centre around a
+comparison between the summary statistics for the
+ZHRs from the hourly counts for the stored observers, and known values for the ZHRs for applicable years. The process of calculating the ZHR
+follows a simple process of calculating the correction factors, correcting the known hourly rate, and
+discarding any invalid values (e.g. negatives). The
+formula, after modification, is
+ZHR =
+
+N −r
+
+h
++ 2π
+
+1
+2
+
+where r is the background hourly rate, and N is
+the number of meteors detected for one hour. The
+error is given by
+ZHR
+S.E. = √
+N
+38
+
+k =1−
+
+ZHRmean
+ZHRexp
+
+For the limiting magnitude,
+m = logr
+
+r6.5 · ZHRmean
+ZHRexp
+
+For each of these calculations, ZHRmean is the calculated mean ZHR for the peak of the shower, and
+ZHRexp is the maximum visual ZHR for the same
+shower and year. It is clear that a negative k will be
+the result when the mean ZHR of the peak is less
+than expected, and positive otherwise. Any negative values can be discarded. Equally, a limiting
+magnitude will be less than 6.5 if the mean ZHR
+of the peak is less than expected, otherwise it will
+be larger than 6.5. Values less than 6.5 can be discarded. This means that the correction factor that
+applies will either be for field of view, or limiting
+magnitude, not both.
+
+7.4
+
+Results
+
+pected ZHRs and calculated ZHRs implies that the
+issue is simply a matter of a correction factor, e.g.
+The full results are shown in appendix A. In this field of view or population index (the leonid shower
+may have a large population index, indicating that
+section, important results are noted.
+with the higher limiting magnitude for radio observation, you detect more meteors).
+
+7.4.1
+
+Comparison
+
+Geminids
+For all years other than 2012, the mean ZHRs are
+lower than the expected visual ZHR. In 2005, the
+ZHR results are not similar to those for expected
+visual ZHR (120), nor the maximum ZHR (155) for
+the shower. There is a clear decrease in the mean
+ZHR for the peak (30.6 ± 4.03) compared to the
+entire active period (37.0 ± 1.87). In 2006 there
+is again a decrease between the 90th %ile on the
+peak ± 2 days (121) compared to the peak itself
+(103), however the means are similar (59.6 ± 5.10
+and 60.9 ± 7.64 respectively). For 2010, the peak
+has the largest ZHRs (mean 124 ± 6.53) which is
+much closer to the expected visual ZHR (120) and
+maximum (142) than previous years. The remaining years (2011, 2013, 2014, & 2015) all have means
+for each period lower than expected, but the 90th
+percentiles are all similar to the visual maximum
+ZHRs (161, 133, 143, 163). The 90th percentiles
+do not change significantly over time, and nor do
+the maximum visual ZHRs.
+
+Orionids
+For all years where data is available, the calculated ZHRs are consistently greater than expected.
+However, in the years 2010 through 2012, there is
+a higher expected ZHRs and this is reflected in
+the greater calculated ZHRs and 90th percentiles.
+Despite this, the 90th percentiles are much higher
+than expected. In 2016 the calculated ZHR means
+are closer to the visual maximum ZHR than any
+other year, but the 90th percentiles are still higher
+than expected. In 2011, 2012, 2014, 2015, & 2016,
+the mean ZHR on the peak date is lower than the
+mean of the peak ± 2 days. In 2014 & 2016 the
+mean ZHR of the peak data is lower than the mean
+ZHR of the entire active period.
+Perseids
+The mean ZHR for all periods other than the
+peak and peak ± 2 days in 2012, are lower than
+the expected ZHR (100, the same for all years).
+For all years other than 2016, the 90th percentile
+ZHR for the peak are higher than the maximum
+ZHR for each year. In 2010 and 2012, there is a
+greater visual maximum ZHR than 2011. In time
+order, the visual maxima are 142, 58, and 122. This
+is matched by a decrease in the calculated ZHR,
+changing from 197 in 2010, to 141, then increasing to 271 in 2011. This change also occurs in the
+mean ZHRs. In 2016, the largest visual maximum
+is recorded. However, the 90th percentile of the calculated ZHR is the lowest out of all peaks. For all
+years, there is an increase in the peak from the entire active range to the peak ± 2 days, then to the
+peak. This is not reflected in the 90th percentile: in
+2012, the 90th percentile decreases from 275 for the
+peak ± 2 days to 271 on the peak. However, this
+is a small decrease. Equally in 2014 the 90th percentile does not change between these two periods
+(remaining at 133).
+
+Leonids
+In 2005, the maximum visual ZHR (24) is lower
+than the years following, as are the calculated
+means for each period and the maxima (mean 31.7
+± 6.09 and 90th percentile 71.4 for peak). This
+suggests a good correlation. In 2007 the calculated
+values are dramatically higher than expected. For
+example, the mean on the peak is 205 ± 17.2 with
+90th percentile 288 compared to an expected ZHR
+of 15 and visual maximum of 47. In the previous
+year, 2006, there is no calculated data, but the expected ZHR (100) is much greater than other years.
+Despite this large increase, the standard errors also
+dramatically increase, suggesting a low number of
+data points available. In the years following 2007,
+the means for all periods (∼50) are closer to the
+expected values (∼15–20), but still larger. The
+90th percentile of the calculated ZHRs are much
+higher than the visual maxima, however the cor- Quadrantids
+relation between increase and decrease of the exFor all years with available data, the mean ZHR
+39
+
+Shower
+m ± S.E.
+k ± S.E.
+for the peak is greater than the entire range and
+Geminids
+6.63 ± 1.00
+0.418 ± 0.0334
+peak ± 2 days. This is also reflected in the 90th
+Leonids
+7.29 ± 0.0563
+0 ± 0
+percentiles. In fact, there is consistently a signifiOrionids
+6.96 ± 0.0382 0.0581 ± 1
+cant increase from the peak ± 2 days to the peak,
+Perseids
+6.69 ± 0.0157
+0.267 ± 0.0500
+on average by a factor of 1.5. All mean calculated
+Quadrantids 6.56 ± 0.0209
+0.214 ± 0.0140
+ZHRs are lower than the expected visual ZHR, and
+η aquariids 6.77 ± 0.0551
+0.240 ± 0.0424
+the 90th percentiles are typically greater than the
+maximum visual ZHR. The variation in the maximum visual ZHR are reflected in the means. In Table 7.2: Limiting magnitude (m) and % obstruc2011 and 2012 the means for the peak are very close tion (k) for each shower
+to the visual maximum. Whilst the remaining years
+are not as close to the visual maxima, where the
+Discussion
+maximum increases (2013, 2014), the mean ZHR 7.5
+for the peak increases, and then decreases for 2015
+and 2016, as does the visual maximum.
+7.5.1 Comparison
+
+η-aquariids
+In 2013 and 2014, the mean ZHR for the peak is
+lower than the mean for the peak ± 2 days (61.4
+± 3.01 compared to 60.2 ± 5.13 for 2013), though
+the standard error is such that this difference is not
+significant. The 90th percentiles also decrease between these two periods, though the difference is
+once again small. For all other years, the peak is
+greater than the periods surrounding it, however
+the difference is typically small. In 2010, the mean
+for the entire active range is the lowest (140 ± 1.91)
+but the 90th percentile is only slightly lower than
+the peak (291 compared to 304). For 2014, the
+mean ZHRs decrease from the entire active range
+down to the peak (52.9 ± 1.57 compared to 47.4 ±
+5.03 for the peak). This is also reflected in the 90th
+percentiles for each period. All mean ZHRs for the
+peak are greater than expected, and the 90th percentiles are greater than the visual maxima. However, the earlier years have greater expected visual
+ZHRs, which then decreases over time. The same
+occurs in the calculated mean ZHRs, as well as 90th
+percentiles.
+
+Peak
+Frequently throughout the data the mean ZHR
+for the period of the peak is lower than the peak ±
+2 days. This indicates that the peak is in fact different to that used for calculating the ZHR. Alternatively, this could be due to a difference in the size of
+density throughout the meteor stream that causes
+each meteor shower. As the Earth moves through
+the stream, there may be smaller debris causing the
+shower, which would not be as easily noticed in visual meteor detection, but with radio detection’s
+greater effective limiting magnitude, this is noticeable. This may also explain why in some showers,
+in some years, the mean ZHR decreases from the
+entire active range towards the peak, whereas some
+simply decrease for the peak compared to the peak
+± 2 days, but the mean ZHR for the peak is still
+greater than the entire active range. Provided the
+data was adequate, it may be possible to estimate
+the true peak of a meteor shower. Analysing the
+mean, or 90th percentile, of the ZHR for a range
+of 24 hour periods, and selecting the largest values,
+should indicate which period contained the peak.
+This could, of course, then be focused down into 1
+hour periods.
+
+Stream density
+In the geminid shower especially, there is not a
+The results for the correction factors are shown large amount of variation between each period for
+in table 7.2. There is no field of view factor for the each respective year. This indicates that the deLeonids shower since there were no values larger bris density of the stream is more consistent than
+than 0. Equally the Orionids field of view factor most streams. In the quadrantids shower, the opcan be disregarded since the standard error is larger posite occurs. The variation between the peak and
+other periods is significant and this indicates that
+than the mean itself.
+
+7.4.2
+
+Correction factors
+
+40
+
+the stream density changes much more on the peak.
+
+fact that this is an estimation — each factor is calculated assuming that it is the only factor to be
+considered, but this is not the case. The value for
+Variation correlation
+In most showers, the variation in the maximum k would typically be around 0.5, which would dravisual ZHR is reflected in the calculated mean matically increase the ZHR, giving a more accurate
+ZHRs. This suggests that the formula used to cal- value for the limiting magnitude.
+culate the data works well However, the difference
+between the maximum visual ZHRs and the means
+is still significant, indicating that other correction 7.5.3 Formula improvements
+factors such as field of view and limiting magni- Radiant height correction
+tude still have an impact. The maximum visual
+An invaluable analysis would be a validation of
+ZHR is a better indicator for this variation than my proposed method of calculating the radiant
+the expected ZHR, since the expected ZHR is only height correction factor. Plotting the relative mean estimate, whilst the maximum visual ZHR is a teor flux against the radiant height may reveal a
+direct calculation from recorded data.
+better approximation to the correction factor. The
+issue arises in isolating variables such as the actual
+ZHR (which may be lower than another time of
+measurement) and other factors, such as changing
+Field of view
+conditions. This can largely be solved by normalThe values for k are used to calculate the field izing data against the expected ZHR, or measuring
+of view correction factor. The values are not as these changing variables and making a comparison.
+expected. Typically, 50% or less of the sky can be
+seen with any normal sized (¡ 5m) receiver. For
+Diurnal shift correction
+example, see figure 7.1 which shows the beam of
+The diurnal shift of an observation can often be
+a Yagi antenna. Clearly, the results do not agree
+extreme, with a large range of variation over the
+with this beam, much more than 40% of the view is
+course of 24 hours. Estimating this diurnal shift
+not seen. (I use a yagi antenna as an example since
+using techniques from chapter 3 will give an optiit is the most popular antenna type). The closest
+mal fit sine curve, from which the expected number
+value to 50 % is for the geminids shower, however
+of meteors detected from this diurnal shift can be
+this is still not close. It should be noted that this
+calculated. This will then replace the background
+is an estimation: in conjunction with other factors,
+detection count and will provide a more accurate
+values may be closer to expected.
+estimate of the ZHR.
+
+7.5.2
+
+Correction factors
+
+Limiting magnitude
+The limiting magnitude for a radio antenna is
+difficult to calculate. The only practical way to
+work it out is to estimate based on what the antenna can be pick up. Knowing this will refine the
+formula further, since an accurate estimate of the
+limiting magnitude allows the population index to
+be utilised which is an important factor.
+
+Figure 7.1: Yagi beam diagrams [yagi]
+
+Field of view
+There are techniques to estimate the field of view
+available to a radio antenna. If this is done, then
+the formula can be improved simply by multiplying
+1
+.
+by the factor F where F = 1−k
+
+Limiting magnitude
+The limiting magnitudes are not as high as expected for radio detection. This demonstrates the
+41
+
+7.5.4
+
+Inaccuracies
+
+Re-entry direction
+The radio detection of a meteor largely depends
+on the direction it is travelling. A meteor is best
+detected when travelling directly across the “field of
+view” of the receiving antenna. It is difficult to take
+this into account when calculating the ZHR, but
+the general direction in which meteors are travelling
+from the radiant will have an effect on this value.
+Observing station vs. transmitting antenna
+There is often a marked difference between the
+location of the transmitting antenna and the receiving antenna, where the data is recorded. This
+results in a potentially large inaccuracy since the
+radiant altitude and other factors at the receiving
+station may be very different to the transmitting
+station.
+Antenna type
+When calculating the limiting magnitude and
+field of view, the type of antenna will influence the
+results greatly. Certain antennas may have a much
+larger field of view, or be less sensitive and have a
+lower limiting magnitude.
+
+7.6
+
+Conclusion
+
+The ZHR formula, with modification, is valid
+for use in radio meteor detection. This is apparent from the good correlation between ZHR results
+from radio observation data when compared with
+visual observation, up to a constant shift. With
+knowledge of an antenna’s field of view, and the
+population index of a meteor shower, estimations
+can be made more accurately. Further study is required to analyse the distribution of meteor magnitudes for larger limiting magnitudes than 6.5, as
+well as the best way to estimate the background
+detection rate of an observation station.
+
+42
+
+Chapter 8
+
+Image Analysis
+8.1
+
+Overview
+
+8.2
+
+Literature Review
+
+8.3
+
+Methodology
+
+8.4
+
+Results
+
+8.5
+
+Discussion
+
+8.6
+
+Conclusion
+
+43
+
+Chapter 9
+
+Conclusion
+-conclusion yet to be made -only an analysis, no full explanations put forward; next step is modelling
+and further investigation -analysis of everything as a whole is difficult - different locations, different
+times that data is available, different antenna, etc -MOAR DATA PLS -lots of factors work together to
+influence what is analysed, making it difficult (e.g.: zhr, antenna characteristics) -overview of important
+findings
+
+9.1
+
+Acknowledgements
+
+44
+
+Appendices
+
+45
+
+Appendix A
+
+Zenithal hourly rate results
+Year
+2005
+
+2006
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+Range
+
+Mean
+37.0
+43.5
+30.6
+44.9
+59.6
+60.9
+77.2
+97.8
+124
+52.2
+75.8
+104
+105
+144
+153
+56.1
+78.6
+93.2
+79.3
+92.1
+106
+56.2
+75.5
+90.9
+
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+
+S.E.
+1.87
+3.92
+4.03
+2.29
+5.10
+7.64
+1.40
+2.78
+6.53
+0.995
+2.37
+6.43
+2.30
+4.55
+7.18
+1.14
+2.46
+5.39
+1.29
+2.52
+4.86
+1.24
+2.10
+4.06
+
+Table A.1: Geminids
+
+46
+
+90th %ile
+72.9
+85.3
+54.4
+83.4
+121
+103
+186
+237
+297
+125
+176
+249
+233
+346
+355
+134
+204
+249
+217
+244
+270
+132
+167
+194
+
+Year
+2005
+
+2007
+
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+Range
+
+Mean
+34.7
+36.5
+31.7
+178
+194
+205
+58.5
+57.9
+55.2
+68.7
+69.5
+76.9
+73.8
+67.6
+54.8
+36.5
+37.5
+42.9
+53.5
+50.5
+50.0
+32.4
+30.3
+30.1
+31.9
+32.8
+34.5
+
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+
+S.E.
+2.36
+3.28
+6.09
+4.86
+9.25
+17.2
+1.24
+2.18
+4.02
+1.31
+3.31
+7.94
+1.85
+3.47
+3.72
+0.749
+2.09
+4.52
+0.913
+2.32
+4.65
+0.592
+1.24
+2.38
+0.369
+0.920
+2.05
+
+Table A.2: Leonids
+
+47
+
+90th %ile
+79.0
+79.1
+71.4
+269
+288
+288
+151
+152
+133
+186
+185
+201
+162
+152
+122
+83.9
+98.5
+114
+150
+130
+112
+68.7
+62.8
+55.9
+74.3
+72.3
+82.8
+
+Year
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+Range
+
+Mean
+63.9
+65.7
+66.1
+78.8
+86.4
+81.5
+48.5
+54.4
+53.0
+33.2
+36.2
+37.5
+44.3
+42.8
+38.1
+48.8
+54.5
+53.0
+33.1
+34.3
+32.0
+
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+
+S.E.
+0.928
+2.82
+5.18
+0.915
+2.87
+5.63
+0.626
+2.13
+3.77
+0.442
+1.38
+2.66
+0.571
+1.45
+2.36
+0.715
+2.37
+4.71
+0.459
+1.25
+2.33
+
+Table A.3: Orionids
+
+48
+
+90th %ile
+162
+162
+159
+205
+210
+206
+120
+147
+129
+77.0
+87.8
+85.4
+109
+105
+104
+140
+156
+150
+83.5
+84.9
+79.2
+
+Year
+2010
+
+Range
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+Mean
+71.7
+77.1
+78.5
+48.7
+53.4
+68.3
+61.8
+109
+139
+48.5
+72.6
+87.2
+43.3
+59.6
+64.5
+70.9
+74.1
+91.7
+36.5
+40.1
+59.6
+
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+
+S.E.
+1.30
+3.81
+7.26
+0.810
+2.18
+4.98
+1.35
+5.56
+13.9
+0.780
+3.20
+7.09
+0.575
+1.84
+3.50
+1.08
+3.30
+7.03
+0.589
+1.24
+3.02
+
+90th %ile
+183
+194
+197
+112
+116
+141
+114
+275
+271
+131
+193
+207
+102
+133
+133
+187
+180
+193
+91.5
+92.6
+121
+
+Table A.4: Perseids
+
+Year
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+Range
+
+Mean
+53.7
+69.5
+98.2
+58.5
+58.2
+104
+49.2
+63.2
+104
+52.5
+62.5
+109
+39.2
+61.6
+70.1
+26.0
+45.6
+79.9
+
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+
+S.E.
+0.550
+2.59
+6.64
+0.647
+2.07
+5.64
+0.488
+1.373
+4.36
+0.511
+2.70
+7.70
+0.349
+2.14
+4.57
+0.297
+1.31
+3.27
+
+Table A.5: Quadrantids
+
+49
+
+90th %ile
+133
+173
+243
+134
+136
+235
+120
+152
+229
+141
+154
+282
+97.6
+164
+181
+62.8
+118
+184
+
+Year
+2010
+
+2011
+
+2012
+
+2013
+
+2014
+
+2015
+
+2016
+
+Range
+
+Mean
+140
+149
+150
+112
+116
+118
+67.1
+72.3
+72.9
+56.1
+61.4
+60.2
+52.9
+48.5
+47.4
+50.3
+52.5
+54.3
+45.6
+43.3
+46.2
+
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+±
+
+S.E.
+1.91
+6.77
+14.1
+1.62
+5.38
+10.7
+0.836
+2.65
+5.12
+0.889
+3.01
+5.13
+1.57
+2.87
+5.03
+0.599
+1.64
+3.22
+0.665
+1.51
+3.17
+
+Table A.6: η-aquariids
+
+50
+
+90th %ile
+291
+267
+304
+260
+266
+282
+173
+199
+197
+142
+158
+149
+104
+102
+99
+114
+120
+121
+99.8
+90.3
+95.5
+
+Bibliography
+[1]
+
+“Diurnal and annual variations of meteor rates at the arctic circle”. In: Atmos. Chem. Phys. 4
+(2004), pp. 1355–1363.
+
+[2]
+
+“Diurnal and annual variations of meteor rates at latitudes betwen 69◦ N and 35◦ S”. In: 17th ESA
+Symposium on European Rocket and Balloon Programmes and Related Research (2005).
+
+[3]
+
+Dr. David Morgan. Meteor numbers & velocities. 2011. url: http : / / britastro . org / radio /
+projects/DM-Meteor.temp/numbers.html.
+
+51
+
+
