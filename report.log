@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.18)  24 FEB 2017 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.18)  25 FEB 2017 18:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -626,7 +626,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
  <./images/intro/detection.png>]
 
-LaTeX Warning: Reference `fig:stream' on page 5 undefined on input line 35.
+LaTeX Warning: Reference `stream' on page 5 undefined on input line 35.
 
 <images/intro/stream.jpg, id=28, 569.12625pt x 302.12875pt>
 File: images/intro/stream.jpg Graphic file (type jpg)
@@ -842,19 +842,16 @@ Package pdftex.def Info: images/spatial/longitude/hist.png used on input line 1
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/spatial/longitude/fit.png, id=92, 578.16pt x 433.62pt>
+[14 <./images/spatial/latitude/peak.png> <./images/spatial/latitude/fit.png> <.
+/images/spatial/longitude/peak.png> <./images/spatial/longitude/corrected.png>]
+<images/spatial/longitude/fit.png, id=99, 578.16pt x 433.62pt>
 File: images/spatial/longitude/fit.png Graphic file (type png)
 
 <use images/spatial/longitude/fit.png>
 Package pdftex.def Info: images/spatial/longitude/fit.png used on input line 15
 3.
 (pdftex.def)             Requested size: 221.0pt x 165.74994pt.
- [14 <./images/spatial/latitude/peak.png> <./images/spatial/latitude/fit.png> <
-./images/spatial/longitude/peak.png> <./images/spatial/longitude/corrected.png>
-]
+
 <images/temporal/analyses/COMBINEDpeak.png, id=100, 501.69833pt x 395.89507pt>
 File: images/temporal/analyses/COMBINEDpeak.png Graphic file (type png)
 
@@ -870,14 +867,20 @@ File: images/temporal/analyses/COMBINEDfit.png Graphic file (type png)
 Package pdftex.def Info: images/temporal/analyses/COMBINEDfit.png used on input
  line 170.
 (pdftex.def)             Requested size: 221.0pt x 172.21869pt.
- [15 <./images/spatial/longitude/hist.png> <./images/spatial/longitude/fit.png>
- <./images/temporal/analyses/COMBINEDpeak.png> <./images/temporal/analyses/COMB
-INEDfit.png>]
+
+Underfull \vbox (badness 3907) has occurred while \output is active []
+
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15 <./images/spatial/longitude/hist.png> <./images/spatial/longitude/fit.png> 
+<./images/temporal/analyses/COMBINEDpeak.png>]
 Underfull \hbox (badness 1231) in paragraph at lines 180--181
 [] []\OT1/cmr/bx/n/10 Re-ceiv-ing sta-tion vs. de-tec-tion sta-tion[]
  []
 
-) (./spatial_variation.tex [16]
+) (./spatial_variation.tex [16 <./images/temporal/analyses/COMBINEDfit.png>]
 Chapter 4.
 Extra height:0.0pt when 0.0pt
 (2)Left:0.0pt Right:0.0pt Output:0.0pt
@@ -1070,9 +1073,6 @@ Overfull \vbox (180.40276pt too high) has occurred while \output is active []
 [24
 
 ]
-
-LaTeX Warning: Reference `chap:spacial' on page 25 undefined on input line 20.
-
 <images/temporal/analyses/COMBINEDerr.png, id=158, 506.46815pt x 400.08672pt>
 File: images/temporal/analyses/COMBINEDerr.png Graphic file (type png)
 
@@ -1356,15 +1356,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package logreq Info: Writing requests to 'report.run.xml'.
 \openout1 = `report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 10853 strings out of 493013
- 186365 string characters out of 6139317
+ 10852 strings out of 493013
+ 186347 string characters out of 6139317
  649578 words of memory out of 5000000
- 14187 multiletter control sequences out of 15000+600000
+ 14186 multiletter control sequences out of 15000+600000
  11349 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  45i,11n,57p,1669b,1346s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1382,7 +1385,7 @@ f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report.pdf (53 pages, 13775237 bytes).
+Output written on report.pdf (53 pages, 13773533 bytes).
 PDF statistics:
  340 PDF objects out of 1000 (max. 8388607)
  171 compressed objects within 2 object streams

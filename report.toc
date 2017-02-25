@@ -62,11 +62,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.4}Temporal variation}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.5}Improvements}{16}
+\contentsline {subsection}{\numberline {3.4.5}Improvements}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Annual variation\\}{16}
+\contentsline {paragraph}{Annual variation\\}{15}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Intensity variation with latitude\\}{16}
+\contentsline {paragraph}{Intensity variation with latitude\\}{15}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Receiving station vs. detection station}{16}
 \defcounter {refsection}{0}\relax 
@@ -196,7 +196,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.5.4}Variation since 2000}{28}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Daytime vs. night-time rates\\}{28}
+\contentsline {paragraph}{Daytime vs. night-time rates\\}{29}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.6}Conclusion}{29}
 \defcounter {refsection}{0}\relax 
