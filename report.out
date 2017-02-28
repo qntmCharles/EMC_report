@@ -1,0 +1,118 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Motivations}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Background}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{What is a meteor?}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Radio meteor detection}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Meteor showers}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.4}{Magnitude}{section.1.2}% 7
+\BOOKMARK [0][-]{chapter.2}{Data}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Where is the data from?}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{What is the data?}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{Data collection \046 storage}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.4}{Final data set}{chapter.2}% 12
+\BOOKMARK [0][-]{chapter.3}{Diurnal Shift}{}% 13
+\BOOKMARK [1][-]{section.3.1}{Background}{chapter.3}% 14
+\BOOKMARK [1][-]{section.3.2}{Literature Review}{chapter.3}% 15
+\BOOKMARK [2][-]{subsection.3.2.1}{Model}{section.3.2}% 16
+\BOOKMARK [2][-]{subsection.3.2.2}{Previous analyses}{section.3.2}% 17
+\BOOKMARK [1][-]{section.3.3}{Methodology}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.3.1}{Spatial analysis}{section.3.3}% 19
+\BOOKMARK [2][-]{subsection.3.3.2}{Temporal analysis}{section.3.3}% 20
+\BOOKMARK [1][-]{section.3.4}{Results \046 Discussion}{chapter.3}% 21
+\BOOKMARK [2][-]{subsection.3.4.1}{Model}{section.3.4}% 22
+\BOOKMARK [2][-]{subsection.3.4.2}{Sine-function fit}{section.3.4}% 23
+\BOOKMARK [2][-]{subsection.3.4.3}{Spatial variation}{section.3.4}% 24
+\BOOKMARK [2][-]{subsection.3.4.4}{Temporal variation}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.5}{Improvements}{section.3.4}% 26
+\BOOKMARK [1][-]{section.3.5}{Conclusion}{chapter.3}% 27
+\BOOKMARK [0][-]{chapter.4}{Spacial variation of data characteristics}{}% 28
+\BOOKMARK [1][-]{section.4.1}{Background}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.2}{Literature Review}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.3}{Methodology}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.4}{Results}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.4.1}{Latitude analysis}{section.4.4}% 33
+\BOOKMARK [2][-]{subsection.4.4.2}{Longitude analysis}{section.4.4}% 34
+\BOOKMARK [1][-]{section.4.5}{Discussion}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.5.1}{Latitude analysis}{section.4.5}% 36
+\BOOKMARK [2][-]{subsection.4.5.2}{Longitude analysis}{section.4.5}% 37
+\BOOKMARK [2][-]{subsection.4.5.3}{Improvements}{section.4.5}% 38
+\BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 39
+\BOOKMARK [0][-]{chapter.5}{Temporal Variation of Radar Counts \046 Data Characteristics}{}% 40
+\BOOKMARK [1][-]{section.5.1}{Overview}{chapter.5}% 41
+\BOOKMARK [1][-]{section.5.2}{Literature Review}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.3}{Methodology}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.3.1}{Data characteristics}{section.5.3}% 44
+\BOOKMARK [2][-]{subsection.5.3.2}{Detection counts}{section.5.3}% 45
+\BOOKMARK [2][-]{subsection.5.3.3}{Analysis by location}{section.5.3}% 46
+\BOOKMARK [1][-]{section.5.4}{Results}{chapter.5}% 47
+\BOOKMARK [2][-]{subsection.5.4.1}{Data characteristics}{section.5.4}% 48
+\BOOKMARK [2][-]{subsection.5.4.2}{Monthly scale variation}{section.5.4}% 49
+\BOOKMARK [2][-]{subsection.5.4.3}{Annual scale variation}{section.5.4}% 50
+\BOOKMARK [2][-]{subsection.5.4.4}{Variation since 2000}{section.5.4}% 51
+\BOOKMARK [1][-]{section.5.5}{Discussion}{chapter.5}% 52
+\BOOKMARK [2][-]{subsection.5.5.1}{Data characteristics}{section.5.5}% 53
+\BOOKMARK [2][-]{subsection.5.5.2}{Monthly scale variation}{section.5.5}% 54
+\BOOKMARK [2][-]{subsection.5.5.3}{Annual scale variation}{section.5.5}% 55
+\BOOKMARK [2][-]{subsection.5.5.4}{Variation since 2000}{section.5.5}% 56
+\BOOKMARK [1][-]{section.5.6}{Conclusion}{chapter.5}% 57
+\BOOKMARK [0][-]{chapter.6}{Antenna Data Characteristics}{}% 58
+\BOOKMARK [1][-]{section.6.1}{Background}{chapter.6}% 59
+\BOOKMARK [1][-]{section.6.2}{Methodology}{chapter.6}% 60
+\BOOKMARK [2][-]{subsection.6.2.1}{Selecting authors}{section.6.2}% 61
+\BOOKMARK [2][-]{subsection.6.2.2}{Analyses}{section.6.2}% 62
+\BOOKMARK [2][-]{subsection.6.2.3}{Sample sizes}{section.6.2}% 63
+\BOOKMARK [1][-]{section.6.3}{Results}{chapter.6}% 64
+\BOOKMARK [2][-]{subsection.6.3.1}{Mean \046 maximum}{section.6.3}% 65
+\BOOKMARK [2][-]{subsection.6.3.2}{Standard error}{section.6.3}% 66
+\BOOKMARK [2][-]{subsection.6.3.3}{Skew}{section.6.3}% 67
+\BOOKMARK [2][-]{subsection.6.3.4}{Diurnal shift}{section.6.3}% 68
+\BOOKMARK [1][-]{section.6.4}{Discussion}{chapter.6}% 69
+\BOOKMARK [2][-]{subsection.6.4.1}{Mean \046 maximum}{section.6.4}% 70
+\BOOKMARK [2][-]{subsection.6.4.2}{Standard error}{section.6.4}% 71
+\BOOKMARK [2][-]{subsection.6.4.3}{Skew}{section.6.4}% 72
+\BOOKMARK [2][-]{subsection.6.4.4}{Diurnal shift}{section.6.4}% 73
+\BOOKMARK [2][-]{subsection.6.4.5}{Improvements}{section.6.4}% 74
+\BOOKMARK [1][-]{section.6.5}{Conclusion}{chapter.6}% 75
+\BOOKMARK [0][-]{chapter.7}{Zenithal Hourly Rate Validity for Radio Detection}{}% 76
+\BOOKMARK [1][-]{section.7.1}{Background}{chapter.7}% 77
+\BOOKMARK [1][-]{section.7.2}{Literature Review}{chapter.7}% 78
+\BOOKMARK [2][-]{subsection.7.2.1}{Calculating ZHR}{section.7.2}% 79
+\BOOKMARK [2][-]{subsection.7.2.2}{Meteor shower information}{section.7.2}% 80
+\BOOKMARK [1][-]{section.7.3}{Methodology}{chapter.7}% 81
+\BOOKMARK [2][-]{subsection.7.3.1}{Assumptions}{section.7.3}% 82
+\BOOKMARK [2][-]{subsection.7.3.2}{Formula modification}{section.7.3}% 83
+\BOOKMARK [2][-]{subsection.7.3.3}{Calculating radiant height}{section.7.3}% 84
+\BOOKMARK [2][-]{subsection.7.3.4}{Calculating hourly rate}{section.7.3}% 85
+\BOOKMARK [2][-]{subsection.7.3.5}{Analysis}{section.7.3}% 86
+\BOOKMARK [1][-]{section.7.4}{Results}{chapter.7}% 87
+\BOOKMARK [2][-]{subsection.7.4.1}{Comparison}{section.7.4}% 88
+\BOOKMARK [2][-]{subsection.7.4.2}{Correction factors}{section.7.4}% 89
+\BOOKMARK [1][-]{section.7.5}{Discussion}{chapter.7}% 90
+\BOOKMARK [2][-]{subsection.7.5.1}{Comparison}{section.7.5}% 91
+\BOOKMARK [2][-]{subsection.7.5.2}{Correction factors}{section.7.5}% 92
+\BOOKMARK [2][-]{subsection.7.5.3}{Formula improvements}{section.7.5}% 93
+\BOOKMARK [2][-]{subsection.7.5.4}{Inaccuracies}{section.7.5}% 94
+\BOOKMARK [1][-]{section.7.6}{Conclusion}{chapter.7}% 95
+\BOOKMARK [0][-]{chapter.8}{Meteor Detection by Root Mean Square Difference Image Analysis}{}% 96
+\BOOKMARK [1][-]{section.8.1}{Overview}{chapter.8}% 97
+\BOOKMARK [1][-]{section.8.2}{Methodology}{chapter.8}% 98
+\BOOKMARK [2][-]{subsection.8.2.1}{Root mean square difference}{section.8.2}% 99
+\BOOKMARK [1][-]{section.8.3}{Results}{chapter.8}% 100
+\BOOKMARK [2][-]{subsection.8.3.1}{Data}{section.8.3}% 101
+\BOOKMARK [2][-]{subsection.8.3.2}{Correlation}{section.8.3}% 102
+\BOOKMARK [1][-]{section.8.4}{Discussion}{chapter.8}% 103
+\BOOKMARK [2][-]{subsection.8.4.1}{RMS difference}{section.8.4}% 104
+\BOOKMARK [2][-]{subsection.8.4.2}{Alternative methods}{section.8.4}% 105
+\BOOKMARK [1][-]{section.8.5}{Conclusion}{chapter.8}% 106
+\BOOKMARK [0][-]{chapter.9}{Conclusion}{}% 107
+\BOOKMARK [1][-]{section.9.1}{Comments}{chapter.9}% 108
+\BOOKMARK [1][-]{section.9.2}{Main findings}{chapter.9}% 109
+\BOOKMARK [2][-]{subsection.9.2.1}{Diurnal shift}{section.9.2}% 110
+\BOOKMARK [2][-]{subsection.9.2.2}{Spacial variation of data characteristics}{section.9.2}% 111
+\BOOKMARK [2][-]{subsection.9.2.3}{Temporal variation of radar counts \046 data characteristics}{section.9.2}% 112
+\BOOKMARK [2][-]{subsection.9.2.4}{Antenna data characteristics}{section.9.2}% 113
+\BOOKMARK [2][-]{subsection.9.2.5}{Zenithal Hourly Rate \(ZHR\) validity}{section.9.2}% 114
+\BOOKMARK [2][-]{subsection.9.2.6}{Meteor detection by RMS difference image analysis}{section.9.2}% 115
+\BOOKMARK [1][-]{section.9.3}{Acknowledgements}{chapter.9}% 116
+\BOOKMARK [0][-]{section*.70}{Appendices}{}% 117
+\BOOKMARK [0][-]{Appendix.1.A}{Zenithal hourly rate results}{}% 118

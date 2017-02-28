@@ -2,6 +2,4 @@
 
 -Add glossary
 
-- Change results & discussion of fit. It should mention that if positive it indicates that there is a positive correlation, but gives no indication of magnitude. Add using a correlation matrix to improvements.
-
 -Figure for ZHR & diurnal shift

@@ -5,6 +5,7 @@
 		\begin{abstract}
 			I present an improved model of diurnal shift, aiming to resolve issues evident in previous models and be more mathematically rigorous. I investigate the apparent sine-function variability of hourly meteor counts, as well as the temporal and spatial variation of said counts. My findings indicate that diurnal shift is dependent on Earth's orbital velocity, producing a clear trend between longitude and peak hour. I find no evidence of correlation between latitude and amplitude of diurnal variation.
 		\end{abstract}
+		\keywords{meteors, diurnal shift, orbital velocity, radio meteor detection}
 	\end{minipage}
 \end{strip}
 \section{Background}
@@ -53,14 +54,20 @@ I aim to improve the model presented by Dr David Morgan \cite{baa}.
 \paragraph{Inaccuracies\\}
 The diagram and explanation have a few issues. Firstly, the diagram states (in conjunction with the explanation) that the path of the Earth intercepts more meteors at sunrise than sunset, causing the increase. This is not the case: the path of the Earth does not change, nor does the number of meteors being intercepted. What changes is the number of meteors that are intercepted that can be detected by a given observer. The explanation is suitable, but only if the cause is more rigorously explained as the velocity being proportional to the number of detections. When there is a greater velocity, more meteors can actually reach the Earth's atmosphere and be detected. \\
 This is where the explanation appears to fall down. The diagram shows meteors intercepting the Earth at Sunset, and Sunrise, but nothing in between. Perhaps this is an ambiguity, but the implication is that there is a sudden increase and decrease. As is clear from the results, this isn't the case. The increase fits a sine curve remarkably well and the change occurs throughout the day. This suggests that the change, whilst it is indeed dependent on meteor intercepts, is a function applied to meteor velocities that is based on the angle of Earth's rotation. \\
-\paragraph{Resolution\\}
+\paragraph{Own Solution\\}
 \label{sec:dishift:model}
 Building upon the previous model, I assume that the number of meteors detected is proportional to the mean incident velocity of meteors to Earth. This is reasonable: the {\it actual} velocities are of course random. However, an overall larger mean incident velocity of a collection of meteors means that proportionally more will reach Earth, of those that are in a direction that {\it could} cause a collision with Earth's atmosphere. Of a group of meteors with random velocities (both random magnitude {\it and} direction), very few will be on a course tangential to Earth's atmosphere. However, this does not change as Earth rotates, so it is a negligible variable. I consider only those that are tangential with the atmosphere, and so only those that could cause a detection. Thus, we have, at a very basic level:
 \begin{equation}
 N \propto v_{\text{incident}} 
 \end{equation}
 The incident velocity is dependent on factors such as the Earth's rotational velocity, orbital velocity and the velocity of the sporadic meteors themselves. $v_{\text{meteor}}$ is difficult to consider, since it (theoretically) has a random direction. We know that $v_{\text{orbit}} \approx 30000 \, ms^{-1}$ and  $v_{\text{rotation}} \approx 450 \, ms^{-1}$.\\
-Assuming that the path described by Earth's orbit around the Sun is a straight line through Earth when `up close', let $\theta$ be the angle between a radius from the Earth's centre to the observer's location, and the orbital path (figure~\ref{fig:dishift:ownmodel}). The set of meteors that can be detected appear, from above, to form a triangle. The average velocity of these meteors will be along the height of this triangle: perpendicular to the surface of Earth. This means that the rotation velocity can be disregarded. Thus, the remaining velocity to consider is Earth's rotational velocity:
+Assuming that the path described by Earth's orbit around the Sun is a straight line through Earth when `up close', let $\theta$ be the angle between a radius from the Earth's centre to the observer's location, and the orbital path (figure~\ref{fig:dishift:ownmodel}). 
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{dishift/diagram}
+	\caption{Diagram of model, showing an observer (red dot), the perceived meteor `cone', and the incident meteor velocity $v_{meteor}$.
+		\label{fig:dishift:ownmodel}}
+\end{figure}The set of meteors that can be detected appear, from above, to form a triangle. The average velocity of these meteors will be along the height of this triangle: perpendicular to the surface of Earth ($v_{meteor}$). This means that the rotation velocity can be disregarded. Thus, the remaining velocity to consider is Earth's orbital velocity:
 \begin{equation}
 v_{\text{incident}} = v_{\text{orbit}} \cos \theta + v_{\text{meteor}}
 \end{equation}

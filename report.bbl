@@ -184,6 +184,16 @@
       \field{pages}{1355\bibrangedash 1363}
       \range{pages}{9}
     \endentry
+    \entry{ssim}{article}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions On Image Processing}
+      \field{number}{4}
+      \field{title}{Image Quality Assessment: From Error Visibility to Structural Similarity}
+      \field{volume}{13}
+      \field{year}{2004}
+    \endentry
     \entry{latitudes}{article}{}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
@@ -251,6 +261,14 @@
       \field{year}{2011}
       \verb{url}
       \verb http://britastro.org/radio/projects/DM-Meteor.temp/numbers.html
+      \endverb
+    \endentry
+    \entry{speclab}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{year}{2016}
+      \verb{url}
+      \verb http://www.qsl.net/dl4yhf/spectra1.html
       \endverb
     \endentry
     \entry{sunspot}{online}{}

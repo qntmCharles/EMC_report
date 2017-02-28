@@ -1,363 +1,411 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{4}
+\contentsline {chapter}{\numberline {1}Introduction}{4}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Motivations}{4}
+\contentsline {section}{\numberline {1.1}Motivations}{4}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Background}{4}
+\contentsline {section}{\numberline {1.2}Background}{4}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}What is a meteor?}{4}
+\contentsline {subsection}{\numberline {1.2.1}What is a meteor?}{4}{subsection.1.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Radio meteor detection}{4}
+\contentsline {subsection}{\numberline {1.2.2}Radio meteor detection}{4}{subsection.1.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Meteor showers}{5}
+\contentsline {subsection}{\numberline {1.2.3}Meteor showers}{5}{subsection.1.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Magnitude}{5}
+\contentsline {subsection}{\numberline {1.2.4}Magnitude}{5}{subsection.1.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Data}{7}
+\contentsline {chapter}{\numberline {2}Data}{7}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Where is the data from?}{7}
+\contentsline {section}{\numberline {2.1}Where is the data from?}{7}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}What is the data?}{7}
+\contentsline {section}{\numberline {2.2}What is the data?}{7}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Data collection \& storage}{8}
+\contentsline {section}{\numberline {2.3}Data collection \& storage}{8}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Collection\\}{8}
+\contentsline {paragraph}{Collection\\}{8}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Storage\\}{8}
+\contentsline {paragraph}{Storage\\}{8}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Final data set}{8}
+\contentsline {section}{\numberline {2.4}Final data set}{8}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Diurnal Shift}{10}
+\contentsline {chapter}{\numberline {3}Diurnal Shift}{10}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Background}{10}
+\contentsline {section}{\numberline {3.1}Background}{10}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Literature Review}{10}
+\contentsline {section}{\numberline {3.2}Literature Review}{10}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Model}{10}
+\contentsline {subsection}{\numberline {3.2.1}Model}{10}{subsection.3.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Previous analyses}{10}
+\contentsline {subsection}{\numberline {3.2.2}Previous analyses}{10}{subsection.3.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Methodology}{11}
+\contentsline {section}{\numberline {3.3}Methodology}{11}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.1}Spatial analysis}{11}
+\contentsline {subsection}{\numberline {3.3.1}Spatial analysis}{11}{subsection.3.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3.2}Temporal analysis}{11}
+\contentsline {subsection}{\numberline {3.3.2}Temporal analysis}{11}{subsection.3.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Results \& Discussion}{11}
+\contentsline {section}{\numberline {3.4}Results \& Discussion}{11}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.1}Model}{11}
+\contentsline {subsection}{\numberline {3.4.1}Model}{11}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Inaccuracies\\}{11}
+\contentsline {paragraph}{Inaccuracies\\}{11}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Resolution\\}{12}
+\contentsline {paragraph}{Own Solution\\}{12}{subsection.3.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.2}Sine-function fit}{12}
+\contentsline {subsection}{\numberline {3.4.2}Sine-function fit}{12}{subsection.3.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.3}Spatial variation}{13}
+\contentsline {subsection}{\numberline {3.4.3}Spatial variation}{13}{subsection.3.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Latitude\\}{13}
+\contentsline {paragraph}{Latitude\\}{13}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Longitude\\}{13}
+\contentsline {paragraph}{Longitude\\}{14}{figure.caption.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.4}Temporal variation}{15}
+\contentsline {subsection}{\numberline {3.4.4}Temporal variation}{15}{subsection.3.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.5}Improvements}{15}
+\contentsline {subsection}{\numberline {3.4.5}Improvements}{16}{subsection.3.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Annual variation\\}{15}
+\contentsline {paragraph}{Annual variation\\}{16}{subsection.3.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Intensity variation with latitude\\}{15}
+\contentsline {paragraph}{Intensity variation with latitude\\}{16}{subsection.3.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Receiving station vs. detection station}{16}
+\contentsline {paragraph}{Receiving station vs. detection station}{16}{subsection.3.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.5}Conclusion}{16}
+\contentsline {section}{\numberline {3.5}Conclusion}{16}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Spacial variation of data characteristics}{17}
+\contentsline {chapter}{\numberline {4}Spacial variation of data characteristics}{17}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Background}{17}
+\contentsline {section}{\numberline {4.1}Background}{17}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Literature Review}{17}
+\contentsline {section}{\numberline {4.2}Literature Review}{17}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Methodology}{17}
+\contentsline {section}{\numberline {4.3}Methodology}{17}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Selecting observers\\}{17}
+\contentsline {paragraph}{Selecting observers\\}{17}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Analysis\\}{17}
+\contentsline {paragraph}{Analysis\\}{18}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Results}{18}
+\contentsline {section}{\numberline {4.4}Results}{18}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.1}Latitude analysis}{18}
+\contentsline {subsection}{\numberline {4.4.1}Latitude analysis}{18}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Sample sizes \\}{18}
+\contentsline {paragraph}{Sample sizes \\}{18}{subsection.4.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Mean hourly detection count\\}{18}
+\contentsline {paragraph}{Mean hourly detection count\\}{18}{table.caption.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Maximum hourly detection count\\}{18}
+\contentsline {paragraph}{Maximum hourly detection count\\}{18}{figure.caption.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Minimum hourly detection count\\}{18}
+\contentsline {paragraph}{Minimum hourly detection count\\}{18}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Skewness\\}{18}
+\contentsline {paragraph}{Skewness\\}{19}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Standard error\\}{19}
+\contentsline {paragraph}{Standard error\\}{19}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diurnal shift\\}{19}
+\contentsline {paragraph}{Diurnal shift\\}{19}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Longitude analysis}{19}
+\contentsline {subsection}{\numberline {4.4.2}Longitude analysis}{20}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Sample sizes\\}{19}
+\contentsline {paragraph}{Sample sizes\\}{20}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Mean hourly detection count\\}{20}
+\contentsline {paragraph}{Mean hourly detection count\\}{20}{table.caption.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Maximum hourly detection count\\}{20}
+\contentsline {paragraph}{Maximum hourly detection count\\}{20}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Minimum hourly detection count\\}{20}
+\contentsline {paragraph}{Minimum hourly detection count\\}{21}{figure.caption.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Skewness\\}{20}
+\contentsline {paragraph}{Skewness\\}{21}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Standard error\\}{21}
+\contentsline {paragraph}{Standard error\\}{21}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diurnal shift\\}{21}
+\contentsline {paragraph}{Diurnal shift\\}{21}{figure.caption.40}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Discussion}{22}
+\contentsline {section}{\numberline {4.5}Discussion}{22}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.1}Latitude analysis}{22}
+\contentsline {subsection}{\numberline {4.5.1}Latitude analysis}{22}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Mean, maximum \& minimum hourly count\\}{22}
+\contentsline {paragraph}{Mean, maximum \& minimum hourly count\\}{22}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Skewness\\}{22}
+\contentsline {paragraph}{Skewness\\}{22}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Standard error\\}{22}
+\contentsline {paragraph}{Standard error\\}{22}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diurnal shift\\}{22}
+\contentsline {paragraph}{Diurnal shift\\}{22}{subsection.4.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.2}Longitude analysis}{22}
+\contentsline {subsection}{\numberline {4.5.2}Longitude analysis}{22}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Mean, maximum \& minimum hourly count\\}{22}
+\contentsline {paragraph}{Mean, maximum \& minimum hourly count\\}{22}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Skewness\\}{22}
+\contentsline {paragraph}{Skewness\\}{23}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Standard error\\}{23}
+\contentsline {paragraph}{Standard error\\}{23}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diurnal shift\\}{23}
+\contentsline {paragraph}{Diurnal shift\\}{23}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.5.3}Improvements}{23}
+\contentsline {subsection}{\numberline {4.5.3}Improvements}{23}{subsection.4.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Percentiles\\}{23}
+\contentsline {paragraph}{Percentiles\\}{23}{subsection.4.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Joint latitude \& longitude analysis\\}{23}
+\contentsline {paragraph}{Joint latitude \& longitude analysis\\}{23}{subsection.4.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Conclusion}{23}
+\contentsline {section}{\numberline {4.6}Conclusion}{23}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Temporal Variation of Radar Counts \& Data Characteristics}{24}
+\contentsline {chapter}{\numberline {5}Temporal Variation of Radar Counts \& Data Characteristics}{24}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Overview}{24}
+\contentsline {section}{\numberline {5.1}Overview}{24}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Literature Review}{24}
+\contentsline {section}{\numberline {5.2}Literature Review}{24}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Methodology}{25}
+\contentsline {section}{\numberline {5.3}Methodology}{25}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Data characteristics}{25}
+\contentsline {subsection}{\numberline {5.3.1}Data characteristics}{25}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Detection counts}{25}
+\contentsline {subsection}{\numberline {5.3.2}Detection counts}{25}{subsection.5.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Analysis by location}{25}
+\contentsline {subsection}{\numberline {5.3.3}Analysis by location}{25}{subsection.5.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Results}{25}
+\contentsline {section}{\numberline {5.4}Results}{25}{section.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.1}Data characteristics}{25}
+\contentsline {subsection}{\numberline {5.4.1}Data characteristics}{25}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Standard error\\ }{25}
+\contentsline {paragraph}{Standard error\\ }{25}{subsection.5.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Skewness\\}{26}
+\contentsline {paragraph}{Skewness\\}{25}{figure.caption.44}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diurnal shift\\}{26}
+\contentsline {paragraph}{Diurnal shift\\}{26}{figure.caption.45}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.2}Monthly scale variation}{26}
+\contentsline {subsection}{\numberline {5.4.2}Monthly scale variation}{26}{subsection.5.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.3}Annual scale variation}{27}
+\contentsline {subsection}{\numberline {5.4.3}Annual scale variation}{27}{subsection.5.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4.4}Variation since 2000}{27}
+\contentsline {subsection}{\numberline {5.4.4}Variation since 2000}{27}{subsection.5.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Daytime vs. night-time rates\\}{27}
+\contentsline {paragraph}{Daytime vs. night-time rates\\}{27}{figure.caption.51}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Discussion}{28}
+\contentsline {section}{\numberline {5.5}Discussion}{28}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.1}Data characteristics}{28}
+\contentsline {subsection}{\numberline {5.5.1}Data characteristics}{28}{subsection.5.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Standard error\\}{28}
+\contentsline {paragraph}{Standard error\\}{28}{subsection.5.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Skewness\\}{28}
+\contentsline {paragraph}{Skewness\\}{28}{subsection.5.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diurnal shift\\}{28}
+\contentsline {paragraph}{Diurnal shift\\}{28}{subsection.5.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.2}Monthly scale variation}{28}
+\contentsline {subsection}{\numberline {5.5.2}Monthly scale variation}{28}{subsection.5.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.3}Annual scale variation}{28}
+\contentsline {subsection}{\numberline {5.5.3}Annual scale variation}{28}{subsection.5.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.4}Variation since 2000}{28}
+\contentsline {subsection}{\numberline {5.5.4}Variation since 2000}{28}{subsection.5.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Daytime vs. night-time rates\\}{29}
+\contentsline {paragraph}{Daytime vs. night-time rates\\}{29}{subsection.5.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Conclusion}{29}
+\contentsline {section}{\numberline {5.6}Conclusion}{29}{section.5.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Antenna Data Characteristics}{31}
+\contentsline {chapter}{\numberline {6}Antenna Data Characteristics}{31}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}Background}{31}
+\contentsline {section}{\numberline {6.1}Background}{31}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Methodology}{31}
+\contentsline {section}{\numberline {6.2}Methodology}{31}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.1}Selecting authors}{31}
+\contentsline {subsection}{\numberline {6.2.1}Selecting authors}{31}{subsection.6.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.2}Analyses}{31}
+\contentsline {subsection}{\numberline {6.2.2}Analyses}{31}{subsection.6.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2.3}Sample sizes}{32}
+\contentsline {subsection}{\numberline {6.2.3}Sample sizes}{32}{subsection.6.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Results}{32}
+\contentsline {section}{\numberline {6.3}Results}{32}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.1}Mean \& maximum}{32}
+\contentsline {subsection}{\numberline {6.3.1}Mean \& maximum}{32}{subsection.6.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.2}Standard error}{32}
+\contentsline {subsection}{\numberline {6.3.2}Standard error}{32}{subsection.6.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.3}Skew}{32}
+\contentsline {subsection}{\numberline {6.3.3}Skew}{33}{subsection.6.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3.4}Diurnal shift}{33}
+\contentsline {subsection}{\numberline {6.3.4}Diurnal shift}{33}{subsection.6.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}Discussion}{34}
+\contentsline {section}{\numberline {6.4}Discussion}{33}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.1}Mean \& maximum}{34}
+\contentsline {subsection}{\numberline {6.4.1}Mean \& maximum}{33}{subsection.6.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.2}Standard error}{34}
+\contentsline {subsection}{\numberline {6.4.2}Standard error}{34}{subsection.6.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.3}Skew}{34}
+\contentsline {subsection}{\numberline {6.4.3}Skew}{34}{subsection.6.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.4}Diurnal shift}{34}
+\contentsline {subsection}{\numberline {6.4.4}Diurnal shift}{34}{subsection.6.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4.5}Improvements}{34}
+\contentsline {subsection}{\numberline {6.4.5}Improvements}{34}{subsection.6.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Location}{34}
+\contentsline {paragraph}{Location}{34}{subsection.6.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Yagi n-element analysis\\}{34}
+\contentsline {paragraph}{Yagi n-element analysis\\}{34}{subsection.6.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Coefficient of variation\\}{34}
+\contentsline {paragraph}{Coefficient of variation\\}{34}{subsection.6.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Percentiles\\}{34}
+\contentsline {paragraph}{Percentiles\\}{35}{subsection.6.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}Conclusion}{35}
+\contentsline {section}{\numberline {6.5}Conclusion}{35}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Zenithal Hourly Rate Validity for Radio Detection}{36}
+\contentsline {chapter}{\numberline {7}Zenithal Hourly Rate Validity for Radio Detection}{36}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Background}{36}
+\contentsline {section}{\numberline {7.1}Background}{36}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Literature Review}{36}
+\contentsline {section}{\numberline {7.2}Literature Review}{36}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.1}Calculating ZHR}{36}
+\contentsline {subsection}{\numberline {7.2.1}Calculating ZHR}{36}{subsection.7.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2.2}Meteor shower information}{37}
+\contentsline {subsection}{\numberline {7.2.2}Meteor shower information}{37}{subsection.7.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Methodology}{37}
+\contentsline {section}{\numberline {7.3}Methodology}{37}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Assumptions}{37}
+\contentsline {subsection}{\numberline {7.3.1}Assumptions}{37}{subsection.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.2}Formula modification}{37}
+\contentsline {subsection}{\numberline {7.3.2}Formula modification}{37}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Inaccuracy of radiant height correction}{37}
+\contentsline {subsubsection}{Inaccuracy of radiant height correction}{37}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Problems\\}{37}
+\contentsline {paragraph}{Problems\\}{37}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Previous Solution}{37}
+\contentsline {paragraph}{Previous Solution}{37}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Solution\\}{37}
+\contentsline {paragraph}{Solution\\}{37}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Population index limitations}{38}
+\contentsline {subsubsection}{Population index limitations}{38}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Background detection count}{38}
+\contentsline {subsubsection}{Background detection count}{38}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Field of view correction}{38}
+\contentsline {subsubsection}{Field of view correction}{38}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.3}Calculating radiant height}{38}
+\contentsline {subsection}{\numberline {7.3.3}Calculating radiant height}{38}{subsection.7.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.4}Calculating hourly rate}{38}
+\contentsline {subsection}{\numberline {7.3.4}Calculating hourly rate}{39}{subsection.7.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.5}Analysis}{39}
+\contentsline {subsection}{\numberline {7.3.5}Analysis}{39}{subsection.7.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Selecting observers}{39}
+\contentsline {paragraph}{Selecting observers}{39}{subsection.7.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Comparison\\}{39}
+\contentsline {paragraph}{Comparison\\}{39}{table.caption.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Correction factors\\}{39}
+\contentsline {paragraph}{Correction factors\\}{39}{table.caption.61}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.4}Results}{40}
+\contentsline {section}{\numberline {7.4}Results}{40}{section.7.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.1}Comparison}{40}
+\contentsline {subsection}{\numberline {7.4.1}Comparison}{40}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Geminids\\}{40}
+\contentsline {paragraph}{Geminids\\}{40}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Leonids\\}{40}
+\contentsline {paragraph}{Leonids\\}{40}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Orionids\\}{40}
+\contentsline {paragraph}{Orionids\\}{40}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Perseids\\}{40}
+\contentsline {paragraph}{Perseids\\}{40}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Quadrantids\\}{40}
+\contentsline {paragraph}{Quadrantids\\}{41}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{$\eta $-aquariids\\}{41}
+\contentsline {paragraph}{$\eta $-aquariids\\}{41}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.4.2}Correction factors}{41}
+\contentsline {subsection}{\numberline {7.4.2}Correction factors}{41}{subsection.7.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.5}Discussion}{41}
+\contentsline {section}{\numberline {7.5}Discussion}{41}{section.7.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5.1}Comparison}{41}
+\contentsline {subsection}{\numberline {7.5.1}Comparison}{41}{subsection.7.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Peak\\}{41}
+\contentsline {paragraph}{Peak\\}{41}{subsection.7.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Stream density\\}{41}
+\contentsline {paragraph}{Stream density\\}{41}{subsection.7.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Variation correlation\\}{42}
+\contentsline {paragraph}{Variation correlation\\}{42}{subsection.7.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5.2}Correction factors}{42}
+\contentsline {subsection}{\numberline {7.5.2}Correction factors}{42}{subsection.7.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Field of view}{42}
+\contentsline {subsubsection}{Field of view}{42}{subsection.7.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Limiting magnitude}{42}
+\contentsline {subsubsection}{Limiting magnitude}{42}{figure.caption.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5.3}Formula improvements}{42}
+\contentsline {subsection}{\numberline {7.5.3}Formula improvements}{42}{subsection.7.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Radiant height correction\\}{42}
+\contentsline {paragraph}{Radiant height correction\\}{42}{subsection.7.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diurnal shift correction\\}{42}
+\contentsline {paragraph}{Diurnal shift correction\\}{42}{subsection.7.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Limiting magnitude\\}{42}
+\contentsline {paragraph}{Limiting magnitude\\}{42}{subsection.7.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Field of view\\}{42}
+\contentsline {paragraph}{Field of view\\}{42}{subsection.7.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5.4}Inaccuracies}{43}
+\contentsline {subsection}{\numberline {7.5.4}Inaccuracies}{43}{subsection.7.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Re-entry direction}{43}
+\contentsline {subsubsection}{Re-entry direction}{43}{subsection.7.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Observing station vs. transmitting antenna}{43}
+\contentsline {subsubsection}{Observing station vs. transmitting antenna}{43}{subsection.7.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Antenna type}{43}
+\contentsline {subsubsection}{Antenna type}{43}{subsection.7.5.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.6}Conclusion}{43}
+\contentsline {section}{\numberline {7.6}Conclusion}{43}{section.7.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Image Analysis}{44}
+\contentsline {chapter}{\numberline {8}Meteor Detection by Root Mean Square Difference Image Analysis}{44}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Overview}{44}
+\contentsline {section}{\numberline {8.1}Overview}{44}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Literature Review}{44}
+\contentsline {section}{\numberline {8.2}Methodology}{45}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.3}Methodology}{44}
+\contentsline {subsection}{\numberline {8.2.1}Root mean square difference}{45}{subsection.8.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.4}Results}{44}
+\contentsline {paragraph}{Repeated images\\}{45}{subsection.8.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.5}Discussion}{44}
+\contentsline {paragraph}{Baseline image generation\\}{45}{subsection.8.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.6}Conclusion}{44}
+\contentsline {paragraph}{RMS calculation\\}{45}{figure.caption.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}Conclusion}{45}
+\contentsline {paragraph}{RMOB comparison\\}{45}{figure.caption.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9.1}Acknowledgements}{45}
+\contentsline {section}{\numberline {8.3}Results}{46}{section.8.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{46}
+\contentsline {subsection}{\numberline {8.3.1}Data}{46}{subsection.8.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Zenithal hourly rate results}{47}
+\contentsline {subsection}{\numberline {8.3.2}Correlation}{46}{subsection.8.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.4}Discussion}{47}{section.8.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.1}RMS difference}{47}{subsection.8.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Image format\\}{47}{subsection.8.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Removing watermarks\\}{47}{subsection.8.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Frequency isolation\\}{47}{subsection.8.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Relative measure\\}{47}{subsection.8.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Meteor count interpolation\\}{47}{subsection.8.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.2}Alternative methods}{47}{subsection.8.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Structural similarity index measure\\}{47}{subsection.8.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Edge \& blob detection\\}{48}{subsection.8.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Derivative method\\}{48}{subsection.8.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.5}Conclusion}{48}{section.8.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Conclusion}{49}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Comments}{49}{section.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Main findings}{49}{section.9.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.1}Diurnal shift}{49}{subsection.9.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.2}Spacial variation of data characteristics}{49}{subsection.9.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.3}Temporal variation of radar counts \& data characteristics}{50}{subsection.9.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.4}Antenna data characteristics}{50}{subsection.9.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.5}Zenithal Hourly Rate (ZHR) validity}{50}{subsection.9.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.6}Meteor detection by RMS difference image analysis}{50}{subsection.9.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Acknowledgements}{50}{section.9.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{51}{section*.70}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Zenithal hourly rate results}{52}{Appendix.1.A}
