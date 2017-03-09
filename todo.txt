@@ -1,5 +1,10 @@
--Add keywords to each chapter, under abstract
-
 -Add glossary
 
--Figure for ZHR & diurnal shift
+-Move the observer dot in the diagram to where the radius for theta is
+
+-Increases in middle of the year:
+	-to do with other planets?
+	-sun?
+	-less meteor showers?
+	for further work:
+		-remove meteor showers from background

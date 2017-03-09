@@ -1,0 +1,48 @@
+%\documentclass[convert={density=300 -alpha deactivate -background white,size=1080x1080, outext=.png}]{standalone}
+\documentclass[tikz]{standalone}
+%\documentclass{article}
+\usepackage{tikz, tikz-3dplot}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
+\usetikzlibrary{quotes, angles, intersections}
+
+\begin{document}
+	
+\tdplotsetmaincoords{0}{0}
+\tdplotsetrotatedcoords{90}{0}{0}
+
+\begin{tikzpicture}[tdplot_main_coords]
+\pagecolor[RGB]{255,255,255}
+
+\shade[ball color=blue!10!white,opacity=0.6] (4cm,0) arc (0:-180:4cm and 10mm) arc (180:-180:4cm and 4cm);
+
+% base circle
+\draw (-4,0) arc (180:222.5:4 and 1);
+\draw (4,0) arc (360:256:4 and 1);
+
+% hemisphere
+\draw (-4,0) arc (180:-180:4 and 4);
+
+
+
+% rotated base circle
+\begin{scope}
+\draw [dashed, name path = C] (0,-4) -- (0,4);
+\draw [tdplot_rotated_coords, name path = A] (-4,0) arc (180:360:4 and -1);
+\draw [tdplot_rotated_coords, name path = B] (-4,0) arc (180:360:4 and -3);
+\tikzfillbetween[of=B and A]{gray, opacity=0.4}
+\end{scope}
+
+%\draw[tdplot_rotated_coords, red, thick] (0,0) -- (-0.66,2.95);
+
+\draw [tdplot_rotated_coords] (-0.23,1) -- (-0.66,2.95);
+\draw [tdplot_rotated_coords, dashed] (-0.23,1) -- (0,0);
+\draw [tdplot_rotated_coords, dashed] (0,0) -- (-0.96,0.95);
+
+\node [tdplot_rotated_coords] (a) at (-0.66,2.95) {};
+\node (b) at (0,0) {};
+\node [tdplot_rotated_coords] (c) at (-0.96,0.95) {};
+\draw pic["$\alpha$", angle radius=1cm] {angle = a--b--c};
+\draw[densely dotted, thick] (-1.47,-0.34) arc (-137.5:-104:2 and 0.5); 
+\end{tikzpicture}
+\end{document}

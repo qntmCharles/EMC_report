@@ -1,0 +1,54 @@
+%\documentclass[convert={density=300 -alpha deactivate -background white,size=1080x1080, outext=.png}]{standalone}
+\documentclass[tikz]{standalone}
+\usepackage{tikz, tikz-3dplot}
+\usetikzlibrary{quotes, angles}
+
+\begin{document}
+	
+\tdplotsetmaincoords{0}{0}
+\tdplotsetrotatedcoords{0}{0}{-60}
+\begin{tikzpicture}[tdplot_main_coords]
+\pagecolor[RGB]{255,255,255}
+
+% base circle
+\draw (-4,0) arc (180:360:4 and 1);
+\draw [dashed] (-4,0) arc (180:0:4 and 1);
+
+% hemisphere
+\draw (-4,0) arc (180:0:4 and 4);
+
+\shade[ball color=blue!10!white,opacity=0.6] (4cm,0) arc (0:-180:4cm and 10mm) arc (180:0:4cm and 4cm);
+
+% rotated base circle
+\draw [tdplot_rotated_coords] (-4,0) arc (180:360:4 and 1);
+\draw [tdplot_rotated_coords, dashed] (-4,0) arc (180:0:4 and 1);
+
+\draw[red, fill] (0,0) circle (0.1cm);
+
+\draw[red, fill] (-4,-3) circle (0.1cm) node[right, black, xshift=0.1cm] {\large Observer};
+
+\draw (0,0) -- (0,4);
+
+% Angle
+\node (a) at (3,0) {};
+\node (b) at (0,0) {};
+\node (z) at (0,3) {};
+\node[tdplot_rotated_coords] (c) at (0,3) {};
+\draw pic[draw, ->, "$z$", angle radius=2.3cm] {angle=c--b--z};
+\draw pic[draw, ->, "$h$", angle radius=2.5cm] {angle = a--b--c};
+
+\draw [tdplot_rotated_coords, fill] (0,4) circle (0.05cm) node [tdplot_rotated_coords, right] at (0,4) {\large Shower Radiant};
+
+\draw [fill] (0,4) circle (0.05cm) node [above] at (0,4) {\large Observer's Zenith};
+
+% hemisphere
+\draw [tdplot_rotated_coords] (-4,0) arc (180:0:4 and 4);
+
+%meteor cone label
+\node [tdplot_rotated_coords] at (3.5,4) {\large Meteor `cone'};
+
+\draw [tdplot_rotated_coords] (0,0) -- (0,4);
+
+%\draw [brown] (current bounding box.south west) rectangle (current bounding box.north east); %draw bounding box
+\end{tikzpicture}
+\end{document}

@@ -6,6 +6,13 @@ backend=biber,
 sorting=ynt]{biblatex}
 \addbibresource{bib.bib}
 
+% Tikz
+\usepackage{tikz, tikz-3dplot}
+\usepackage{standalone}
+\usepackage{pgfplots}
+\usepgfplotslibrary{fillbetween}
+\usetikzlibrary{quotes, angles, intersections}
+
 \usepackage{color, url, hyperref, indentfirst, graphicx, float, wrapfig, titlesec, subcaption, titling, abstract, multicol, cuted, amsmath}
 
 \graphicspath{ {images/} }
@@ -22,7 +29,7 @@ sorting=ynt]{biblatex}
 
 % Keywords
 \def\keywords{\vspace{.5em}
-	{\textbf{Keywords}:\,\relax%
+	{\textbf{Keywords}:\,\,\relax%
 }}
 \def\endkeywords{\par}
 
@@ -34,7 +41,7 @@ sorting=ynt]{biblatex}
 
 \vspace{10em}
 \begin{abstract}
-	In this report I present 6 chapters, each a distinct study on meteor detection rates from observers across the world. Firstly, I analyse the phenomenon of diurnal shift, presenting a model linking Earth's orbital velocity and daily increases in rates. Secondly, through analysis of spatial and antenna type variation, I find that radio methods yield similar results to visual detection, as expected. There is little variation in the characteristics of meteor detection rates globally, nor between antenna types. Following from this, my analyses of temporal variation show evidence of a link between detection rate maxima and solar cycle minima, as found by other studies. Penultimately, I develop an improved correction of shower radiant height, which when applied to zenithal hourly rate (ZHR) calculations, demonstrates the validity of application to radio meteor detection, producing results reflecting those of visual observation. However, further refinement of population index models are necessary. Finally, I investigate methods of image analysis and their potential accuracy.
+	In this report I present 6 chapters, each a distinct study on meteor detection rates from observers across the world. Firstly, I analyse the phenomenon of diurnal shift, presenting a model linking Earth's orbital velocity and daily increases in rates. Secondly, through analysis of spatial and antenna type variation, I find that radio methods yield similar results to visual detection, as expected. There is little variation in the characteristics of meteor detection rates globally, nor between antenna types. Following from this, my analyses of temporal variation show evidence of a link between detection rate maxima and solar cycle minima, as found by other studies. Penultimately, I develop an improved correction of shower radiant height, which when applied to zenithal hourly rate (ZHR) calculations, demonstrates the validity of application to radio meteor detection, producing results reflecting those of visual observation. However, further refinement of population index models are necessary. Finally, I investigate methods of image analysis, focused on root mean square difference, finding a good correlation with other radio detection results, giving an adaptable new method.
 \end{abstract}
 \end{titlingpage}
 

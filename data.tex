@@ -1,7 +1,7 @@
 \chapter{Data}
 \label{chap:data}
 \section{Where is the data from?}
-The Radio Meteor Observing Bulletin (RMOB) \cite{rmob} is an organisation of people from the field of radio meteor scatter observations and data reduction. Started in August 1993, the intention was to enable easy communication of data from the Perseid meteor shower. In the years that followed the bulletin became monthly and now has hundreds of observers in various locations around the world. The long-term aim is to covert the {\it entire} world, allowing detection of stream outbursts that will not be noticed visually.\\
+The Radio Meteor Observing Bulletin (RMOB) \cite{rmob} is an organisation of people from the field of radio meteor scatter observations and data reduction. Started in August 1993, the intention was to enable easy communication of data from the Perseid meteor shower. In the years that followed the bulletin became monthly and now has hundreds of observers in various locations around the world. The long-term aim is to cover the {\it entire} world, allowing detection of stream outbursts that will not be noticed visually.\\
 Pierre Terrier, an RMOB member, has produced software that allows observers to upload data to a database on the RMOB website (rmob.org). This is the source of my data, providing a range of data dating back to 2000, from observers across the globe.
 \section{What is the data?}
 The data provided by RMOB is a text and image collection, as in figure~\ref{fig:data:rmob}.\\
@@ -43,7 +43,7 @@ Using the links collected from webscraping, each file was downloaded, formatted,
 Each entry has properties: the source of the data (the location in my filesystem that the data is stored), the date (in the format YYYY-MM) and the data itself. Storing every single item of data would be inefficient, so the data must be loaded through by typing \texttt{entry.loadData()} first. This opens the location in my filesystem, loads the .csv file, and the data is then available for processing. \\
 Each of these entries is stored in an `observer' object. This is done by storing the entries in a dictionary, so that the correct data can be selected by specifying the month which is associated with the month of the entry. Some RMOB text files include properties of the detection setup, such as antenna, location, and frequencies. These are stored as part of the observer object as attributes. This allows an easier analysis, since in (for example) spatial variation, the GMAP location can be selected by typing \texttt{observer.locationAttr[`latitudeGMAP']}. Where two entries for the same observer differ, there is a `collision'. In this event, two separate observers are stored.
 \section{Final data set}
-Figure~\ref{fig:data:contr} shows how many observers contributed to RMOB each month since 2000. Overall, there are 345 observers in my data set, with 5110 entries in total. This means, at most, I have 3,800,000 hourly counts. As can be seen in the figure, more and more observers are uploading each month. This can only mean good things for meteor detection analysis!
+Figure~\ref{fig:data:contr} shows how many observers contributed to RMOB each month since 2000. Overall, there are 345 observers in my data set, with 5110 entries in total. This means, at most, I have 3,800,000 hourly counts. As can be seen in the figure, more and more observers are uploading each month. This can only mean good things for radio meteor detection analysis!
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{data/contributing_authors}
