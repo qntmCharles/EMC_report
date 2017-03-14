@@ -56,15 +56,15 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.3}Spatial variation}{13}{subsection.3.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Latitude\\}{13}{figure.caption.18}
+\contentsline {paragraph}{Latitude\\}{14}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Longitude\\}{14}{figure.caption.20}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.4.4}Temporal variation}{15}{subsection.3.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.4.5}Improvements}{16}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.5}Improvements}{15}{subsection.3.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Annual variation\\}{16}{subsection.3.4.5}
+\contentsline {paragraph}{Annual variation\\}{15}{subsection.3.4.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Intensity variation with latitude\\}{16}{subsection.3.4.5}
 \defcounter {refsection}{0}\relax 
@@ -96,23 +96,23 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Minimum hourly detection count\\}{18}{figure.caption.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Skewness\\}{19}{figure.caption.30}
+\contentsline {paragraph}{Skewness\\}{18}{figure.caption.30}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Standard error\\}{19}{figure.caption.31}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Diurnal shift\\}{19}{figure.caption.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4.2}Longitude analysis}{20}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.2}Longitude analysis}{19}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Sample sizes\\}{20}{subsection.4.4.2}
+\contentsline {paragraph}{Sample sizes\\}{19}{subsection.4.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Mean hourly detection count\\}{20}{table.caption.35}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Maximum hourly detection count\\}{20}{figure.caption.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Minimum hourly detection count\\}{21}{figure.caption.37}
+\contentsline {paragraph}{Minimum hourly detection count\\}{20}{figure.caption.37}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Skewness\\}{21}{figure.caption.38}
+\contentsline {paragraph}{Skewness\\}{20}{figure.caption.38}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Standard error\\}{21}{figure.caption.39}
 \defcounter {refsection}{0}\relax 
@@ -134,7 +134,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Mean, maximum \& minimum hourly count\\}{22}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Skewness\\}{23}{subsection.4.5.2}
+\contentsline {paragraph}{Skewness\\}{22}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Standard error\\}{23}{subsection.4.5.2}
 \defcounter {refsection}{0}\relax 
@@ -268,13 +268,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Solution\\}{37}{subsection.7.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Population index limitations}{38}{subsection.7.3.2}
+\contentsline {subsubsection}{Population index limitations}{38}{figure.caption.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Background detection count}{38}{subsection.7.3.2}
+\contentsline {subsubsection}{Background detection count}{38}{figure.caption.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Field of view correction}{38}{subsection.7.3.2}
+\contentsline {subsubsection}{Field of view correction}{39}{figure.caption.62}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.3}Calculating radiant height}{38}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.3}Calculating radiant height}{39}{subsection.7.3.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.3.4}Calculating hourly rate}{39}{subsection.7.3.4}
 \defcounter {refsection}{0}\relax 
@@ -282,9 +282,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Selecting observers}{39}{subsection.7.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Comparison\\}{39}{table.caption.61}
+\contentsline {paragraph}{Comparison\\}{39}{table.caption.63}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Correction factors\\}{39}{table.caption.61}
+\contentsline {paragraph}{Correction factors\\}{40}{table.caption.63}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {7.4}Results}{40}{section.7.4}
 \defcounter {refsection}{0}\relax 
@@ -294,9 +294,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Leonids\\}{40}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Orionids\\}{40}{subsection.7.4.1}
+\contentsline {paragraph}{Orionids\\}{41}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Perseids\\}{40}{subsection.7.4.1}
+\contentsline {paragraph}{Perseids\\}{41}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Quadrantids\\}{41}{subsection.7.4.1}
 \defcounter {refsection}{0}\relax 
@@ -310,7 +310,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Peak\\}{41}{subsection.7.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Stream density\\}{41}{subsection.7.5.1}
+\contentsline {paragraph}{Stream density\\}{42}{subsection.7.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Variation correlation\\}{42}{subsection.7.5.1}
 \defcounter {refsection}{0}\relax 
@@ -318,17 +318,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{Field of view}{42}{subsection.7.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Limiting magnitude}{42}{figure.caption.63}
+\contentsline {subsubsection}{Limiting magnitude}{42}{figure.caption.65}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.5.3}Formula improvements}{42}{subsection.7.5.3}
+\contentsline {subsection}{\numberline {7.5.3}Formula improvements}{43}{subsection.7.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Radiant height correction\\}{42}{subsection.7.5.3}
+\contentsline {paragraph}{Radiant height correction\\}{43}{subsection.7.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Diurnal shift correction\\}{42}{subsection.7.5.3}
+\contentsline {paragraph}{Diurnal shift correction\\}{43}{subsection.7.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Limiting magnitude\\}{42}{subsection.7.5.3}
+\contentsline {paragraph}{Limiting magnitude\\}{43}{subsection.7.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Field of view\\}{42}{subsection.7.5.3}
+\contentsline {paragraph}{Field of view\\}{43}{subsection.7.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {7.5.4}Inaccuracies}{43}{subsection.7.5.4}
 \defcounter {refsection}{0}\relax 
@@ -352,9 +352,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{Baseline image generation\\}{45}{subsection.8.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{RMS calculation\\}{45}{figure.caption.65}
+\contentsline {paragraph}{RMS calculation\\}{45}{figure.caption.67}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{RMOB comparison\\}{45}{figure.caption.65}
+\contentsline {paragraph}{RMOB comparison\\}{45}{figure.caption.67}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {8.3}Results}{46}{section.8.3}
 \defcounter {refsection}{0}\relax 
@@ -406,6 +406,6 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {9.3}Acknowledgements}{50}{section.9.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{51}{section*.70}
+\contentsline {chapter}{Appendices}{51}{section*.72}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Zenithal hourly rate results}{52}{Appendix.1.A}

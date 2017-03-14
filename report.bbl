@@ -21,16 +21,16 @@
   \sortlist[entry]{ynt/global/}
     \entry{bumba}{article}{}
       \name{author}{1}{}{%
-        {{hash=bd6ac39dcd3fe2d68161d343c7b44fef}{%
-           family={Bumbda},
+        {{hash=cdf92d0c0fe06b4482880a57290ac475}{%
+           family={Bumba},
            familyi={B\bibinitperiod},
            given={V.},
            giveni={V\bibinitperiod}}}%
       }
-      \strng{namehash}{bd6ac39dcd3fe2d68161d343c7b44fef}
-      \strng{fullhash}{bd6ac39dcd3fe2d68161d343c7b44fef}
-      \strng{authornamehash}{bd6ac39dcd3fe2d68161d343c7b44fef}
-      \strng{authorfullhash}{bd6ac39dcd3fe2d68161d343c7b44fef}
+      \strng{namehash}{cdf92d0c0fe06b4482880a57290ac475}
+      \strng{fullhash}{cdf92d0c0fe06b4482880a57290ac475}
+      \strng{authornamehash}{cdf92d0c0fe06b4482880a57290ac475}
+      \strng{authorfullhash}{cdf92d0c0fe06b4482880a57290ac475}
       \field{sortinit}{1}
       \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
       \field{labelnamesource}{author}
@@ -65,14 +65,16 @@
     \endentry
     \entry{kresak}{article}{}
       \name{author}{1}{}{%
-        {{hash=cfe40f00c52974bacd75c41b9e6b7dea}{%
+        {{hash=33e88813ede281bd06021c32e5f4e59e}{%
            family={Kres\'{a}k},
-           familyi={K\bibinitperiod}}}%
+           familyi={K\bibinitperiod},
+           given={\v{L}.},
+           giveni={\v{L}\bibinitperiod}}}%
       }
-      \strng{namehash}{cfe40f00c52974bacd75c41b9e6b7dea}
-      \strng{fullhash}{cfe40f00c52974bacd75c41b9e6b7dea}
-      \strng{authornamehash}{cfe40f00c52974bacd75c41b9e6b7dea}
-      \strng{authorfullhash}{cfe40f00c52974bacd75c41b9e6b7dea}
+      \strng{namehash}{33e88813ede281bd06021c32e5f4e59e}
+      \strng{fullhash}{33e88813ede281bd06021c32e5f4e59e}
+      \strng{authornamehash}{33e88813ede281bd06021c32e5f4e59e}
+      \strng{authorfullhash}{33e88813ede281bd06021c32e5f4e59e}
       \field{sortinit}{1}
       \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
       \field{labelnamesource}{author}
@@ -104,6 +106,38 @@
       \field{pages}{50\bibrangedash 62}
       \range{pages}{13}
     \endentry
+    \entry{zhr}{article}{}
+      \name{author}{3}{}{%
+        {{hash=cff8777538aec776c261e6d5de514abb}{%
+           family={Andreev},
+           familyi={A\bibinitperiod},
+           given={V.\bibnamedelimi V.},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=0e8a14873f4ee0d382cfc8d5f91e641f}{%
+           family={Belkovich},
+           familyi={B\bibinitperiod},
+           given={O.\bibnamedelimi I.},
+           giveni={O\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=c1f84929aa01cfb5e29384967b0921de}{%
+           family={Tokhtasjev},
+           familyi={T\bibinitperiod},
+           given={V.\bibnamedelimi S.},
+           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{04480d0f5e25411820fb0e0c6ac9b3e0}
+      \strng{fullhash}{04480d0f5e25411820fb0e0c6ac9b3e0}
+      \strng{authornamehash}{04480d0f5e25411820fb0e0c6ac9b3e0}
+      \strng{authorfullhash}{04480d0f5e25411820fb0e0c6ac9b3e0}
+      \field{sortinit}{1}
+      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Solar System Res.}
+      \field{number}{4}
+      \field{title}{Selection Effects in Meteor Photographic Observations}
+      \field{volume}{17}
+      \field{year}{1983}
+    \endentry
     \entry{palladian}{article}{}
       \name{author}{1}{}{%
         {{hash=5c8ef671ffec72896d06f7dfbd6d9326}{%
@@ -123,30 +157,6 @@
       \field{journaltitle}{IAUC}
       \field{number}{3881}
       \field{title}{1983 TB and the Geminid meteors}
-      \field{year}{1983}
-    \endentry
-    \entry{zhr}{article}{}
-      \name{author}{1}{}{%
-        {{hash=6c369ed12a61c67520f0f132a12c2a18}{%
-           family={V.\bibnamedelimi V.\bibnamedelimi Andreev},
-           familyi={V\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim A\bibinitperiod},
-           given={V.\bibnamedelimi S.\bibnamedelimi Tokhtasjev},
-           giveni={V\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim T\bibinitperiod},
-           suffix={O.\bibnamedelimi I.\bibnamedelimi Belkovich},
-           suffixi={O\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{6c369ed12a61c67520f0f132a12c2a18}
-      \strng{fullhash}{6c369ed12a61c67520f0f132a12c2a18}
-      \strng{authornamehash}{6c369ed12a61c67520f0f132a12c2a18}
-      \strng{authorfullhash}{6c369ed12a61c67520f0f132a12c2a18}
-      \field{sortinit}{1}
-      \field{sortinithash}{53e85f4cf497d2a4e1d51786552bcbf1}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Solar System Res.}
-      \field{number}{4}
-      \field{title}{Selection Effects in Meteor Photographic Observations}
-      \field{volume}{17}
       \field{year}{1983}
     \endentry
     \entry{hr_correction}{article}{}
@@ -174,8 +184,32 @@
       \range{pages}{10}
     \endentry
     \entry{alomar}{article}{}
+      \name{author}{3}{}{%
+        {{hash=4bc27760567780ab6d9d61f646425470}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=3ee23c6febcbff11c0306bccfd5bcaec}{%
+           family={Zahn},
+           familyi={Z\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=b4fbe72064222cf74271f97d68e72489}{%
+           family={Wei{\ss{}}},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{9412edcc609dba4dad5d4183dfa82bc2}
+      \strng{fullhash}{9412edcc609dba4dad5d4183dfa82bc2}
+      \strng{authornamehash}{9412edcc609dba4dad5d4183dfa82bc2}
+      \strng{authorfullhash}{9412edcc609dba4dad5d4183dfa82bc2}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Atmos. Chem. Phys.}
       \field{title}{Diurnal and annual variations of meteor rates at the arctic circle}
@@ -185,8 +219,35 @@
       \range{pages}{9}
     \endentry
     \entry{ssim}{article}{}
+      \name{author}{4}{}{%
+        {{hash=92581400fc578eb34e4be9ef6e4afc33}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=5f0963fccb468a9b1b27a23835a72429}{%
+           family={Bovik},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=adb08564e7018a1dbec6e79a1b77e855}{%
+           family={Sheikh},
+           familyi={S\bibinitperiod},
+           given={H.\bibnamedelimi R.},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a3f7cc29cef6f8b6551b03dcdac4a874}{%
+           family={Simoncelli},
+           familyi={S\bibinitperiod},
+           given={E.\bibnamedelimi P.},
+           giveni={E\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{461ebdb36c1ade1932f8f303a39bb149}
+      \strng{fullhash}{66a4ae619e022d63c30c654f3783f682}
+      \strng{authornamehash}{461ebdb36c1ade1932f8f303a39bb149}
+      \strng{authorfullhash}{66a4ae619e022d63c30c654f3783f682}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{IEEE Transactions On Image Processing}
       \field{number}{4}
@@ -195,8 +256,42 @@
       \field{year}{2004}
     \endentry
     \entry{latitudes}{article}{}
+      \name{author}{5}{}{%
+        {{hash=4bc27760567780ab6d9d61f646425470}{%
+           family={Singer},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=3ee23c6febcbff11c0306bccfd5bcaec}{%
+           family={Zahn},
+           familyi={Z\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod},
+           prefix={von},
+           prefixi={v\bibinitperiod}}}%
+        {{hash=42e6c899f96f2f6732e203c84421f4cb}{%
+           family={Batista},
+           familyi={B\bibinitperiod},
+           given={P.\bibnamedelimi P.},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=8d661ed5fe7edb8fe38d00395eb05cb7}{%
+           family={Fuller},
+           familyi={F\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=f03a767191f06d7ac29ae44a4f0ab9c1}{%
+           family={Latteck},
+           familyi={L\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8dd4e93742825776449b573e09561a3}
+      \strng{fullhash}{fcea30283256586ec6cf00627ee30ced}
+      \strng{authornamehash}{e8dd4e93742825776449b573e09561a3}
+      \strng{authorfullhash}{fcea30283256586ec6cf00627ee30ced}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{17th ESA Symposium on European Rocket and Balloon Programmes and Related Research}
       \field{title}{Diurnal and annual variations of meteor rates at latitudes betwen 69$^{\circ}$N and 35$^{\circ}$S}
@@ -220,17 +315,22 @@
       \field{year}{2007}
     \endentry
     \entry{stream}{online}{}
-      \name{author}{1}{}{%
-        {{hash=95afbda54b130c4a44bfc1cec9d71d7a}{%
-           family={NASA\bibnamedelima Cosmos},
-           familyi={N\bibinitperiod\bibinitdelim C\bibinitperiod},
-           given={Kenneth\bibnamedelimb R.\bibnamedelimi Lang},
-           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      \name{author}{2}{}{%
+        {{hash=a5edc1a3f8d12ce39b6c0bcaad64ec75}{%
+           family={Cosmos},
+           familyi={C\bibinitperiod},
+           given={NASA},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ba2b68475b97fa13ff3195c49f5edd3a}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={Kenneth\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
-      \strng{namehash}{95afbda54b130c4a44bfc1cec9d71d7a}
-      \strng{fullhash}{95afbda54b130c4a44bfc1cec9d71d7a}
-      \strng{authornamehash}{95afbda54b130c4a44bfc1cec9d71d7a}
-      \strng{authorfullhash}{95afbda54b130c4a44bfc1cec9d71d7a}
+      \strng{namehash}{831fd3f45f5e80087b31d23b73a9b7f2}
+      \strng{fullhash}{831fd3f45f5e80087b31d23b73a9b7f2}
+      \strng{authornamehash}{831fd3f45f5e80087b31d23b73a9b7f2}
+      \strng{authorfullhash}{831fd3f45f5e80087b31d23b73a9b7f2}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelnamesource}{author}
@@ -243,16 +343,16 @@
     \endentry
     \entry{baa}{online}{}
       \name{author}{1}{}{%
-        {{hash=e79428abd2c62e759fe6e7612d734ea1}{%
+        {{hash=eabfbde1faa744ea3397acaec6503c9c}{%
            family={Morgan},
            familyi={M\bibinitperiod},
-           given={Dr.\bibnamedelimi David},
-           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+           given={D.},
+           giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{e79428abd2c62e759fe6e7612d734ea1}
-      \strng{fullhash}{e79428abd2c62e759fe6e7612d734ea1}
-      \strng{authornamehash}{e79428abd2c62e759fe6e7612d734ea1}
-      \strng{authorfullhash}{e79428abd2c62e759fe6e7612d734ea1}
+      \strng{namehash}{eabfbde1faa744ea3397acaec6503c9c}
+      \strng{fullhash}{eabfbde1faa744ea3397acaec6503c9c}
+      \strng{authornamehash}{eabfbde1faa744ea3397acaec6503c9c}
+      \strng{authorfullhash}{eabfbde1faa744ea3397acaec6503c9c}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
       \field{labelnamesource}{author}
@@ -266,6 +366,8 @@
     \entry{speclab}{online}{}
       \field{sortinit}{2}
       \field{sortinithash}{8343b463aacf48517c044b4d2c9c45ed}
+      \field{labeltitlesource}{title}
+      \field{title}{Spectrum Lab}
       \field{year}{2016}
       \verb{url}
       \verb http://www.qsl.net/dl4yhf/spectra1.html
@@ -302,29 +404,26 @@
       \verb www.g4fui.net/meteors.html
       \endverb
     \endentry
-    \entry{hrofft}{online}{}
-      \field{sortinit}{9}
-      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
-      \field{labeltitlesource}{title}
-      \field{title}{HROFFT software download}
-      \verb{url}
-      \verb http://www.rmob.org/links.php
-      \endverb
-    \endentry
     \entry{leonids}{online}{}
-      \name{author}{1}{}{%
-        {{hash=e2d85ad5cbbc3179453e16cb0d4f0e1d}{%
-           family={National\bibnamedelima Geographic},
-           familyi={N\bibinitperiod\bibinitdelim G\bibinitperiod},
-           given={M.\bibnamedelimi Littmann},
-           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-           suffix={Elsevier},
-           suffixi={E\bibinitperiod}}}%
+      \name{author}{3}{}{%
+        {{hash=0cd33536898717c4bf489ba127d5610c}{%
+           family={Geographic},
+           familyi={G\bibinitperiod},
+           given={National},
+           giveni={N\bibinitperiod}}}%
+        {{hash=21abe5a91c2949aba6ef77033a5f98f3}{%
+           family={Elsevier},
+           familyi={E\bibinitperiod}}}%
+        {{hash=9fcae429f790751df8366a4e978b5c3e}{%
+           family={Littmann},
+           familyi={L\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{e2d85ad5cbbc3179453e16cb0d4f0e1d}
-      \strng{fullhash}{e2d85ad5cbbc3179453e16cb0d4f0e1d}
-      \strng{authornamehash}{e2d85ad5cbbc3179453e16cb0d4f0e1d}
-      \strng{authorfullhash}{e2d85ad5cbbc3179453e16cb0d4f0e1d}
+      \strng{namehash}{94e1a55493983e9e8b7e20278521ae88}
+      \strng{fullhash}{94e1a55493983e9e8b7e20278521ae88}
+      \strng{authornamehash}{94e1a55493983e9e8b7e20278521ae88}
+      \strng{authorfullhash}{94e1a55493983e9e8b7e20278521ae88}
       \field{sortinit}{9}
       \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
       \field{labelnamesource}{author}
@@ -332,6 +431,15 @@
       \field{title}{1833 Meteor Storm Started Citizen Science}
       \verb{url}
       \verb http://voices.nationalgeographic.com/2014/08/30/1833-meteor-storm-started-citizen-science/
+      \endverb
+    \endentry
+    \entry{hrofft}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{5a7694b2c36c7534b22948c31e4b7920}
+      \field{labeltitlesource}{title}
+      \field{title}{HROFFT software download}
+      \verb{url}
+      \verb http://www.rmob.org/links.php
       \endverb
     \endentry
     \entry{imo_meteor_calendar}{misc}{}
