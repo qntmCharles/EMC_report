@@ -1,18 +1,15 @@
 [0] Config.pm:354> INFO - This is Biber 2.6
 [0] Config.pm:357> INFO - Logfile is 'report.blg'
-[73] biber:302> INFO - === Fri Mar  3, 2017, 09:31:30
-[182] Biber.pm:359> INFO - Reading 'report.bcf'
-[328] Biber.pm:823> INFO - Found 22 citekeys in bib section 0
-[348] Biber.pm:3658> INFO - Processing section 0
-[433] Biber.pm:3828> INFO - Looking for bibtex format file 'bib.bib' for section 0
-[435] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
-[438] bibtex.pm:1282> INFO - Found BibTeX data source 'bib.bib'
-[532] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[532] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[532] Biber.pm:3487> INFO - Sorting list 'ynt/global/' of type 'entry' with scheme 'ynt' and locale 'en-US'
-[533] Biber.pm:3493> INFO - No sort tailoring available for locale 'en-US'
-[572] bbl.pm:597> INFO - Writing 'report.bbl' with encoding 'ascii'
-[576] Utils.pm:164> WARN - The entry 'kresak' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[578] Utils.pm:164> WARN - The entry 'alomar' has characters which cannot be encoded in 'ascii'. Recoding problematic characters into macros.
-[582] bbl.pm:701> INFO - Output to report.bbl
-[583] Biber.pm:109> INFO - WARNINGS: 2
+[50] biber:302> INFO - === Thu Mar 16, 2017, 20:08:28
+[73] Biber.pm:359> INFO - Reading 'report.bcf'
+[214] Biber.pm:823> INFO - Found 8 citekeys in bib section 0
+[235] Biber.pm:3658> INFO - Processing section 0
+[256] Biber.pm:3828> INFO - Looking for bibtex format file 'bib.bib' for section 0
+[258] bibtex.pm:1425> INFO - Decoding LaTeX character macros into UTF-8
+[261] bibtex.pm:1282> INFO - Found BibTeX data source 'bib.bib'
+[325] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[325] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[325] Biber.pm:3487> INFO - Sorting list 'ynt/global/' of type 'entry' with scheme 'ynt' and locale 'en-US'
+[325] Biber.pm:3493> INFO - No sort tailoring available for locale 'en-US'
+[343] bbl.pm:597> INFO - Writing 'report.bbl' with encoding 'ascii'
+[346] bbl.pm:701> INFO - Output to report.bbl

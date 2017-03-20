@@ -1,7 +1,10 @@
-.aux
-.bbl
-.bcf
-.blg
-.xml
-.log
-.toc
+*.log
+*.aux
+*.blg
+*.bcf
+*.bbl
+*.out
+*.tgz
+*.tpc
+*.txt
+

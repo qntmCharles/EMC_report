@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.18)  3 MAR 2017 09:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.1.18)  16 MAR 2017 20:08
 entering extended mode
- \write18 enabled.
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **report
 (./report.tex
@@ -1159,41 +1159,41 @@ Package caption Info: End \AtBeginDocument code.
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-(./report.tocpdfTeX warning (ext4): destination with the same identifier (name{
-page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.133 ...Longitude analysis}{22}{subsection.4.5.2}
-                                                   [1
-
-
-
-] [2])
+(./report.toc)
 \tf@toc=\write7
 \openout7 = `report.toc'.
 
- [3] (./intro.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.48 \tableofcontents
+                      [1
+
+
+
+] (./intro.tex
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-<images/intro/detection.png, id=623, 480.79625pt x 277.035pt>
+<images/intro/detection.png, id=142, 480.79625pt x 277.035pt>
 File: images/intro/detection.png Graphic file (type png)
 
 <use images/intro/detection.png>
 Package pdftex.def Info: images/intro/detection.png used on input line 12.
 (pdftex.def)             Requested size: 221.0pt x 127.34041pt.
 
-<images/intro/2D.jpg, id=627, 1167.36125pt x 945.5325pt>
+<images/intro/2D.jpg, id=146, 1167.36125pt x 945.5325pt>
 File: images/intro/2D.jpg Graphic file (type jpg)
 
 <use images/intro/2D.jpg>
 Package pdftex.def Info: images/intro/2D.jpg used on input line 20.
 (pdftex.def)             Requested size: 108.48248pt x 87.86435pt.
 
-<images/intro/3D.jpg, id=628, 897.3525pt x 930.47626pt>
+<images/intro/3D.jpg, id=147, 897.3525pt x 930.47626pt>
 File: images/intro/3D.jpg Graphic file (type jpg)
 
 <use images/intro/3D.jpg>
@@ -1206,50 +1206,50 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[4
+[2
 
 
  <./images/intro/detection.png>]
 
-LaTeX Warning: Reference `stream' on page 5 undefined on input line 35.
+LaTeX Warning: Reference `streamfigf' on page 3 undefined on input line 35.
 
-<images/intro/stream.jpg, id=642, 569.12625pt x 302.12875pt>
+<images/intro/stream.jpg, id=161, 569.12625pt x 302.12875pt>
 File: images/intro/stream.jpg Graphic file (type jpg)
 
 <use images/intro/stream.jpg>
 Package pdftex.def Info: images/intro/stream.jpg used on input line 38.
 (pdftex.def)             Requested size: 221.0pt x 117.32262pt.
 
-<images/intro/leonids.jpg, id=645, 144.54pt x 180.675pt>
+<images/intro/leonids.jpg, id=164, 144.54pt x 180.675pt>
 File: images/intro/leonids.jpg Graphic file (type jpg)
 
 <use images/intro/leonids.jpg>
-Package pdftex.def Info: images/intro/leonids.jpg used on input line 44.
+Package pdftex.def Info: images/intro/leonids.jpg used on input line 45.
 (pdftex.def)             Requested size: 176.80067pt x 221.01312pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (./data.tex [5 <./images/intro/2D.jpg> <./images/intro/3D.jpg> <./images/intr
-o/stream.jpg>] [6
+) (./data.tex [3 <./images/intro/2D.jpg> <./images/intro/3D.jpg> <./images/intr
+o/stream.jpg>] [4
 
  <./images/intro/leonids.jpg>]
 Chapter 2.
-<images/data/rmob.png, id=670, 983.675pt x 495.8525pt>
+<images/data/rmob.png, id=190, 983.675pt x 495.8525pt>
 File: images/data/rmob.png Graphic file (type png)
 
 <use images/data/rmob.png>
 Package pdftex.def Info: images/data/rmob.png used on input line 12.
 (pdftex.def)             Requested size: 193.23117pt x 97.39827pt.
 
-<images/data/rmob2.png, id=671, 460.72125pt x 316.18124pt>
+<images/data/rmob2.png, id=191, 460.72125pt x 316.18124pt>
 File: images/data/rmob2.png Graphic file (type png)
 
 <use images/data/rmob2.png>
 Package pdftex.def Info: images/data/rmob2.png used on input line 19.
 (pdftex.def)             Requested size: 193.23117pt x 132.60706pt.
 
-<images/data/hrofft.png, id=674, 631.35875pt x 401.5pt>
+<images/data/hrofft.png, id=194, 631.35875pt x 401.5pt>
 File: images/data/hrofft.png Graphic file (type png)
 
 <use images/data/hrofft.png>
@@ -1270,7 +1270,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7
+ [5
 
  <./images/data/rmob.png> <./images/data/rmob2.png>]
 Underfull \hbox (badness 7944) in paragraph at lines 41--45
@@ -1278,7 +1278,7 @@ Underfull \hbox (badness 7944) in paragraph at lines 41--45
 cmr/m/n/10 .
  []
 
-<images/data/contributing_authors.png, id=690, 1021.8978pt x 579.6054pt>
+<images/data/contributing_authors.png, id=209, 1021.8978pt x 579.6054pt>
 File: images/data/contributing_authors.png Graphic file (type png)
 
 <use images/data/contributing_authors.png>
@@ -1286,14 +1286,14 @@ Package pdftex.def Info: images/data/contributing_authors.png used on input lin
 e 49.
 (pdftex.def)             Requested size: 221.0pt x 125.34679pt.
 
-<images/data/locations.png, id=693, 1153.4292pt x 581.0508pt>
+<images/data/locations.png, id=212, 1153.4292pt x 581.0508pt>
 File: images/data/locations.png Graphic file (type png)
 
 <use images/data/locations.png>
 Package pdftex.def Info: images/data/locations.png used on input line 56.
 (pdftex.def)             Requested size: 221.0pt x 111.32286pt.
 
-<images/data/locationsVolume.png, id=696, 1147.6476pt x 578.16pt>
+<images/data/locationsVolume.png, id=215, 1147.6476pt x 578.16pt>
 File: images/data/locationsVolume.png Graphic file (type png)
 
 <use images/data/locationsVolume.png>
@@ -1301,730 +1301,40 @@ Package pdftex.def Info: images/data/locationsVolume.png used on input line 63.
 
 (pdftex.def)             Requested size: 221.0pt x 111.33363pt.
 
-<images/data/locationsAvg.png, id=697, 1153.4292pt x 579.6054pt>
+<images/data/locationsAvg.png, id=216, 1153.4292pt x 579.6054pt>
 File: images/data/locationsAvg.png Graphic file (type png)
 
 <use images/data/locationsAvg.png>
 Package pdftex.def Info: images/data/locationsAvg.png used on input line 69.
 (pdftex.def)             Requested size: 221.0pt x 111.04594pt.
-) (./diurnal_shift.tex
-Underfull \hbox (badness 1509) in paragraph at lines 46--1
+)
+Underfull \hbox (badness 1509) in paragraph at lines 46--57
 []\OT1/cmr/m/n/10 Figure []2.3[] shows how many ob-servers con-
  []
 
-[8 <./images/data/hrofft.png> <./images/data/contributing_authors.png>]
-[9
+[6 <./images/data/hrofft.png> <./images/data/contributing_authors.png>]
+(./conclusion.tex [7
 
  <./images/data/locations.png> <./images/data/locationsVolume.png> <./images/da
 ta/locationsAvg.png>]
 Chapter 3.
-Extra height:0.0pt when 0.0pt
-(2)Left:0.0pt Right:0.0pt Output:0.0pt
-- LAST -
-Left:0.0pt
-Right:0.0pt
-Output:0.0pt
-<images/dishift/img59.jpg, id=720, 489.32813pt x 231.11343pt>
-File: images/dishift/img59.jpg Graphic file (type jpg)
-
-<use images/dishift/img59.jpg>
-Package pdftex.def Info: images/dishift/img59.jpg used on input line 18.
-(pdftex.def)             Requested size: 221.0pt x 104.38094pt.
-
-Overfull \vbox (150.40276pt too high) has occurred while \output is active []
-
-
-[10
-
- <./images/dishift/img59.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 27--41
-
- []
-
-
-Underfull \hbox (badness 1087) in paragraph at lines 55--57
-\OT1/cmr/m/n/10 ve-loc-ity, more me-te-ors can ac-tu-ally reach the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
-
- []
-
-[11] <images/dishift/diagram.png, id=747, 1192.455pt x 952.55875pt>
-File: images/dishift/diagram.png Graphic file (type png)
-
-<use images/dishift/diagram.png>
-Package pdftex.def Info: images/dishift/diagram.png used on input line 67.
-(pdftex.def)             Requested size: 221.0pt x 176.54037pt.
-
-<images/dishift/diurnal_shift_fit.png, id=749, 578.16pt x 433.62pt>
-File: images/dishift/diurnal_shift_fit.png Graphic file (type png)
-
-<use images/dishift/diurnal_shift_fit.png>
-Package pdftex.def Info: images/dishift/diurnal_shift_fit.png used on input lin
-e 81.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[12 <./images/dishift/diagram.png>]
-<images/dishift/all_shifts.png, id=764, 867.24pt x 578.16pt>
-File: images/dishift/all_shifts.png Graphic file (type png)
-
-<use images/dishift/all_shifts.png>
-Package pdftex.def Info: images/dishift/all_shifts.png used on input line 90.
-(pdftex.def)             Requested size: 221.0pt x 147.3274pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/dishift/peak_qgis.png, id=767, 846.6742pt x 598.58098pt>
-File: images/dishift/peak_qgis.png Graphic file (type png)
-
-<use images/dishift/peak_qgis.png>
-Package pdftex.def Info: images/dishift/peak_qgis.png used on input line 113.
-(pdftex.def)             Requested size: 221.0pt x 156.23933pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [13 <./images/dishift/diurnal_shift_fit.png> <./images/dishift/all_shifts.png>
- <./images/dishift/peak_qgis.png>]
-<images/spatial/latitude/peak.png, id=779, 578.16pt x 433.62pt>
-File: images/spatial/latitude/peak.png Graphic file (type png)
-
-<use images/spatial/latitude/peak.png>
-Package pdftex.def Info: images/spatial/latitude/peak.png used on input line 12
-1.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-<images/spatial/latitude/fit.png, id=781, 578.16pt x 433.62pt>
-File: images/spatial/latitude/fit.png Graphic file (type png)
-
-<use images/spatial/latitude/fit.png>
-Package pdftex.def Info: images/spatial/latitude/fit.png used on input line 129
-.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/spatial/longitude/peak.png, id=785, 578.16pt x 433.62pt>
-File: images/spatial/longitude/peak.png Graphic file (type png)
-
-<use images/spatial/longitude/peak.png>
-Package pdftex.def Info: images/spatial/longitude/peak.png used on input line 1
-38.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-<images/spatial/longitude/corrected.png, id=787, 578.16pt x 433.62pt>
-File: images/spatial/longitude/corrected.png Graphic file (type png)
-
-<use images/spatial/longitude/corrected.png>
-Package pdftex.def Info: images/spatial/longitude/corrected.png used on input l
-ine 145.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-<images/spatial/longitude/hist.png, id=790, 578.16pt x 433.62pt>
-File: images/spatial/longitude/hist.png Graphic file (type png)
-
-<use images/spatial/longitude/hist.png>
-Package pdftex.def Info: images/spatial/longitude/hist.png used on input line 1
-52.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[14 <./images/spatial/latitude/peak.png> <./images/spatial/latitude/fit.png> <.
-/images/spatial/longitude/peak.png>]
-<images/spatial/longitude/fit.png, id=802, 578.16pt x 433.62pt>
-File: images/spatial/longitude/fit.png Graphic file (type png)
-
-<use images/spatial/longitude/fit.png>
-Package pdftex.def Info: images/spatial/longitude/fit.png used on input line 16
-0.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-<images/temporal/analyses/COMBINEDpeak.png, id=804, 501.69833pt x 395.89507pt>
-File: images/temporal/analyses/COMBINEDpeak.png Graphic file (type png)
-
-<use images/temporal/analyses/COMBINEDpeak.png>
-Package pdftex.def Info: images/temporal/analyses/COMBINEDpeak.png used on inpu
-t line 170.
-(pdftex.def)             Requested size: 221.0pt x 174.3937pt.
-
-<images/temporal/analyses/COMBINEDfit.png, id=805, 504.87822pt x 393.43788pt>
-File: images/temporal/analyses/COMBINEDfit.png Graphic file (type png)
-
-<use images/temporal/analyses/COMBINEDfit.png>
-Package pdftex.def Info: images/temporal/analyses/COMBINEDfit.png used on input
- line 177.
-(pdftex.def)             Requested size: 221.0pt x 172.21869pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[15 <./images/spatial/longitude/corrected.png> <./images/spatial/longitude/hist
-.png> <./images/spatial/longitude/fit.png>]
-Underfull \hbox (badness 1231) in paragraph at lines 187--188
-[] []\OT1/cmr/bx/n/10 Re-ceiv-ing sta-tion vs. de-tec-tion sta-tion[]
- []
-
-) (./spatial_variation.tex [16 <./images/temporal/analyses/COMBINEDpeak.png> <.
-/images/temporal/analyses/COMBINEDfit.png>]
-Chapter 4.
-Extra height:0.0pt when 0.0pt
-(2)Left:0.0pt Right:0.0pt Output:0.0pt
-- LAST -
-Left:0.0pt
-Right:0.0pt
-Output:0.0pt
-
-Underfull \hbox (badness 7064) in paragraph at lines 21--23
-[] \OT1/cmr/m/n/10 These char-ac-ter-is-tics sum-marise the data,
- []
-
-
-Overfull \vbox (180.40276pt too high) has occurred while \output is active []
-
-
-[17
-
-]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/spatial/latitude/mean.png, id=832, 578.16pt x 433.62pt>
-File: images/spatial/latitude/mean.png Graphic file (type png)
-
-<use images/spatial/latitude/mean.png>
-Package pdftex.def Info: images/spatial/latitude/mean.png used on input line 53
-.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/spatial/latitude/max.png, id=833, 578.16pt x 433.62pt>
-File: images/spatial/latitude/max.png Graphic file (type png)
-
-<use images/spatial/latitude/max.png>
-Package pdftex.def Info: images/spatial/latitude/max.png used on input line 61.
-
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/spatial/latitude/min.png, id=834, 578.16pt x 433.62pt>
-File: images/spatial/latitude/min.png Graphic file (type png)
-
-<use images/spatial/latitude/min.png>
-Package pdftex.def Info: images/spatial/latitude/min.png used on input line 70.
-
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/spatial/latitude/skew.png, id=835, 578.16pt x 433.62pt>
-File: images/spatial/latitude/skew.png Graphic file (type png)
-
-<use images/spatial/latitude/skew.png>
-Package pdftex.def Info: images/spatial/latitude/skew.png used on input line 78
-.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
- [18 <./images/spatial/latitude/mean.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/spatial/latitude/err.png, id=844, 578.16pt x 433.62pt>
-File: images/spatial/latitude/err.png Graphic file (type png)
-
-<use images/spatial/latitude/err.png>
-Package pdftex.def Info: images/spatial/latitude/err.png used on input line 86.
-
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: images/spatial/latitude/peak.png Graphic file (type png)
-<use images/spatial/latitude/peak.png>
-Package pdftex.def Info: images/spatial/latitude/peak.png used on input line 94
-.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-File: images/spatial/latitude/fit.png Graphic file (type png)
- <use images/spatial/latitude/fit.png>
-Package pdftex.def Info: images/spatial/latitude/fit.png used on input line 101
-.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[19 <./images/spatial/latitude/max.png> <./images/spatial/latitude/min.png> <./
-images/spatial/latitude/skew.png> <./images/spatial/latitude/err.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/spatial/longitude/mean.png, id=860, 578.16pt x 433.62pt>
-File: images/spatial/longitude/mean.png Graphic file (type png)
-
-<use images/spatial/longitude/mean.png>
-Package pdftex.def Info: images/spatial/longitude/mean.png used on input line 1
-39.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/spatial/longitude/max.png, id=861, 578.16pt x 433.62pt>
-File: images/spatial/longitude/max.png Graphic file (type png)
-
-<use images/spatial/longitude/max.png>
-Package pdftex.def Info: images/spatial/longitude/max.png used on input line 14
-7.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-Underfull \hbox (badness 1264) in paragraph at lines 144--151
-[] \OT1/cmr/m/n/10 Most max-i-mum hourly de-tec-tion counts are
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/spatial/longitude/min.png, id=863, 578.16pt x 433.62pt>
-File: images/spatial/longitude/min.png Graphic file (type png)
-
-<use images/spatial/longitude/min.png>
-Package pdftex.def Info: images/spatial/longitude/min.png used on input line 15
-5.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/spatial/longitude/skew.png, id=865, 578.16pt x 433.62pt>
-File: images/spatial/longitude/skew.png Graphic file (type png)
-
-<use images/spatial/longitude/skew.png>
-Package pdftex.def Info: images/spatial/longitude/skew.png used on input line 1
-63.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
- [20 <./images/spatial/longitude/mean.png>]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/spatial/longitude/err.png, id=875, 578.16pt x 433.62pt>
-File: images/spatial/longitude/err.png Graphic file (type png)
-
-<use images/spatial/longitude/err.png>
-Package pdftex.def Info: images/spatial/longitude/err.png used on input line 17
-1.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: images/spatial/longitude/peak.png Graphic file (type png)
-<use images/spatial/longitude/peak.png>
-Package pdftex.def Info: images/spatial/longitude/peak.png used on input line 1
-79.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-File: images/spatial/longitude/fit.png Graphic file (type png)
- <use images/spatial/longitude/fit.png>
-Package pdftex.def Info: images/spatial/longitude/fit.png used on input line 18
-6.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21 <./images/spatial/longitude/max.png> <./images/spatial/longitude/min.png> 
-<./images/spatial/longitude/skew.png> <./images/spatial/longitude/err.png>] [22
-])
-(./temporal_variation.tex [23]
-Chapter 5.
-Extra height:0.0pt when 0.0pt
-(2)Left:0.0pt Right:0.0pt Output:0.0pt
-- LAST -
-Left:0.0pt
-Right:0.0pt
-Output:0.0pt
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (180.40276pt too high) has occurred while \output is active []
-
-
-[24
-
-]
-<images/temporal/analyses/COMBINEDerr.png, id=921, 506.46815pt x 400.08672pt>
-File: images/temporal/analyses/COMBINEDerr.png Graphic file (type png)
-
-<use images/temporal/analyses/COMBINEDerr.png>
-Package pdftex.def Info: images/temporal/analyses/COMBINEDerr.png used on input
- line 47.
-(pdftex.def)             Requested size: 221.0pt x 174.57964pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-<images/temporal/analyses/COMBINEDskew.png, id=922, 504.73367pt x 395.75052pt>
-File: images/temporal/analyses/COMBINEDskew.png Graphic file (type png)
-
-<use images/temporal/analyses/COMBINEDskew.png>
-Package pdftex.def Info: images/temporal/analyses/COMBINEDskew.png used on inpu
-t line 55.
-(pdftex.def)             Requested size: 221.0pt x 173.28535pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: images/temporal/analyses/COMBINEDpeak.png Graphic file (type png)
-<use images/temporal/analyses/COMBINEDpeak.png>
-Package pdftex.def Info: images/temporal/analyses/COMBINEDpeak.png used on inpu
-t line 63.
-(pdftex.def)             Requested size: 221.0pt x 174.3937pt.
-File: images/temporal/analyses/COMBINEDfit.png Graphic file (type png)
-
-<use images/temporal/analyses/COMBINEDfit.png>
-Package pdftex.def Info: images/temporal/analyses/COMBINEDfit.png used on input
- line 70.
-(pdftex.def)             Requested size: 221.0pt x 172.21869pt.
- [25]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/temporal/Dcombined.png, id=932, 809.424pt x 462.528pt>
-File: images/temporal/Dcombined.png Graphic file (type png)
-
-<use images/temporal/Dcombined.png>
-Package pdftex.def Info: images/temporal/Dcombined.png used on input line 79.
-(pdftex.def)             Requested size: 221.0pt x 126.28163pt.
- [26 <./images/temporal/analyses/COMBINEDerr.png> <./images/temporal/analyses/C
-OMBINEDskew.png>]
-<images/temporal/Mcombined.png, id=943, 577.00368pt x 465.99696pt>
-File: images/temporal/Mcombined.png Graphic file (type png)
-
-<use images/temporal/Mcombined.png>
-Package pdftex.def Info: images/temporal/Mcombined.png used on input line 87.
-(pdftex.def)             Requested size: 221.0pt x 178.48146pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/temporal/Ycombined.png, id=944, 800.17345pt x 457.90273pt>
-File: images/temporal/Ycombined.png Graphic file (type png)
-
-<use images/temporal/Ycombined.png>
-Package pdftex.def Info: images/temporal/Ycombined.png used on input line 95.
-(pdftex.def)             Requested size: 221.0pt x 126.46512pt.
-
-<images/temporal/YMcombined.png, id=948, 802.48608pt x 461.37167pt>
-File: images/temporal/YMcombined.png Graphic file (type png)
-
-<use images/temporal/YMcombined.png>
-Package pdftex.def Info: images/temporal/YMcombined.png used on input line 102.
-
-(pdftex.def)             Requested size: 221.0pt x 127.05711pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/temporal/YAllcombined.png, id=949, 650.43pt x 505.89pt>
-File: images/temporal/YAllcombined.png Graphic file (type png)
-
-<use images/temporal/YAllcombined.png>
-Package pdftex.def Info: images/temporal/YAllcombined.png used on input line 11
-2.
-(pdftex.def)             Requested size: 214.70276pt x 166.99052pt.
-
-<images/temporal/YEuropecombined.png, id=950, 650.43pt x 505.89pt>
-File: images/temporal/YEuropecombined.png Graphic file (type png)
-
-<use images/temporal/YEuropecombined.png>
-Package pdftex.def Info: images/temporal/YEuropecombined.png used on input line
- 119.
-(pdftex.def)             Requested size: 214.70276pt x 166.99052pt.
-
-<images/temporal/YnorthAmericaCombined.png, id=951, 650.43pt x 505.89pt>
-File: images/temporal/YnorthAmericaCombined.png Graphic file (type png)
-
-<use images/temporal/YnorthAmericaCombined.png>
-Package pdftex.def Info: images/temporal/YnorthAmericaCombined.png used on inpu
-t line 126.
-(pdftex.def)             Requested size: 214.70276pt x 166.99052pt.
-
-<images/temporal/YasiaAustraliaCombined.png, id=952, 650.43pt x 505.89pt>
-File: images/temporal/YasiaAustraliaCombined.png Graphic file (type png)
-
-<use images/temporal/YasiaAustraliaCombined.png>
-Package pdftex.def Info: images/temporal/YasiaAustraliaCombined.png used on inp
-ut line 133.
-(pdftex.def)             Requested size: 214.70276pt x 166.99052pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[27 <./images/temporal/Dcombined.png> <./images/temporal/Mcombined.png> <./imag
-es/temporal/Ycombined.png>]
-Underfull \hbox (badness 1642) in paragraph at lines 144--145
-[] \OT1/cmr/m/n/10 It is ex-pected that the skew-ness fluc-tu-ates
- []
-
-<images/sunspots.png, id=966, 722.7pt x 552.0625pt>
-File: images/sunspots.png Graphic file (type png)
- <use images/sunspots.png>
-Package pdftex.def Info: images/sunspots.png used on input line 153.
-(pdftex.def)             Requested size: 221.0pt x 168.82106pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[28 <./images/temporal/YMcombined.png>]) (./antenna_variation.tex [29 <./images
-/temporal/YAllcombined.png> <./images/temporal/YEuropecombined.png> <./images/t
-emporal/YnorthAmericaCombined.png> <./images/temporal/YasiaAustraliaCombined.pn
-g>] [30
-
- <./images/sunspots.png>]
-Chapter 6.
-Extra height:0.0pt when 0.0pt
-(2)Left:0.0pt Right:0.0pt Output:0.0pt
-- LAST -
-Left:0.0pt
-Right:0.0pt
-Output:0.0pt
-<images/antennas.png, id=995, 578.16pt x 433.62pt>
-File: images/antennas.png Graphic file (type png)
- <use images/antennas.png>
-Package pdftex.def Info: images/antennas.png used on input line 15.
-(pdftex.def)             Requested size: 221.0pt x 165.74994pt.
-
-Overfull \vbox (150.40276pt too high) has occurred while \output is active []
-
-
-[31
-
- <./images/antennas.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-<images/antenna/meanmaxmin.png, id=1004, 867.24pt x 650.43pt>
-File: images/antenna/meanmaxmin.png Graphic file (type png)
-
-<use images/antenna/meanmaxmin.png>
-Package pdftex.def Info: images/antenna/meanmaxmin.png used on input line 51.
-(pdftex.def)             Requested size: 221.0pt x 165.74332pt.
-
-<images/antenna/err.png, id=1006, 867.24pt x 650.43pt>
-File: images/antenna/err.png Graphic file (type png)
-
-<use images/antenna/err.png>
-Package pdftex.def Info: images/antenna/err.png used on input line 62.
-(pdftex.def)             Requested size: 221.0pt x 165.74332pt.
- [32 <./images/antenna/meanmaxmin.png>]
-<images/antenna/skew.png, id=1016, 867.24pt x 650.43pt>
-File: images/antenna/skew.png Graphic file (type png)
-
-<use images/antenna/skew.png>
-Package pdftex.def Info: images/antenna/skew.png used on input line 72.
-(pdftex.def)             Requested size: 221.0pt x 165.74332pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Underfull \hbox (badness 1297) in paragraph at lines 78--79
-[]\OT1/cmr/m/n/10 The re-sults are rel-a-tively evenly dis-tributed
- []
-
-<images/antenna/peak.png, id=1018, 867.24pt x 650.43pt>
-File: images/antenna/peak.png Graphic file (type png)
-
-<use images/antenna/peak.png>
-Package pdftex.def Info: images/antenna/peak.png used on input line 82.
-(pdftex.def)             Requested size: 221.0pt x 165.74332pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/antenna/fit.png, id=1019, 867.24pt x 650.43pt>
-File: images/antenna/fit.png Graphic file (type png)
-
-<use images/antenna/fit.png>
-Package pdftex.def Info: images/antenna/fit.png used on input line 90.
-(pdftex.def)             Requested size: 221.0pt x 165.74332pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[33 <./images/antenna/err.png> <./images/antenna/skew.png> <./images/antenna/pe
-ak.png>] [34 <./images/antenna/fit.png>]) (./zhr.tex [35
-
-]
-Chapter 7.
-Extra height:0.0pt when 0.0pt
-(2)Left:0.0pt Right:0.0pt Output:0.0pt
-- LAST -
-Left:0.0pt
-Right:0.0pt
-Output:0.0pt
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--21
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (180.40276pt too high) has occurred while \output is active []
-
-
-[36
-
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 27.
- (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 7.
+(/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 27.
-Package standalone Info: generated file wedge.pdf newer then source file wedge.
-tex on input line 45.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
 
-<wedge.pdf, id=1057, 228.02188pt x 228.02188pt>
-File: wedge.pdf Graphic file (type pdf)
- <use wedge.pdf>
-Package pdftex.def Info: wedge.pdf used on input line 45.
-(pdftex.def)             Requested size: 221.0pt x 221.00351pt.
-Package standalone Info: generated file diagram.pdf newer then source file diag
-ram.tex on input line 51.
-
-<diagram.pdf, id=1060, 303.71669pt x 236.81273pt>
-File: diagram.pdf Graphic file (type pdf)
- <use diagram.pdf>
-Package pdftex.def Info: diagram.pdf used on input line 51.
-(pdftex.def)             Requested size: 221.0pt x 172.32259pt.
- [37]
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[38 <./wedge.pdf> <./diagram.pdf>] [39] [40]
-Overfull \hbox (5.91862pt too wide) in paragraph at lines 140--150
-[][] 
+Underfull \hbox (badness 1226) in paragraph at lines 18--18
+|[]\OT1/cmr/bx/n/12 Temporal vari-a-tion of radar
  []
 
-[41] <images/zhr/yagi.jpg, id=1112, 398.23781pt x 177.66376pt>
-File: images/zhr/yagi.jpg Graphic file (type jpg)
+[8
 
-<use images/zhr/yagi.jpg>
-Package pdftex.def Info: images/zhr/yagi.jpg used on input line 167.
-(pdftex.def)             Requested size: 221.0pt x 98.5937pt.
- [42 <./images/zhr/yagi.jpg>]) (./waterfall.tex
-[43]
-Chapter 8.
-Extra height:0.0pt when 0.0pt
-(2)Left:0.0pt Right:0.0pt Output:0.0pt
-- LAST -
-Left:0.0pt
-Right:0.0pt
-Output:0.0pt
-<images/img/2D.jpg, id=1128, 1167.36125pt x 945.5325pt>
-File: images/img/2D.jpg Graphic file (type jpg)
+]) [9
 
-<use images/img/2D.jpg>
-Package pdftex.def Info: images/img/2D.jpg used on input line 15.
-(pdftex.def)             Requested size: 221.0pt x 179.0038pt.
+] [10
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (185.24051pt too high) has occurred while \output is active []
-
-
-[44
-
- <./images/img/2D.jpg>]
-Underfull \hbox (badness 1142) in paragraph at lines 23--24
-\OT1/cmr/m/n/10 that hav-ing the same me-teor ap-pear mul-ti-ple
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-
- []
-
-<images/img/average.png, id=1140, 1167.36125pt x 945.5325pt>
-File: images/img/average.png Graphic file (type png)
-
-<use images/img/average.png>
-Package pdftex.def Info: images/img/average.png used on input line 28.
-(pdftex.def)             Requested size: 221.0pt x 179.0038pt.
- [45 <./images/img/average.png (PNG copy)>]
-<images/img/rmob.png, id=1149, 462.528pt x 346.896pt>
-File: images/img/rmob.png Graphic file (type png)
-
-<use images/img/rmob.png>
-Package pdftex.def Info: images/img/rmob.png used on input line 42.
-(pdftex.def)             Requested size: 221.0pt x 165.75125pt.
- <images/img/mse.png, id=1152, 462.528pt x 346.896pt>
-File: images/img/mse.png Graphic file (type png)
-
-<use images/img/mse.png>
-Package pdftex.def Info: images/img/mse.png used on input line 49.
-(pdftex.def)             Requested size: 221.0pt x 165.75125pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<images/img/before.png, id=1155, 462.528pt x 346.896pt>
-File: images/img/before.png Graphic file (type png)
-
-<use images/img/before.png>
-Package pdftex.def Info: images/img/before.png used on input line 58.
-(pdftex.def)             Requested size: 221.0pt x 165.75125pt.
-
-<images/img/after.png, id=1156, 462.528pt x 346.896pt>
-File: images/img/after.png Graphic file (type png)
-
-<use images/img/after.png>
-Package pdftex.def Info: images/img/after.png used on input line 65.
-(pdftex.def)             Requested size: 221.0pt x 165.75125pt.
- [46 <./images/img/rmob.png> <./images/img/mse.png> <./images/img/before.png>] 
-[47 <./images/img/after.png>]) [48
-
-] (./conclusion.tex
-Chapter 9.
-[49
-
-
-]) [50] [51
 
 
 ] (./appendix.tex
@@ -2044,18 +1354,18 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [52
+) [11
 
-] [53] [54] [55] [56
+] [12] [13] [14] [15
 
-] [57]
+]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 65.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 65.
  (./report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 3D9B34445852E30206E8BEC0B3709C93;7868.
+(rerunfilecheck)             Checksum: CC1A9C04DA70EE72B8BE913FF4B93ABE;1633.
 
 
 LaTeX Warning: There were undefined references.
@@ -2065,31 +1375,29 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36672 strings out of 493013
- 835370 string characters out of 6139317
- 1401314 words of memory out of 5000000
- 39242 multiletter control sequences out of 15000+600000
+ 35993 strings out of 493013
+ 821147 string characters out of 6139317
+ 1395169 words of memory out of 5000000
+ 38842 multiletter control sequences out of 15000+600000
  11349 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 65i,13n,100p,1669b,1407s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,13n,100p,1199b,1406s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb>
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.
-pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on report.pdf (58 pages, 15283141 bytes).
+ic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></us
+r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmtt10.pfb>
+Output written on report.pdf (16 pages, 1165373 bytes).
 PDF statistics:
- 1360 PDF objects out of 1440 (max. 8388607)
- 1153 compressed objects within 12 object streams
- 280 named destinations out of 1000 (max. 500000)
- 1262 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 350 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
 

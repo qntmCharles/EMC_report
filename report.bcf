@@ -2148,39 +2148,11 @@
     <bcf:citekey order="7">leonids</bcf:citekey>
     <bcf:citekey order="8">leonids</bcf:citekey>
     <bcf:citekey order="9">rmob</bcf:citekey>
-    <bcf:citekey order="10">hrofft</bcf:citekey>
-    <bcf:citekey order="11">hrofftimg</bcf:citekey>
+    <bcf:citekey order="10">rmob</bcf:citekey>
+    <bcf:citekey order="11">hrofft</bcf:citekey>
     <bcf:citekey order="12">hrofftimg</bcf:citekey>
-    <bcf:citekey order="13">baa</bcf:citekey>
-    <bcf:citekey order="14">baa</bcf:citekey>
-    <bcf:citekey order="15">alomar</bcf:citekey>
-    <bcf:citekey order="16">latitudes</bcf:citekey>
-    <bcf:citekey order="17">alomar</bcf:citekey>
-    <bcf:citekey order="18">qgis</bcf:citekey>
-    <bcf:citekey order="19">baa</bcf:citekey>
-    <bcf:citekey order="20">baa</bcf:citekey>
-    <bcf:citekey order="21">latitudes</bcf:citekey>
-    <bcf:citekey order="22">lindblad</bcf:citekey>
-    <bcf:citekey order="23">bumba</bcf:citekey>
-    <bcf:citekey order="24">lindblad</bcf:citekey>
-    <bcf:citekey order="25">bumba</bcf:citekey>
-    <bcf:citekey order="26">sunspot</bcf:citekey>
-    <bcf:citekey order="27">sunspot</bcf:citekey>
-    <bcf:citekey order="28">lindblad</bcf:citekey>
-    <bcf:citekey order="29">zhr</bcf:citekey>
-    <bcf:citekey order="30">imo_meteor_calendar</bcf:citekey>
-    <bcf:citekey order="31">zhr</bcf:citekey>
-    <bcf:citekey order="32">hr_correction</bcf:citekey>
-    <bcf:citekey order="33">kresak</bcf:citekey>
-    <bcf:citekey order="34">imo_meteor_calendar</bcf:citekey>
-    <bcf:citekey order="35">yagi</bcf:citekey>
-    <bcf:citekey order="36">yagi</bcf:citekey>
-    <bcf:citekey order="37">speclab</bcf:citekey>
-    <bcf:citekey order="38">speclab</bcf:citekey>
-    <bcf:citekey order="39">speclab</bcf:citekey>
-    <bcf:citekey order="40">rmob</bcf:citekey>
-    <bcf:citekey order="41">ssim</bcf:citekey>
-    <bcf:citekey order="42">rmob</bcf:citekey>
+    <bcf:citekey order="13">hrofftimg</bcf:citekey>
+    <bcf:citekey order="14">rmob</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="ynt/global/" type="entry" sortscheme="ynt" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>
