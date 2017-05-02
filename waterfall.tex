@@ -3,13 +3,12 @@
 \begin{strip}
 	\begin{minipage}{\textwidth}
 		\begin{abstract}
-			I discuss methods of meteor detection by image analysis focusing on root mean square difference, noting structural similarity index, edge detection, and derivatives as alternatives. I provide quantitative measure of correlation between mean square error image analysis and established methods of radio meteor detection. I find that root mean square difference, as a comparative measure of meteor flux, correlates well with detection counts, suggesting it is a valid method of meteor detection. This provides a basic and easily adaptable alternative to existing software.
+			I discuss methods of meteor detection by image analysis focusing on root mean square difference, noting structural similarity index, edge detection, and derivatives as alternatives. I provide a quantitative measure of correlation between mean square error image analysis and established methods of radio meteor detection. I find that root mean square difference, as a comparative measure of meteor flux, correlates well with detection counts, suggesting it is a valid method of meteor detection. This provides a basic and easily adaptable alternative to existing software.
 		\end{abstract}
-		\keywords{meteors, radio meteor detection, image analysis, mean square error, structural similarity index}
 	\end{minipage}
 \end{strip}
 \section{Overview}
-The primary method of radio meteor detection is using software to record the signal input, and compare background intensity to signal intensity across the desired frequency. Where there is a large increase in signal intensity, a meteor is considered to have been detected. An alternative to this is image analysis. This method applies a similar technique of recording the signal input, and displaying the result as a `waterfall' plot (figure~\ref{fig:img:waterfall}). Note that the frequency is not the actual frequency, since squelch is applied to the input signal. This output is saved as an image (with a format of the observer's choosing), which can then be analysed to pick out hotspots of colour (depending on the palette used to format the image), distinct edges, or other methods. I discuss these various methods of image analysis.
+The primary method of radio meteor detection is using software to record the signal input, and compare background intensity to signal intensity across the desired frequency. Where there is a large increase in signal intensity, a meteor is considered to have been detected. An alternative to this is image analysis. This method applies a similar technique of recording the signal input, and displaying the result as a `waterfall' plot (figure~\ref{fig:img:waterfall}). Note that the frequency is not the actual frequency, since squelch is applied to the input signal. This output is saved as an image (in a format of the observer's choosing), which can then be analysed to pick out hotspots of colour (depending on the palette used to format the image), distinct edges, or other methods. I discuss these various methods of image analysis.
 \begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{img/2D}
@@ -22,7 +21,7 @@ The general idea behind my proposed method of root mean square (RMS) difference 
 \paragraph{Repeated images\\}
 The input signal moves across the screen, taking 5 minutes to clear the entire window, meaning the same meteor is theoretically `seen' 5 times. However, the RMS difference is a comparative measure rather than exact. The value itself has little meaning, but the change over time should indicate the change in meteor flux. This means that having the same meteor appear multiple times is beneficial, since the value may change by pure chance between each image, but repeated detections of meteors will give a distinct result in the RMS difference.\\
 \paragraph{Baseline image generation\\}
-The baseline image can be calculated in various ways. The aim of generating a baseline should be to minimise differences that do not contribute to the result. Namely, artefacts such as watermarks and scales which cannot be removed automatically. This can be done by averaging as many of the expected comparison images as possible. This will result in an image similar to figure~\ref{fig:img:avg}. A better baseline will be produced by including more images: I have used a sample of an entire day (1440 images) to produce figure~\ref{fig:img:avg}. Alternative baseline images are as simple as a completely black image. As long as the same baseline is used, the choice is arbitrary.
+The baseline image can be generated in various ways. The aim of generating a baseline should be to minimise differences that do not contribute to the result. Namely, artefacts such as watermarks and scales which cannot be removed automatically. This can be done by averaging as many of the expected comparison images as possible. This will result in an image similar to figure~\ref{fig:img:avg}. A better baseline will be produced by including more images: I have used a sample of an entire day (1440 images) to produce figure~\ref{fig:img:avg}. Alternative baseline images are as simple as a completely black image. As long as the same baseline is used, the choice is arbitrary.
 \begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{img/average}
@@ -52,14 +51,14 @@ It is clear from figure~\ref{fig:img:rms} that there are erroneous results for R
 \end{figure}
 
 \subsection{Correlation}
-Figure~\ref{fig:img:before} shows a scatter graph of the RMS difference against the RMOB counts. The periods with erroneous data can clearly be seen, as well as a correlation between the two sets. Even within the erroneous periods, a correlation is seen, though to a lesser extent. This supports the idea that there is only an offset, and can likely be solved. However, in order to achieve a true reflection of the correlation between the two sets, I removed the erroneous data, resulting in figure~\ref{fig:img:after}.
+Figure~\ref{fig:img:before} shows a scatter graph of the RMS difference against the RMOB counts. The periods with erroneous data can clearly be seen, as well as a correlation between the two sets. Even within the erroneous periods, a correlation is seen, though to a lesser extent. This supports the idea that there is only an offset, and can likely be accounted for. However, in order to achieve a true reflection of the correlation between the two sets, I removed the erroneous data, resulting in figure~\ref{fig:img:after}.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{img/before}
 	\caption{RMOB counts against RMS difference, including erroneous periods
 		\label{fig:img:before}}
 \end{figure}
-In the absence of the erroneous data, the correlation becomes clearer. There are, of course, some values that do not appear to be well correlated but there is an apparent overall trend. There are 2042 pairs remaining in the data set. Using Pearson Moment Correlation Coefficient (PMCC), $r = 0.6165$, with a p-value of $4.05 \cdot 10^{-214}$. Therefore, with a 1\% level of significance, there is evidence to suggest there is a correlation between the two sets. The value of $r$ indicates that there is a strong positive correlation.
+In the absence of the erroneous data, the correlation becomes clearer. There are, of course, some values that do not appear to be well correlated but there is an apparent overall trend. There are 2042 pairs remaining in the data set. Using Pearson Moment Correlation Coefficient (PMCC), $r = 0.6165$, with a p-value of $4.05 \times 10^{-214}$. Therefore, with a 1\% level of significance, there is evidence to suggest there is a correlation between the two sets. The value of $r$ indicates that there is a strong positive correlation.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=\linewidth]{img/after}
@@ -71,11 +70,11 @@ In the absence of the erroneous data, the correlation becomes clearer. There are
 \subsection{RMS difference}
 It is clear from the results that there is positive correlation, suggesting that the method is valid as a comparative measure of meteor flux. However, there are improvements that can be made to the method.
 \paragraph{Image format\\}
-The images that are analysed, for this study, are saved with a JPEG format at 50\% quality. Saving as a bitmap would be much more effective, since compression would not create artefacts nor remove data that is important. This does, however, raise issues of memory space, since saving 1440 bitmap images a day will quickly fill up most storage. The best option is to process the images as bitmap, then save as JPEG.
+The images that are analysed in this study, are saved with a JPEG format at 50\% quality. Saving as a bitmap would be much more effective, since compression would not create artefacts nor remove data that is important. This does, however, raise issues of memory space, since saving 1440 bitmap images a day will quickly fill up most storage. The best option is to process the images as bitmap, then save as JPEG.
 \paragraph{Removing watermarks\\}
 Although an average image baseline was used to remove the influence of watermarks, simply removing them is best. This can either be done using the software that creates the images, or an image processing technique. Removal of these watermarks \& scales, variables can be further isolated, meaning the only data that should change between images is the signal being studied, improving the accuracy of results.
 \paragraph{Frequency isolation\\}
-Theoretically, the only part of the image that should be compared is the main frequency $\pm$ the width of the sideband ($\pm$ dependent on whether upper or lower sideband is used). This would negate some influence of increased noise, meaning erroneous periods that occurred in the data I used are not an issue. In fact, the area of the image could be decreased further still, since the furthest edges of the sideband do not contribute much to the overall RMS difference, since the peak intensity is towards the carrier wave frequency.
+Theoretically, the only part of the image that should be compared is the main frequency $\pm$ the width of the sideband (depending on whether upper or lower sideband is used). This would negate some influence of increased noise, meaning erroneous periods that occurred in the data I used are not an issue. In fact, the area of the image could be decreased further still, since the furthest edges of the sideband do not contribute much to the overall RMS difference, since the peak intensity is towards the carrier wave frequency.
 \paragraph{Relative measure\\}
 An alternative method of negating the influence of noise is a relative measure of the RMS difference. By considering the most recent RMS differences, or by making a post-analysis pass and comparing against values before {\it and} after each value, the RMS difference can be normalised so that any offsets are removed.
 \paragraph{Meteor count interpolation\\}

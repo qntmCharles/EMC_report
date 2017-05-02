@@ -13,7 +13,7 @@ sorting=ynt]{biblatex}
 \usepgfplotslibrary{fillbetween}
 \usetikzlibrary{quotes, angles, intersections}
 
-\usepackage{color, url, hyperref, indentfirst, graphicx, float, wrapfig, titlesec, subcaption, titling, abstract, multicol, cuted, amsmath}
+\usepackage{color, indentfirst, graphicx, float, wrapfig, titlesec, subcaption, titling, abstract, multicol, cuted, amsmath, datetime}
 
 \graphicspath{ {images/} }
 
@@ -24,19 +24,14 @@ sorting=ynt]{biblatex}
 \renewcommand{\abstracttextfont}{\normalfont\normalsize}
 
 % Title
-\title{\huge Why meteors rock \\ \large An analysis of radio meteor detection \\ \vspace{1em} \huge {\bf DRAFT}}
-\author{Charles Powell}
-
-% Keywords
-\def\keywords{\vspace{.5em}
-	{\textbf{Keywords}:\,\,\relax%
-}}
-\def\endkeywords{\par}
+\title{\huge Why meteors rock \\ \large An analysis of radio meteor detection}
+\author{Charles Powell \\ cpowell@cwp.io}
 
 \begin{document}	
 
 \begin{titlingpage}
-\date{\today}
+\date{24\textsuperscript{th}\hspace{.05em} March, 2017}
+%\date{\today}
 \maketitle
 
 \vspace{10em}
@@ -48,12 +43,12 @@ sorting=ynt]{biblatex}
 \tableofcontents
 \input{intro}
 \input{data}
-%\input{diurnal_shift}
-%\input{spatial_variation}
-%\input{temporal_variation}
-%\input{antenna_variation}
-%\input{zhr}
-%\input{waterfall}
+\input{diurnal_shift}
+\input{spatial_variation}
+\input{temporal_variation}
+\input{antenna_variation}
+\input{zhr}
+\input{waterfall}
 
 \input{conclusion}
 \onecolumn

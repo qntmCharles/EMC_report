@@ -1,53 +1,413 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
+\contentsline {chapter}{\numberline {1}Introduction}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Motivations}{2}{section.1.1}
+\contentsline {section}{\numberline {1.1}Motivations}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}Background}{2}{section.1.2}
+\contentsline {section}{\numberline {1.2}Background}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.1}What is a meteor?}{2}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.1}What is a meteor?}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.2}Radio meteor detection}{2}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.2}Radio meteor detection}{4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.3}Meteor showers}{3}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.3}Meteor showers}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2.4}Magnitude}{3}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.4}Magnitude}{5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {2}Data}{5}{chapter.2}
+\contentsline {chapter}{\numberline {2}Data}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Where is the data from?}{5}{section.2.1}
+\contentsline {section}{\numberline {2.1}Where is the data from?}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}What is the data?}{5}{section.2.2}
+\contentsline {section}{\numberline {2.2}What is the data?}{7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Data collection \& storage}{6}{section.2.3}
+\contentsline {section}{\numberline {2.3}Data collection \& storage}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Collection\\}{6}{section.2.3}
+\contentsline {paragraph}{Collection\\}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Storage\\}{6}{section.2.3}
+\contentsline {paragraph}{Storage\\}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Final data set}{6}{section.2.4}
+\contentsline {section}{\numberline {2.4}Final data set}{8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Conclusion}{8}{chapter.3}
+\contentsline {chapter}{\numberline {3}Diurnal Shift}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Comments}{8}{section.3.1}
+\contentsline {section}{\numberline {3.1}Background}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Main findings}{8}{section.3.2}
+\contentsline {section}{\numberline {3.2}Literature Review}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.1}Diurnal shift}{8}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.1}Model}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.2}Spacial variation of data characteristics}{8}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Previous analyses}{10}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.3}Temporal variation of radar counts \& data characteristics}{8}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Methodology}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.4}Antenna data characteristics}{8}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.3.1}Spatial analysis}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.5}Zenithal Hourly Rate (ZHR) validity}{9}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.3.2}Temporal analysis}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2.6}Meteor detection by RMS difference image analysis}{9}{subsection.3.2.6}
+\contentsline {section}{\numberline {3.4}Results \& Discussion}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Acknowledgements}{9}{section.3.3}
+\contentsline {subsection}{\numberline {3.4.1}Model}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Appendices}{10}{section*.12}
+\contentsline {paragraph}{Inaccuracies\\}{11}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}Zenithal hourly rate results}{11}{Appendix.1.A}
+\contentsline {paragraph}{Own Solution\\}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.2}Sine function fit}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.3}Spatial variation}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Latitude\\}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Longitude\\}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.4}Temporal variation}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4.5}Improvements}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Annual variation\\}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Intensity variation with latitude\\}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Receiving station vs. detection station}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.5}Conclusion}{16}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Spatial variation of data characteristics}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.1}Background}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.2}Literature Review}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.3}Methodology}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Selecting observers\\}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Analysis\\}{17}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.4}Results}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.1}Latitude analysis}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sample sizes \\}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mean hourly detection count\\}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Maximum hourly detection count\\}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Minimum hourly detection count\\}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Skewness\\}{18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Standard error\\}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diurnal shift\\}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.4.2}Longitude analysis}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Sample sizes\\}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mean hourly detection count\\}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Maximum hourly detection count\\}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Minimum hourly detection count\\}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Skewness\\}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Standard error\\}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diurnal shift\\}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Discussion}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.1}Latitude analysis}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mean, maximum \& minimum hourly count\\}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Skewness\\}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Standard error\\}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diurnal shift\\}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.2}Longitude analysis}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Mean, maximum \& minimum hourly count\\}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Skewness\\}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Standard error\\}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diurnal shift\\}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {4.5.3}Improvements}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Percentiles\\}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Joint latitude \& longitude analysis\\}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.6}Conclusion}{23}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Temporal Variation of Radar Counts \& Data Characteristics}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.1}Overview}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.2}Literature Review}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.3}Methodology}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.1}Data characteristics}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Detection counts}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.3}Analysis by location}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Results}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.1}Data characteristics}{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Standard error\\ }{25}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Skewness\\}{26}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diurnal shift\\}{26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.2}Monthly scale variation}{26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.3}Annual scale variation}{27}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4.4}Variation since 2000}{27}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Daytime vs. night-time rates\\}{27}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.5}Discussion}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.1}Data characteristics}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Standard error\\}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Skewness\\}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diurnal shift\\}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.2}Monthly scale variation}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.3}Annual scale variation}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5.4}Variation since 2000}{28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Daytime vs. night-time rates\\}{29}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.6}Conclusion}{29}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Antenna Data Characteristics}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}Background}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Methodology}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.1}Selecting authors}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.2}Analyses}{31}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.2.3}Sample sizes}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Results}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.1}Mean \& maximum}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.2}Standard error}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.3}Skew}{32}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.3.4}Diurnal shift}{33}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}Discussion}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.1}Mean \& maximum}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.2}Standard error}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.3}Skew}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.4}Diurnal shift}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {6.4.5}Improvements}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Location}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Yagi n-element analysis\\}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Coefficient of variation\\}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Percentiles\\}{34}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}Conclusion}{35}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Zenithal Hourly Rate Validity for Radio Detection}{36}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.1}Background}{36}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.2}Literature Review}{36}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.1}Calculating ZHR}{36}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2.2}Meteor shower information}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.3}Methodology}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.1}Assumptions}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.2}Formula modification}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Inaccuracy of radiant height correction}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Problems\\}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Previous Solution}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Solution\\}{37}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Population index limitations}{38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Background detection count}{38}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Field of view correction}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.3}Calculating radiant height}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.4}Calculating hourly rate}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3.5}Analysis}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Selecting observers}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Comparison\\}{39}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Correction factors\\}{40}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.4}Results}{40}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.1}Comparison}{40}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Geminids\\}{40}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Leonids\\}{40}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Orionids\\}{41}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Perseids\\}{41}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Quadrantids\\}{42}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{$\eta $-aquariids\\}{42}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Correlation}{42}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.4.2}Correction factors}{42}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.5}Discussion}{43}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.1}Comparison}{43}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Peak\\}{43}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Stream density\\}{43}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Variation correlation\\}{43}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.2}Correction factors}{44}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Field of view}{44}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Limiting magnitude}{44}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.3}Formula improvements}{44}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Radiant height correction\\}{44}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Diurnal shift correction\\}{44}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Limiting magnitude\\}{44}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Field of view\\}{44}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.5.4}Inaccuracies}{45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Re-entry direction}{45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Observing station vs. transmitting antenna}{45}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Antenna type}{45}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7.6}Conclusion}{45}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Meteor Detection by Root Mean Square Difference Image Analysis}{46}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.1}Overview}{46}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.2}Methodology}{47}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.2.1}Root mean square difference}{47}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Repeated images\\}{47}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Baseline image generation\\}{47}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{RMS calculation\\}{47}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{RMOB comparison\\}{47}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.3}Results}{48}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.1}Data}{48}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.3.2}Correlation}{48}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.4}Discussion}{49}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.1}RMS difference}{49}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Image format\\}{49}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Removing watermarks\\}{49}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Frequency isolation\\}{49}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Relative measure\\}{49}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Meteor count interpolation\\}{49}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.4.2}Alternative methods}{49}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Structural similarity index measure\\}{49}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Edge \& blob detection\\}{50}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Derivative method\\}{50}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8.5}Conclusion}{50}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {9}Conclusion}{51}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.1}Comments}{51}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.2}Main findings}{51}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.1}Diurnal shift}{51}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.2}Spacial variation of data characteristics}{51}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.3}Temporal variation of radar counts \& data characteristics}{51}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.4}Antenna data characteristics}{51}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.5}Zenithal Hourly Rate (ZHR) validity}{52}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {9.2.6}Meteor detection by RMS difference image analysis}{52}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9.3}Acknowledgements}{52}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Appendices}{53}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {A}Zenithal hourly rate results}{54}
